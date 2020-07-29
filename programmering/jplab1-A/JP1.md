@@ -1,14 +1,14 @@
-# DAT100: Java Programmering 1 - onsdag 14. august
+# DAT100: Java Programmering 1 - del A
 
 ## Java programmering og utviklingsmiljø
 
-Formålet med denne programmeringslab/øving er å sikre at du har en fungerende installasjon av JDK og Eclipse på egen PC.
+Formålet med denne programmeringslab/øving er å sikre at du har en fungerende installasjon av Java Development Kit (JDK) og Eclipse på egen PC.
 
 - [x] Du må demonstrere den kjørende Java applikasjonen i oppgave 2,4 og 5 til labassistent eller underviser for å få godkjennt programmeringslab'en.
 
-Når dette er gjort går du inn i Canvas for faget og skriver inn navnet på den lab-assistenten som du har vist de kjørende programmer til som innlevering på oppgaven *Demonstrere kjørende Java programmer*.
+Når dette er gjort går du inn i Canvas for faget og skriver inn navnet på den underviser / lab-assistent som du har vist de kjørende programmer til som innlevering på oppgaven *Demonstrere kjørende Java programmer*.
 
-**Deadline/Frist** for innlevering/godkjenning er **23. august kl. 16.00**.
+**Deadline/Frist** for innlevering/godkjenning er **25. august kl. 16.00**.
 
 Ta kontakt med underviser eller lab-assistent dersom du har problemer med oppgavene.
 
@@ -49,11 +49,11 @@ public class Velkommen {
 
 4.	Velg *Run | Run* for å utføre programmet.
 5.	Du vil nå få utskriften i konsoll-vinduet (nederst i Eclipse vinduet).
-6.	Modifiser programmet slik det skriver ut en linje med 10 stjerner `*` før og etter selve teksten.
+6.	Modifiser programmet slik det skriver ut en linje med 10 stjerner (`*`) før og etter selve teksten.
 
 ### Oppgave 3: Sjekke ut kode fra github
 
-Vi skal bruke www.github.com til å distribuere kodeeksempler fra forelesninger og startkode for programmeringsoppgaver. Til dette formålet er der opprettet en oppbevaringsplass (repository) med navnet `dat100public` på github som vil inneholde Eclipse-prosjekter for eksemplene.
+Vi skal bruke https://www.github.com til å distribuere kodeeksempler fra forelesninger og startkode for programmeringsoppgaver. Til dette formålet er der opprettet en oppbevaringsplass (repository) med navnet `dat100public` på github som vil inneholde Eclipse-prosjekter for eksemplene.
 
 #### 3a - Opprette en github konto
 
@@ -87,11 +87,11 @@ Etterhvert i faget oppdaterer vi eksempelprosjektene og du får også bruk for �
 2.	Velg *File | Import… | Git | Projects from Git | Existing local repository* og trykk *Next*.
 3.	I dialogboksen *Select a Git Repository* velg *dat100public* og trykk *Next*.
 4.	I dialogboksen *Select a wizard to use for importing projects* velg *Import existing Eclipse Projects*, vælg mappen *forelesninger* og trykk *Next*
-5.	I dialogboksen *Import Projects* kan du nå velge de Eclipse-prosjekter du ønsker å importere inn i Eclipse
+5.	I dialogboksen *Import Projects* kan du nå velge de nye Eclipse-prosjekter du ønsker å importere inn i Eclipse
 
 ### Oppgave 4: Enhetstesting og JUnit
 
-For noen programmeringsoppgaver skal vi bruke [JUnit](https://junit.org/junit5/) til å teste java-koden som dere skriver. Formålet med denne oppgaven er å bli kjent med JUnit
+For noen programmeringsoppgaver skal vi bruke [JUnit](https://junit.org/junit5/) til å teste java-koden som dere skriver. Formålet med denne oppgaven er å bli kjent med JUnit.
 
 Eksempelkoden fra første forelesning du sjekket ut i oppgave 3 inneholder et Eclipse-prosjekt `F01Kalkulator` som implementerer en enkel kalkulator med enkelt brukergrensesnitt.
 
@@ -113,7 +113,7 @@ For å kunne bruke easygraphics biblioteket i egen kode må Eclipse-prosjektet h
 
 1.	Opprett et nytt Eclipse-prosjekt som i oppgave 2 med navnet *EasyGraphicsTest*. Det er **VIKTIG** at du svarer nei til å oprette module-info filen.
 
-2. Lag en pakke `no.hvl.dat100 i prosjektet
+2. Lag en pakke `no.hvl.dat100` i prosjektet
 3.	Legg inn en ny Java-klasse *Grafikk* i pakken `no.hvl.dat100` med følgende innhold:
 
 ```java

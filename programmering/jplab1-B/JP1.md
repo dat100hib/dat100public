@@ -1,10 +1,10 @@
-# DAT100: Java Programmering 1 - Torsdag 15. august
+# DAT100: Java Programmering 1 - Del B
 
 ## Uttrykk - innlesing og utskrift
 
 Formålet med denne programmeringslab er å bli bedre kjent med Java utviklingsmiljøet, dvs. skrive, lagre, kompilere, kjøre og rette feil i enkle Java-programmer. Egen PC brukes til utvikling av Java programmene.
 
-Om du ikke kom helt i mål med installasjon og oppgaver fra onsdag:
+Om du ikke kom helt i mål med installasjon og oppgaver fra del A:
 
 https://github.com/dat100hib/dat100public/blob/master/programmering/jplab1-onsdag/JP1.md
 
@@ -14,7 +14,7 @@ Vi skal i første omgang lage enkle Java-programmer som bare inneholder en enkel
 
 ### Gjennomføring
 
-I alle oppgavene er det meningen at dere skal jobbe på egenhånd men det er lov å diskutere og hjelpe hverandre. Dette gir den beste læringseffekten og gjør det lettere å komme gjennom alle oppgavene. Arbeidsmengden på oppgavene vil for noen være mer enn de 2-3 timene som er satt av til programmerings-lab torsdag.
+I alle oppgavene er det meningen at dere skal jobbe på egenhånd men det er lov å diskutere og hjelpe hverandre. Dette gir den beste læringseffekten og gjør det lettere å komme gjennom alle oppgavene. Arbeidsmengden på oppgavene vil for noen være mer enn de timene som er satt av til programmerings-lab på timeplanen.
 
 Undervisere og lab-assistenter er til stede på labbene slik dere kan få hjelp til det dere står fast på.
 
@@ -40,7 +40,7 @@ Legg merke til at i denne oppgaven tillater vi å bruke flertall selv om vi om v
 
 **Hint:** Bruk heltallsdivisjon og restdivisjon (%) i Java. Eksempel: 13 % 10 gir 3 som svar.
 
-Før dere skriver programmet i Java, lag en algoritme for hvordan beregningene utføres. Algoritmen kan du foreløpig skrive inn først på filen i kommentarblokk `/* <algotitmebeskrivelse> */` over koden.
+Før dere skriver programmet i Java, lag en algoritme for hvordan beregningene utføres. Algoritmen kan du foreløpig skrive inn først på filen i kommentarblokk `/* <algoritmebeskrivelse> */` over koden.
 
 Svaret skal skrives på formatet: 1 timer, 1 minutter, 30 sekunder (alt skrives på samme linje).
 
@@ -101,9 +101,9 @@ public class FranskFlagg extends EasyGraphics {
 
 #### Oppgave 6a)
 
-Opprett et nytt Eclipse-prosjekt og legg inn koden ovenfor og se at det franske flagget blir tegnet. I oppgave 5 på programmeringlab'en onsdag:
+Opprett et nytt Eclipse-prosjekt og legg inn koden ovenfor og se at det franske flagget blir tegnet. I oppgave 5 på programmeringlab del A:
 
-https://github.com/dat100hib/dat100public/blob/master/programmering/jplab1-onsdag/JP1.md
+https://github.com/dat100hib/dat100public/blob/master/programmering/jplab1-A/JP1.md
 
 ble det vist hvordan vi refererer til EasyGraphics biblioteket når vi skal bruke det i et Eclipse-prosjekt. Referanse til EasyGraphics kan også settes opp når en oppretter Eclipse-prosjektet.
 
