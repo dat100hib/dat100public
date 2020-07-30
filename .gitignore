@@ -25,7 +25,7 @@ hs_err_pid*
 # eclipse project file
 .settings/
 .classpath
-.project
+#.project
 
 # OS
 .DS_Store
