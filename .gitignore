@@ -23,8 +23,8 @@
 hs_err_pid*
 
 # eclipse project file
-.settings/
-.classpath
+#.settings/
+#.classpath
 #.project
 
 # OS
