@@ -4,13 +4,16 @@
 
 Formålet med denne programmeringslab/øving er å sikre at du har en fungerende installasjon av Java Development Kit (JDK) og Eclipse på egen PC.
 
-- [x] Du må demonstrere den kjørende Java applikasjonen i oppgave 2,4 og 5 til labassistent eller underviser for å få godkjennt programmeringslab'en.
+- [x] Oppgave 2,4 og 5 utgjør første obligatoriske innlevering der du må demonstrere at du har fått Java programmene til å fungere.
 
-Når dette er gjort går du inn i Canvas for faget og skriver inn navnet på den underviser / lab-assistent som du har vist de kjørende programmer til som innlevering på oppgaven *Demonstrere kjørende Java programmer*.
+*Deadline/Frist** for innlevering/godkjenning er **25. august kl. 16.00**.
 
-**Deadline/Frist** for innlevering/godkjenning er **25. august kl. 16.00**.
+Du kan levere inn / få godkjennt oppgavene på to måter
 
-Ta kontakt med underviser eller lab-assistent dersom du har problemer med oppgavene.
+1. Demonsterere programmene til labassistent eller underviser på programmeringslaben eller alternativt via Zoom.
+- Laste opp skjermdump i oppgaven *Demonstrere kjørende Java programmer* på Canvas som viser: Eclipse-vindue etter programmet er kjørt (oppgave 2), Eclipse-vindue etter at enhetstester er kjørt (oppgave 4),  programkode og easygraphics vindu etter program er kjørt (oppgave 5).
+
+Det er veldig viktig at alle får dette til - så om du har problemer med dette så spør undervisere eller labassistenter om hjelp.
 
 ### Oppgave 1: Nedlasting og installasjon av JDK, Eclipse IDE og Git
 
