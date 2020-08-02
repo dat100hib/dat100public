@@ -2,7 +2,7 @@ package no.hvl.dat100;
 
 import easygraphics.*;
 
-public class PersonHode extends EasyGraphics {
+public class HodeHatt extends EasyGraphics {
 
 	public static void main(String[] args) {
 		launch(args);
