@@ -1,13 +1,22 @@
 package no.hvl.dat100;
 
 import static java.lang.Math.*;
+import static javax.swing.JOptionPane.showInputDialog;
+import static javax.swing.JOptionPane.showMessageDialog;
+import static java.lang.Double.parseDouble;
 
 public class Diagonal {
 
 	public static void main (String[] args) {
 		
-		double kv = 3.0;
-		double lv = 4.0;
+		String kvstr = showInputDialog("Kortvegg lengde:"); 
+		String lvstr = showInputDialog("Langvegg lengde:"); 
+		
+		double kv = parseDouble(kvstr);
+		double lv = parseDouble(lvstr);
+		
+		// double kv = 3.0;
+		// double lv = 4.0;
 		
 		// double kv2 = kv * kv;
 		// double lv2 = lv * lv;
@@ -22,6 +31,11 @@ public class Diagonal {
 		
 		double d = sqrt( pow(kv,2) + pow(lv,2) );
 
+		// System.out.println(d);
+		
+		String dstr = "Diagonal: " + d;
+		    
+		showMessageDialog(null, dstr);
 		
 	}
 }
