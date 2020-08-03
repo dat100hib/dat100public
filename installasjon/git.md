@@ -26,6 +26,12 @@ som vil gi output `git version 2.22` eller tilsvarende.
 
 Om git ikke allerede er installert vil du få valg om å installere.
 
+### Fler veiledninger
+
+- Oppdatere eksempler fra undervisning: https://github.com/dat100hib/dat100public/blob/master/git/update.md
+- Opprette egen github oppbevaringsplass: https://github.com/dat100hib/dat100public/blob/master/git/ownrepo.md
+- Pushe kode til egen github oppbevaringsplass: https://github.com/dat100hib/dat100public/blob/master/git/origin.md
+
 ### Mer informasjon
 
 - GitHub nettstedet: <https://github.com/>
