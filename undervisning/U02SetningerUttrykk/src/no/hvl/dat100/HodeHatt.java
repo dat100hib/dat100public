@@ -9,7 +9,7 @@ public class HodeHatt extends EasyGraphics {
 	}
 
 	public void run() {
-		makeWindow("Mann med hatt");
+		makeWindow("Hode med hatt");
 
 		// Tegner hodet ved aa fylle en gul sirkel
 		setColor(255, 255, 0);
