@@ -4,7 +4,7 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Velkommen til DAT 100!");
+		System.out.println("Velkommen til DAT100!");
 
 	}
 
