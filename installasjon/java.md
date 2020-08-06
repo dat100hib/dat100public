@@ -25,7 +25,7 @@ https://www.oracle.com/java/technologies/javase-jdk14-downloads.html
  ```
 Du kan avslutte ved å trykke `Ctrl + D`
 
-##### PATH miljøvariablen
+##### PATH miljøvariablen (valgfritt)
 
 For å få enkel tilgang til Java kompilatoren og *jshell* kan miljøvariablen `PATH` endres slik den inneholder stien til `bin` mappen der JDK verktøyene er installert. Dette kan gjøres via *Control Panel → System → Advanced System Settings → Environment Variables…*
 
