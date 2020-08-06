@@ -18,7 +18,7 @@ https://www.oracle.com/java/technologies/javase-jdk14-downloads.html
 4. Prøv også å utføre kommandoen `jshell` som starter et program som muliggjør interaktiv kjøring av Java-kode. Når programmet starter gir det følgende (eller tilsvarende output):
 
  ```
- |  Welcome to JShell -- Version 12.0.2
+ |  Welcome to JShell -- Version 14.0.2
  |  For an introduction type: /help intro
 
  jshell>
@@ -27,7 +27,7 @@ Du kan avslutte ved å trykke `Ctrl + D`
 
 ##### PATH miljøvariablen
 
-For å få enkel tilgang til Java kompilatoren og *jshell* kan miljøvariablen `PATH` endres den inneholder stien til `bin` mappen der JDK verktøyene er installert. Dette kan gjøres via *Control Panel → System → Advanced System Settings → Environment Variables…*
+For å få enkel tilgang til Java kompilatoren og *jshell* kan miljøvariablen `PATH` endres slik den inneholder stien til `bin` mappen der JDK verktøyene er installert. Dette kan gjøres via *Control Panel → System → Advanced System Settings → Environment Variables…*
 
 Stien til mappen er avhengige av hvor du valgte å installere JDK. Som standard vil den være: `C:\Program Files\Java\jdk-14.0.2\bin`.
 
