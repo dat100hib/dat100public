@@ -1,4 +1,4 @@
-# DAT100: Java Programmering 1 - del A
+# DAT100: Java Programmering 1 - uke 34 - del A
 
 ## Java programmering og utviklingsmiljø
 
@@ -6,14 +6,14 @@ Formålet med denne programmeringslab/øving er å sikre at du har en fungerende
 
 - [x] Oppgave 2,4 og 5 utgjør første obligatoriske innlevering der du må demonstrere at du har fått Java programmene til å fungere.
 
-*Deadline/Frist** for innlevering/godkjenning er **25. august kl. 16.00**.
+**Deadline/Frist** for innlevering/godkjenning er **31. august kl. 16.00** (se Canvas for faget)
 
 Du kan levere inn / få godkjennt oppgavene på to måter
 
 1. Demonsterere programmene til labassistent eller underviser på programmeringslaben eller alternativt via Zoom.
-- Laste opp skjermdump i oppgaven *Demonstrere kjørende Java programmer* på Canvas som viser: Eclipse-vindue etter programmet er kjørt (oppgave 2), Eclipse-vindue etter at enhetstester er kjørt (oppgave 4),  programkode og easygraphics vindu etter program er kjørt (oppgave 5).
+- Laste opp skjermdump i oppgaven *Demonstrere kjørende Java programmer* på Canvas som viser: Eclipse-vindue etter programmet er kjørt (oppgave 2); Eclipse-vindue etter at enhetstester er kjørt (oppgave 4);  programkode og easygraphics vindu etter program er kjørt (oppgave 5).
 
-Det er veldig viktig at alle får dette til - så om du har problemer med dette så spør undervisere eller labassistenter om hjelp.
+Det er veldig viktig at alle får dette til - så om du har problemer med dette så ta kontakt med undervisere eller labassistenter for å få hjelp.
 
 ### Oppgave 1: Nedlasting og installasjon av JDK, Eclipse IDE og Git
 

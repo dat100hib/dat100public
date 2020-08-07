@@ -1,4 +1,4 @@
-# DAT100: Java Programmering 1 - Del B
+# DAT100: Java Programmering 1 - uke 34 - Del B
 
 ## Uttrykk - innlesing og utskrift
 
@@ -116,15 +116,3 @@ Modifiser programmet ovenfor slik det tegner det tyske flagget.
 ### Oppgave 6c)
 
 Utvid programmet fra b) slik det først leser inn en prosentverdi og deretter tegner ut flagget skalert prosentvis i forhold til den opprinnelige flaggstørrelsen. Dvs. 100 % er den opprinnelige flaggstørrelsen.
-
-### Oppgave 7
-
-**Oppgave 18 Kap. 2 i Java-boken:** Denne oppgaven blir relevant for programmeringsprosjektet som kommer senere i faget.
-
-Lag et program ved bruk av EasyGraphics som presenterer kjønnsfordeling i tre skoleklasser som delte linjediagram:
-
-![Problem med bilde](assets/markdown-img-paste-20190815114443618.png)
-
-Andelen av gutter i A-klassen er 28 %, i B-klassen er den 38 % og i C klassen er den 46 %.
-
-Fyll et rektangel som er 28 % av bredden til det grafiske vinduet med grønt og fortsett horisontalt mot høyre med at fyllt et rektangel med resten (72 %) av vindusbredden med rødt. Tegn et svart rektangel rundt de to fargefylte rektanglene. Gjenta slik uttegning for de to gjenstående klasser.
