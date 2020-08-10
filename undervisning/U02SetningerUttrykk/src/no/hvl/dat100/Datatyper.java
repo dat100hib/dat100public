@@ -2,21 +2,36 @@ package no.hvl.dat100;
 
 public class Datatyper {
 
-	byte x = 4;
-	short y = 0;
-	int z = -7;
-	long w = 31;
+	public void m() {
+		
+	byte x;
+	x = 4;
 	
-	double v = 3.14;
+	short y;
+	y = 0;
+	
+	int z;
+	x = -7;
+	
+	long w;
+	w = 31;
+	
+	double v;
+	v = 3.14;
+	
 	float f;
+	f = 2.456f;
 	
-	char c = 'a';
+	char c;
+	c = 'a';
 	
-	boolean b = true;
-	boolean nb = false;
+	boolean b;
+	b = true;
+	b = false;
 	
-	String str = "DAT100";
+	String str;
+	str = "DAT100";
 	
-	
+	}
 	
 }
