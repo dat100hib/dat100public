@@ -12,7 +12,9 @@ Skriv program som beregner volum av en kule ved bruk av Math-biblioteket:
 
 https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html
 
-Konstanten `Math.PI` gir tilnærmet verdi for 𝜋
+Konstanten `Math.PI` gir tilnærmet verdi for 𝜋.
+
+**TODO:** statisk import - hellere bruke vanlig import. Math.PI vs. PI
 
 ![](assets/markdown-img-paste-20190817113526451.png)
 
