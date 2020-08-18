@@ -96,7 +96,7 @@ Etterhvert i faget oppdaterer vi eksempelprosjektene og du får også bruk for �
 
 For noen programmeringsoppgaver skal vi bruke [JUnit](https://junit.org/junit5/) til å teste java-koden som dere skriver. Formålet med denne oppgaven er å bli kjent med JUnit.
 
-Eksempelkoden fra første forelesning du sjekket ut i oppgave 3 inneholder et Eclipse-prosjekt `F01Kalkulator` som implementerer en enkel kalkulator med enkelt brukergrensesnitt.
+Eksempelkoden fra første forelesning du sjekket ut i oppgave 3 inneholder et Eclipse-prosjekt `U01Kalkulator` som implementerer en enkel kalkulator med enkelt brukergrensesnitt.
 
 1.	Kjør applikasjonen ved å velge `Grensesnitt.java` etterfulgt av *Run | Run*
 2.	Kjør JUnit enhetstestene i prosjektet ved å velge filen `TestKalkulator.java` etterfulgt av  *Run | Run As | JUnit Test*
