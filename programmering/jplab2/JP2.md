@@ -8,15 +8,40 @@ Skriv et program som leser inn en pris og et beløp (begge heltall) som er betal
 
 ### Oppgave 2 - Kulevolum
 
+#### a)
 Skriv program som beregner volum av en kule ved bruk av Math-biblioteket:
 
-https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html
+https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/lang/Math.html
 
-Konstanten `Math.PI` gir tilnærmet verdi for 𝜋.
-
-**TODO:** statisk import - hellere bruke vanlig import. Math.PI vs. PI
+Konstanten `PI` i Math-biblioteket gir tilnærmet verdi for 𝜋
 
 ![](assets/markdown-img-paste-20190817113526451.png)
+
+#### b)
+
+Eksemplene i Java-boken bruker *statisk* import av klasser fra de biblioteker som brukes i programmet. Eksempelvis vil vi da bruke:
+
+```java
+import static java.lang.Math.*;
+```
+
+i programmet for beregning av kulevolum for å få tilgang til konstanter og metoder i Math-bibliotekklassen.
+
+Statisk import betyr at vi kan referere direkte til metoder og konstanter i klassen uten å legge klasse-navnet foran. Eks. kan vi med statisk import skrive:
+
+```java
+pow(x,y);
+```
+
+istedet for:
+
+```java
+Math.pow(x,y);
+```
+
+Statisk import er ikke anbefalt for større programmer da vi let kan få sammenfald i navne om der eks. er metoder med samme navn i flere av de biblioteker som importeres.
+
+Skriv om programmet for beregning av kule-volum slik det ikke bruker statisk import.
 
 ### Oppgave 3 - Valgsetninger
 
