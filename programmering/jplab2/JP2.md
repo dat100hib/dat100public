@@ -41,7 +41,11 @@ Math.pow(x,y);
 
 Statisk import er ikke anbefalt for større programmer da vi let kan få sammenfald i navne om der eks. er metoder med samme navn i flere av de biblioteker som importeres.
 
-Skriv om programmet for beregning av kule-volum slik det ikke bruker statisk import.
+Skriv om programmet for beregning av kule-volum slik det ikke bruker statisk import dvs. modifiser import-setningene slik de ikke bruke `static`. Eksempelvis skal import-setning for Math-biblioteket endres til:
+
+```java
+import java.lang.Math.*;
+```
 
 ### Oppgave 3 - Valgsetninger
 
@@ -51,7 +55,7 @@ Lag et program som leser inn to tall a og b, og skriver ut verdien av a/b hvis i
 
 Se på koden for inntasting av brukernavn og passord via dialogvinduer:
 
-https://github.com/dat100hib/dat100public/blob/master/forelesninger/F03SetningerUttrykk/src/no/hvl/dat100/Login.java
+https://github.com/dat100hib/dat100public/blob/master/undervisning/U02SetningerUttrykk/src/no/hvl/dat100/Login.java
 
 Legg till to String variable som innholder korrekt brukernavne og passord. Bruk en if-setning til å sjekke om der er gitt korrekt login informasjon. For en tekststreng (String) `s1` kan `s1.equals(s2)` (se https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/lang/String.html) brukes til å sjekke om to strenger er lik (se etter equals metoden på siden).
 
@@ -72,7 +76,7 @@ høyere enn 164 100kr.
 
 ![](assets/markdown-img-paste-20190821100958296.png)
 
-Se https://www.skatteetaten.no/satser/trinnskatt/?year=2019#rateShowYear for aktuelle satser.
+Se https://www.skatteetaten.no/satser/trinnskatt/?year=2020#rateShowYear for aktuelle satser.
 
 Lag et program som leser inn bruttoinntekt, beregner og skriver ut trinnskatten.
 
