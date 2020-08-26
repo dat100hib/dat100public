@@ -1,7 +1,5 @@
 # DAT100: Java Programmering 3 - uke 36
 
-WARNING: Assignments under construction
-
 ### Obligatorisk innlevering
 
 Oppgave 4, 5 og 6 utgjør en **individuell obligatorisk innlevering**, men der er lov å jobbe sammen for å diskutere programmeringsoppgavene i grupper med opptil 3 personer.
