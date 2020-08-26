@@ -4,17 +4,17 @@ WARNING: Assignments under construction
 
 ### Obligatorisk innlevering
 
-Oppgave 4, 5 og 6 utgjør en **individuell obligatorisk innlevering**, men der er lov å jobbe sammen for å diskutere programmeringsoppgavene i grupper av opptil 3 personer.
+Oppgave 4, 5 og 6 utgjør en **individuell obligatorisk innlevering**, men der er lov å jobbe sammen for å diskutere programmeringsoppgavene i grupper med opptil 3 personer.
 
 Oppgavene skal leveres via GitHub. Se Canvas for informasjon om hvordan Java-koden for oppgavene skal leveres inn.
 
 ### Oppgave 1
 
-Nedenfor ser du et lite program.
+
 
 #### a)
 
-Studer programkoden og prøv å finne ut hva som vil skje når programmet blir kjørt.
+Nedenfor ser du et lite program. Studer programkoden og prøv å finne ut hva som vil skje når programmet blir kjørt.
 
 ```java
 public class Oppg1 {
