@@ -78,11 +78,11 @@ Kjør programmet flere ganger med ulike inndata. Får du alltid det samme result
 
 ### Oppgave 4 - Obligatorisk innlevering
 
-**Oppgave 6** fra uke 2 / 35 https://github.com/dat100hib/dat100public/blob/master/programmering/jplab2/JP2.md#-oppgave-6---del-av-obligatoriske-innlevering-2
+**Oppgave 6** (trinnskatt) fra uke 2 / 35 https://github.com/dat100hib/dat100public/blob/master/programmering/jplab2/JP2.md#-oppgave-6---del-av-obligatoriske-innlevering-2
 
 ### Oppgave 5 - Obligatorisk innlevering
 
-**Oppgave 7** fra uke 2 / 35 https://github.com/dat100hib/dat100public/blob/master/programmering/jplab2/JP2.md#-oppgave-7---del-av-obligatoriske-innlevering-2
+**Oppgave 7** (karakterskala) fra uke 2 / 35 https://github.com/dat100hib/dat100public/blob/master/programmering/jplab2/JP2.md#-oppgave-7---del-av-obligatoriske-innlevering-2
 
 ### Oppgave 6 - Obligatorisk innlevering
 
