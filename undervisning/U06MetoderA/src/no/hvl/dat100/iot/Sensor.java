@@ -9,8 +9,7 @@ public class Sensor {
 		long msecs = System.currentTimeMillis();
 
 		double temp = 
-					MINMAX * 
-						(Math.sin(msecs / 1000)) + (Math.random());
+					MINMAX * (Math.sin(msecs));
 
 		return temp;
 	}

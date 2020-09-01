@@ -4,6 +4,8 @@ public class DisplayApp {
 
 	private static final int N = 1000;
 	
+	private static final int SLEEPTIME = 1000;
+	
 	public static void main(String[] args) {
 		
 		double current, min, max, sum;
@@ -45,7 +47,7 @@ public class DisplayApp {
 	private static void delay() {
 
 		try {
-			Thread.sleep(500);
+			Thread.sleep(SLEEPTIME);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
