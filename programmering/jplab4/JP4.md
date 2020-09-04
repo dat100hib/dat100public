@@ -1,6 +1,6 @@
 # DAT100: Java Programmering 4 - uke 37
 
-Denne uken er det obligatorisk skoleprøve for alle tirsdag 14.15 - 16.00 (se informasjon på Canvas). Der er derfor få lab programmeringsoppgaver - men det kan også vært lurt å bruke programmeringslab denne uken på eventuelle tidligere programmeringsoppgaver som dere ikke er kommet i mål med.
+Denne uken er det obligatorisk skoleprøve for alle tirsdag 14.15 - 16.00 (se informasjon på Canvas). Der er derfor få lab programmeringsoppgaver - men det kan være lurt å bruke programmeringslab denne uken på eventuelle tidligere programmeringsoppgaver som dere ikke er kommet i mål med.
 
 #### Oppgave 1 - Debugging
 
@@ -8,11 +8,15 @@ Som beskrevet i læreboken innebærer «Debugging» - eller feilfjerning – å 
 
 I tillegg til feilfinning og feilfjerning kan stegvis utførsel også være nyttig for å forstå hvordan de ulike konstruksjoner i Java fungerer (semantikken).
 
+##### a)
+
 Les først og gjør stegene:
 
 https://github.com/dat100hib/dat100public/blob/master/eclipse/debugging.md
 
 som gir en introduksjon til debugging i Eclipse.
+
+##### b)
 
 Se på JAVA programmet nedenfor som har til oppgave å beregne volum av en boks utefra høyde, bredde og dybde.
 
