@@ -10,11 +10,7 @@ public class Husrekke extends EasyGraphics {
 
 	  public void run() {
 	    makeWindow("Husrekke");
-	    
-	    tegnTrekant(20,200,60,40);
 	   
-	    tegnHus(20,200,60,40);
-	    
 	    tegnHusrekke(5, 20, 200, 60, 40, 10);
 	  }
 
