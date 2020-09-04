@@ -11,8 +11,6 @@ public class HusTopdown extends EasyGraphics {
 	public void run() {
 		makeWindow("Husrekke");
 
-		// TODO
-
 	}
 
 }

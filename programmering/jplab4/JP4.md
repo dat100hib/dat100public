@@ -1,20 +1,8 @@
-# DAT100: Java Programmering 3 - uke 37
+# DAT100: Java Programmering 4 - uke 37
 
-## WARNING: Assignment under construction
+Denne uken er det obligatorisk skoleprøve for alle tirsdag 14.15 - 16.00 (se informasjon på Canvas). Der er derfor få lab programmeringsoppgaver - men det kan også vært lurt å bruke programmeringslab denne uken på eventuelle tidligere programmeringsoppgaver som dere ikke er kommet i mål med.
 
-### Oppgave 7
-
-**Oppgave 18 Kap. 2 i Java-boken:** Denne oppgaven blir relevant for programmeringsprosjektet som kommer senere i faget.
-
-Lag et program ved bruk av EasyGraphics som presenterer kjønnsfordeling i tre skoleklasser som delte linjediagram:
-
-![Problem med bilde](assets/markdown-img-paste-20190815114443618.png)
-
-Andelen av gutter i A-klassen er 28 %, i B-klassen er den 38 % og i C klassen er den 46 %.
-
-Fyll et rektangel som er 28 % av bredden til det grafiske vinduet med grønt og fortsett horisontalt mot høyre med at fyllt et rektangel med resten (72 %) av vindusbredden med rødt. Tegn et svart rektangel rundt de to fargefylte rektanglene. Gjenta slik uttegning for de to gjenstående klasser.
-
-#### Oppgave 6 - Debugging
+#### Oppgave 1 - Debugging
 
 Som beskrevet i læreboken innebærer «Debugging» - eller feilfjerning – å kjøre et program steg for steg for å finne og fjerne feil. Utviklingsverktøy som Eclipse støtter dette og gjør det mulig bla. å inspisere tilstanden av programmet dvs. verdier av variable underveis.
 
@@ -62,3 +50,15 @@ public class BoksVolum {
       }
 }
 ```
+
+### Oppgave 2
+
+**Oppgave 18 Kap. 2 i Java-boken:** Denne oppgaven blir relevant for programmeringsprosjektet som kommer senere i faget.
+
+Lag et program ved bruk av EasyGraphics som presenterer kjønnsfordeling i tre skoleklasser som delte linjediagram:
+
+![Problem med bilde](assets/markdown-img-paste-20190815114443618.png)
+
+Andelen av gutter i A-klassen er 28 %, i B-klassen er den 38 % og i C klassen er den 46 %.
+
+Fyll et rektangel som er 28 % av bredden til det grafiske vinduet med grønt og fortsett horisontalt mot høyre med at fyllt et rektangel med resten (72 %) av vindusbredden med rødt. Tegn et svart rektangel rundt de to fargefylte rektanglene. Gjenta slik uttegning for de to gjenstående klasser.
