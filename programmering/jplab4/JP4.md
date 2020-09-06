@@ -66,3 +66,112 @@ Lag et program ved bruk av EasyGraphics som presenterer kjønnsfordeling i tre s
 Andelen av gutter i A-klassen er 28 %, i B-klassen er den 38 % og i C klassen er den 46 %.
 
 Fyll et rektangel som er 28 % av bredden til det grafiske vinduet med grønt og fortsett horisontalt mot høyre med at fyllt et rektangel med resten (72 %) av vindusbredden med rødt. Tegn et svart rektangel rundt de to fargefylte rektanglene. Gjenta slik uttegning for de to gjenstående klasser.
+
+### Oppgave 3
+
+#### a)
+
+Hva bli skrevet ut når metodekallet main-metoden nedenfor blir utført?
+
+```java
+public static void main(String[] args) {
+
+	int i = 5;
+	int j = 10;
+	String s = "dat100";
+	boolean b = true;
+
+	System.out.println(i * j + i);
+	System.out.println(b && i > 5);
+	System.out.println(!b || j == 10);
+	System.out.println(s.substring(3, 5));
+}
+```
+
+##### b)
+
+Hva bli skrevet ut når metodekallet main-metoden nedenfor blir utført?
+
+```java
+
+public static void main(String[] args) {
+
+	System.out.println(5 + 3 * 2);
+	System.out.println(9 % 5);
+	System.out.println(9 / 5);
+	int i = 3;
+	int j = 7;
+
+	System.out.println( (i < 3) && (j >= 5) );
+	System.out.println( (j != 3) || (i < j) );
+}
+```
+
+##### c)
+
+Hva bli skrevet ut når metodekallet main-metoden nedenfor blir utført?
+
+```java
+public static int b(int x, int y) {
+
+	while (x != y) {
+		System.out.println("x = " + x + ", y = " + y);
+		if (x > y) {
+			x = x - y;
+		} else {
+			y = y - x;
+		}
+	}
+
+	return x;
+}
+
+public static void main(String[] args) {
+	System.out.println(b(28, 12));
+}
+```
+
+### Oppgave 4: Lese Java kode - Gruppearbeid
+
+#### a)
+Programmet nedenfor inneheld fire deler. Først studerer kvar student programmet nøye for å finne ut kva som blir skrive ut. Deretter diskuterer gruppen kva som blir skrive ut. Til slutt utfører de programmet og ser om de har rett svar.
+
+```java
+public class Oppgave5 {
+
+	public static void main(String[] args) {
+
+		System.out.println("Del 1");
+		int i = 1;
+		while (i < 1) {
+			System.out.println("Nr 1, i = " + i);
+		}
+
+		System.out.println("Del 2");
+		for (int j = 1; j < 8; j = j * 2) {
+			System.out.println("Nr 2, j = " + j);
+		}
+
+		System.out.println("Del 3");
+		String s = "Test";
+		for (int k = s.length() - 1; k > 0; k = k - 1) {
+			System.out.println("Nr 3, k = " + s.charAt(k));
+		}
+
+		System.out.println("Del 4");
+		int tall = 7569;
+		int hjelp = tall;
+		int aS = 0;
+		do {
+			hjelp = hjelp / 10;
+			aS = aS + 1;
+		} while (hjelp > 0);
+
+		System.out.println(tall + " <fyll inn> " + aS + " <fyll inn>");
+	}
+}
+```
+
+#### b)
+
+Kva berekning gjer løkka i Del 4? Prøv gjerne med andre tal enn i eksemplet. Fyll inn i print-setningen slik at utskrifta gir meining.
