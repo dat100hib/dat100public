@@ -4,7 +4,7 @@ public class Utskrift {
 
 	public static void main(String[] args) {
 
-		double[] obs = { 1.2, -3.5, 4.8, 7.9, 41.2, 10.1 };
+		double[] obs = { 1.2, 3.5, 4.8, 7.9, 41.2, 10.1 };
 
 		System.out.println(obs);
 

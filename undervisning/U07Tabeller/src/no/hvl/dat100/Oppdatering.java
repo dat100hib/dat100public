@@ -4,7 +4,7 @@ public class Oppdatering {
 
 	public static void main(String[] args) {
 
-		double[] obs = { 1.2, -3.5, 4.8, 7.9, 41.2, 10.1 };
+		double[] obs = { 1.2, 3.5, -4.8, 7.9, 41.2, 10.1 };
 
 		for (int i = 0; i < obs.length; i++) {
 
