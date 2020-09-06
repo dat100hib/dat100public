@@ -67,24 +67,4 @@ public class Parametre {
 		
 		return difftab;
 	}
-	
-	// TODO: finnesOver metode
-	private static boolean finnesOver(double[] tab,int grense) {
-		
-		boolean funnet = false;
-		
-		int i = 0;
-		while (i<tab.length && (!funnet)) {
-			
-			if (tab[i] > grense) {
-				funnet = true;
-			}
-			i++;
-		}
-		
-		return funnet;
-	}
-	
-	// TODO: finnesOver metode - forenklet
-	
 }
