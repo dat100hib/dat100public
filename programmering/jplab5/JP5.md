@@ -114,7 +114,7 @@ Java-boken Kap 3 oppgave 14
 Implementer en metode:
 
 ```java
-public static toString skrivUt (int[] tabell)
+public static void skrivUt (int[] tabell)
 ```
 
 som kan skrive ut en tabell med heltal.
