@@ -195,4 +195,4 @@ Implementer en metode:
 public static int[] settSammen(int[] tabell1,int[] tabell2)
 ```
 
-som gitt to tabeller `tabell1` og `tabell2` som paramtere returnerer en ny tabell er er sammensetning av de to tabeller.
+som gitt to tabeller `tabell1` og `tabell2` som paramtere returnerer en ny tabell som er sammensetning av de to tabeller.
