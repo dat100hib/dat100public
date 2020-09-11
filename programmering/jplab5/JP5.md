@@ -117,7 +117,9 @@ Implementer en metode:
 public static void skrivUt (int[] tabell)
 ```
 
-som kan skrive ut en tabell med heltal.
+som kan skrive ut en tabell med heltal. Du kan selv bestemme formatet.
+
+##### b)
 
 Implementer en metode:
 
@@ -125,7 +127,7 @@ Implementer en metode:
 public static String tilStreng (int[] tabell)
 ```
 
-som kan returnere en string med innholdet av en tabell. For en tabell med elemente 42,67,89 skal følgende streng returneres:
+som kan returnere en string med innholdet av en tabell. For en tabell med elementene 42,67,89 skal følgende streng returneres:
 
 ```java
 "[42, 67, 89 ]"
