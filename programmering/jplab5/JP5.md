@@ -109,6 +109,8 @@ Java-boken Kap 3 oppgave 14
 
 ### Oppgave 6 - Tabeller og metoder
 
+Metodene i denne oppgaven skal implementeres fra bunden og det er derfor ikke lov å bruke metoder som finnes i Arrays-klassen.
+
 ##### a)
 
 Implementer en metode:
