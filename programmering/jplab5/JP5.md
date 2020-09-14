@@ -107,7 +107,7 @@ Maksimum for denne uken var 26.5 grader
 
 Java-boken Kap 3 oppgave 14
 
-### Oppgave 6 - Tabeller og metoder
+### Oppgave 6 - Tabeller og metoder (del av obligatorisk innlevering)
 
 Metodene i denne oppgaven skal implementeres fra bunden og det er derfor ikke lov å bruke metoder som finnes i Arrays-klassen.
 
