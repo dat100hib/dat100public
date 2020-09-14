@@ -85,6 +85,16 @@ public static int[][] skaler(int tall, int[][] matrise)
 ```
 som returnerer en ny matrise der alle tall i matrisen er multiplisert med parameteren `tall`. Metoden må først opprette en matrise like stor som parameteren og så multiplisere alle elementer med `tall`.
 
+##### d)
+
+Implementer en metode
+
+```
+public static boolean erLik(int[][] mat1, int[][] mat2)
+```
+
+som avgjør om to matriser gitt ved parametrene `a` og `b` er like.
+
 ##### e) (Valgfri/vanskelig)
 
 Implementer en metode
