@@ -132,7 +132,7 @@ public static String tilStreng (int[] tabell)
 som kan returnere en string med innholdet av en tabell. For en tabell med elementene 42,67,89 skal følgende streng returneres:
 
 ```java
-"[42, 67, 89 ]"
+"[42,67,89]"
 ```
 
 ##### c)
