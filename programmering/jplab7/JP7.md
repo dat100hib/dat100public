@@ -1,12 +1,6 @@
-DAT100: Java Programmering 8 - Uke 8 / 40
+## DAT100: Java Programmering 7 - Uke 40
 
-**WARNING** Assignment under construction
-
-**HUSK** å melde inn grupper til programmeringsprosjektet som begynner i neste uke (uke 41).
-
-Selve projektet kommer til å bli introdusert ved forelesningen torsdag/fredag i uke 40.
-
-Oppgavene på denne programmeringslab skal indirekte (oppgave 3 og 4) eller direkte (Oppgave 5) brukes ifm. programmeringsprosjektet.
+Oppgave 3 og 4 på denne programmeringslab er viktig i forbindelse med programmeringsprosjektet som skal gjennomføres i uke 41 og 42.
 
 ### Oppgave 1 - Klasser
 
@@ -18,30 +12,22 @@ Oppgave 6.3 i Java-boken
 
 ### Oppgave 3 - Klasser
 
-I denne og i neste oppgave skal vi se på klassen `Vare` som blev gjennomgått på forelesning i uke 39 og referansetabeller som vil bli gjennomgått på første forelesning i uke 40.
+I denne og i neste oppgave skal vi se på klassen `Vare` som blev gjennomgått på forelesning og referansetabeller som vil bli gjennomgått i uke 40.
 
 I oppgave 3 og 4 skal du ta utgangspunkt i start-kode med enhetstester som finnes på følgende github oppbevaringsplass:
 
-https://github.com/dat100hib/jplab8-startcode-varelager.git
+https://github.com/dat100hib/jplab7-startcode-varelager.git
 
-Du kloner oppbevaringsplassen på samme måten som du gjorde i oppgave 3b på første programmeringslab
+Du kan gjøre en *fork* på dennn oppbevaringsplassen etterfulgt av *klone* og importering inn i Eclipse på samme måden som du gjorde med Java Innlevering 2 (start-koden for oppgavene med tabeller og matriser). Se evt. samlesiden på Canvas for instruksjonsvideoer om klone og fork:
 
-https://github.com/dat100hib/dat100public/blob/master/programmering/jplab1-onsdag/JP1.md#oppgave-3-sjekke-ut-kode-fra-github
+https://hvl.instructure.com/courses/13433/pages/videoer-og-veiledninger-om-bruke-av-git-i-faget?module_item_id=297320
 
-men nå med oppbevaringsplassen gitt i lenken ovenfor.
-
-Når du har gjort dette skal du ha tilgang til et prosjekt `jplab8-varelager-startkode` som inneholder to pakker:
+Når du har gjort dette skal du ha tilgang til et prosjekt `jplab7-varelager-startkode` som inneholder to pakker:
 
 - `no.hvl.dat100.varelager` med startkode for de klasser og metoder du skal implementere nedenfor.
 - `no.hvl.dat100.varelager.tests` med en rekke enhetstest som du skal bruke til å teste koden etterhvert som du implementerer.
 
-Du kjører enhetstestene på samme måte som i oppgave 4 på den første programmeringslab
-
-https://github.com/dat100hib/dat100public/blob/master/programmering/jplab1-onsdag/JP1.md#oppgave-4-enhetstesting-og-junit
-
-Hvis du ønsker å opprette din egen kopi på github av oppbevaringsplassen med startkode kan du følge stegene her:
-
-https://github.com/dat100hib/dat100public/blob/master/git/origin.md
+Du kjører enhetstestene på samme måte som på Java Innlevering 3.
 
 ##### a) Objektvariable og konstruktør
 
@@ -138,7 +124,7 @@ I klassen `VarelagerUtils.java` skal du implementere metodene nedenfor. Enhetste
 - `public static double[] finnPrisDifferanser(Vare[] varer)` beregner de successive differenser på prisene i tabellen. Metoden skal opprette en tabell av desimalltall som er en korterte enn tabellen `varer` og på posisjon `i` i denne tabellen skal der stå differensen på prisen mellom varen i posisjon `i+1` og posisjon `i`.
 
 
-## Oppgave 2 - Tabeller («arrays») og strenger
+## Oppgave 5 - Tabeller («arrays») og strenger
 
 Før du løser oppgavene nedenfor anbefales det å se igjennom dokumentasjon for String-klassen tilgjengelig via:
 https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html

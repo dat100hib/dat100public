@@ -1,3 +1,7 @@
+## DAT100: Java Programmering 6 - uke 39
+
+Husk at oppgave 3 på denne programmeringslab er del av obligatorisk innlevering (se Canvas).
+
 ### Oppgave 1 - Auditorie
 
 Se på eksemplet som blev gjennomgått på forelesningen om flerdimensjonale tabeller der en to-dimensjonal tabell blev brukt til å representere ledige plasser i et auditorie:
