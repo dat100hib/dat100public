@@ -12,13 +12,15 @@ Oppgave 6.3 i Java-boken
 
 ### Oppgave 3 - Klasser
 
-I denne og i neste oppgave skal vi se på klassen `Vare` som blev gjennomgått på forelesning og referansetabeller som vil bli gjennomgått i uke 40.
+I denne og i neste oppgave skal vi se på en klasse `Vare` og referansetabeller som vil bli gjennomgått i uke 40.
 
 I oppgave 3 og 4 skal du ta utgangspunkt i start-kode med enhetstester som finnes på følgende github oppbevaringsplass:
 
 https://github.com/dat100hib/jplab7-startcode-varelager.git
 
-Du kan gjøre en *fork* på dennn oppbevaringsplassen etterfulgt av *klone* og importering inn i Eclipse på samme måden som du gjorde med Java Innlevering 2 (start-koden for oppgavene med tabeller og matriser). Se evt. samlesiden på Canvas for instruksjonsvideoer om klone og fork:
+Du kan gjøre en *fork* på dennn oppbevaringsplassen etterfulgt av *klone* og importering inn i Eclipse tilsvarende som for Java Innlevering 2 (start-koden for oppgavene med tabeller og matriser).
+
+Se evt. samlesiden på Canvas for instruksjonsvideoer om klone og fork:
 
 https://hvl.instructure.com/courses/13433/pages/videoer-og-veiledninger-om-bruke-av-git-i-faget?module_item_id=297320
 
@@ -123,7 +125,6 @@ I klassen `VarelagerUtils.java` skal du implementere metodene nedenfor. Enhetste
 
 - `public static double[] finnPrisDifferanser(Vare[] varer)` beregner de successive differenser på prisene i tabellen. Metoden skal opprette en tabell av desimalltall som er en korterte enn tabellen `varer` og på posisjon `i` i denne tabellen skal der stå differensen på prisen mellom varen i posisjon `i+1` og posisjon `i`.
 
-
 ## Oppgave 5 - Tabeller («arrays») og strenger
 
 Før du løser oppgavene nedenfor anbefales det å se igjennom dokumentasjon for String-klassen tilgjengelig via:
@@ -155,9 +156,9 @@ Lag ein metode som skriv ut ein streng baklengs.
 
 Lag ein metode som gitt ein tabell av tekststrengar, returnerer den strengen i tabellen som kjem først i (Unikode) alfabetet. Hint: Du skal bruke en løkke og CompareTo-metoden for strenger.
 
-##### f) - ekstra oppgåve
+##### f)
 
-Implementer sjølv en CompareTo-metode svarande til metoden frå String-klassen brukt i e). Hint: du skal bruke løkke.
+Implementer sjølv en CompareTo-metode svarande til metoden frå String-klassen brukt i e). **Hint:** du skal bruke løkke.
 
 ### Oppgave 6 - Nut of the week
 
