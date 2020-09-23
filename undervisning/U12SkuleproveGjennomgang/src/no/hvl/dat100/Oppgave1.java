@@ -5,7 +5,7 @@ public class Oppgave1 {
 	public static void main(String[] args) {
 		/*
 		 * a) Anta a er en heltalsvariabel som har fått verdi. Skriv Java-kode som
-		 * skriver ut om verdien er mindre enn 0, lik 0 eller større enn 0.
+		 * skriver ut om verdien er mindre enn 0, lik 0 eller  større enn 0.
 		 */
 
 		int a = 7;
