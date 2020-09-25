@@ -1,0 +1,49 @@
+package no.hvl.dat100;
+
+public class Student {
+	private int studentnr;
+	private String fornavn;
+	private String etternavn;
+	
+	public int getStudentnr() {
+		return studentnr;
+	}
+	
+	public String getFornavn() {
+		return fornavn;
+	}
+	
+	public String getEtternavn() {
+		return etternavn;
+	}
+	
+	public void setStudentnr(int studentnr) {
+		this.studentnr = studentnr;
+	}
+	
+	public void setFornavn(String fornavn) {
+		this.fornavn = fornavn;
+	}
+	
+	public void setEtternavn(String etternavn) {
+		this.etternavn = etternavn;
+	}
+	
+	public Student() {
+		
+	}
+	
+	public Student(int studentnr, String fornavn, String etternavn) {
+		this.studentnr = studentnr;
+		this.fornavn = fornavn;
+		this.etternavn = etternavn;
+	}
+	
+	public Student(String fornavn, String etternavn) {
+		this(0, fornavn, etternavn);
+	}
+	
+	public void skrivUt() {
+		System.out.println(studentnr + " " + fornavn + " " + etternavn);
+	}
+}
