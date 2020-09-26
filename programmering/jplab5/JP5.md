@@ -1,7 +1,9 @@
 
 ## DAT100: Java Programmering 5 - Uke 38
 
-**Bemerk** Oppgave 6 nedenfor vil være en del av en obligatorisk innlevering med frist i starten av uke 40. Den obligatoriske innleveringen kan gjøres i gruppe med opp til 3 personer. Mer informasjon om innlevering kommer via Canvas.
+**Bemerk** Oppgave 6 nedenfor vil være en del av en obligatorisk innlevering med frist i starten av uke 40. Den obligatoriske innleveringen kan gjøres i gruppe med opp til 4 personer. Husk å bruke startkoden og enhetstester for oppgaven: https://github.com/dat100hib/dat100-javainnlevering2
+
+er informasjon om innlevering kommer via Canvas.
 
 ### Oppgave 1: Repetisjonsløkke og matematiske funksjoner
 
