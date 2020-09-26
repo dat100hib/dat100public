@@ -2,6 +2,10 @@
 
 Oppgave 3 og 4 på denne programmeringslab er viktig i forbindelse med programmeringsprosjektet som skal gjennomføres i uke 41 og 42.
 
+### Oppgave 0
+
+Husk at alle grupper må holde møte å gå igjennom løsningsforslag til Java Innlevering 2: https://hvl.instructure.com/courses/13433/assignments/34784
+
 ### Oppgave 1 - Klasser
 
 Oppgave 6.2 i Java-boken
