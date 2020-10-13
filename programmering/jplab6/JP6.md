@@ -1,6 +1,6 @@
 ## DAT100: Java Programmering 6 - uke 39
 
-Husk at oppgave 3 på denne programmeringslab er del av obligatorisk innlevering (se Canvas).
+Husk at oppgave 3 på denne programmeringslab er del av obligatorisk innlevering (se Canvas). Husk å bruke startkoden og enhetstester for oppgaven: https://github.com/dat100hib/dat100-javainnlevering2
 
 ### Oppgave 1 - Auditorie
 
