@@ -1,0 +1,4 @@
+Nr;Navn;Pris;Antall
+1;Spade;220.50;23
+2;Hakke;199.00;17
+3;Spett;170.00;58
