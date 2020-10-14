@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 public class LeseFraFil {
 
-	static String MAPPE_STR = System.getProperty("user.dir") + "/src/no/hvl/dat100/jplab11/oppgave1/";
+	static String MAPPE_STR = System.getProperty("user.dir") + "/src/no/hvl/dat100/oppgave2/";
 
 	static public void main(String[] args) throws FileNotFoundException {
 
