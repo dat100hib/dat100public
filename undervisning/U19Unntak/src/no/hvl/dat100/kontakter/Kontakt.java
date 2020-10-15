@@ -29,8 +29,6 @@ public class Kontakt {
 	}
 	
 	public String toString() {
-		return 
-				"Navn   : " + navn + "\n" + 
-				"Nummer : " + nummer;
+		return navn + "\n" + nummer;
 	}
 }

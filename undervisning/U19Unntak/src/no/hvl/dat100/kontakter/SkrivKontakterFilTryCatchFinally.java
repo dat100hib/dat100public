@@ -30,8 +30,7 @@ public class SkrivKontakterFilTryCatchFinally {
 			writer.println(kontakter.length);
 
 			for (Kontakt k : kontakter) {
-				writer.println(k.getNavn());
-				writer.println(k.getNummer());
+				writer.println(k.toString());
 			}
 		} catch (FileNotFoundException e) {
 			JOptionPane.showMessageDialog(null,"Filen kan ikke åpnes");

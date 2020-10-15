@@ -13,7 +13,7 @@ public class SkrivKontakterFilThrows {
 
 	static String mappe = System.getProperty("user.dir") +"/src/no/hvl/dat100/kontakter/";
 	
-	private static final String FILNAVN = "kontakter.txt";
+	private static final String FILNAVN = "x/kontakter.txt";
 	
 	public static void main(String[] args) throws FileNotFoundException {
 			
@@ -30,8 +30,7 @@ public class SkrivKontakterFilThrows {
 		writer.println(kontakter.length);
 		
 		for (Kontakt k : kontakter) {
-			writer.println(k.getNavn());
-			writer.println(k.getNummer());
+			writer.println(k.toString());
 		}
 		
 		writer.close();
