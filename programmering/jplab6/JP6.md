@@ -46,6 +46,8 @@ I pakken finnes en klasse [Flooding.java](https://github.com/dat100hib/dat100pub
 
 Implementer ferdig metoden `visualiser()` slik at felter i området/tabellen `terreng` som kommer under havets overflate tegnes med en blå sirkel, felter som er mindre en 1 meter over havet tegnes med en oransje sirkel og de felter som er mer en 1 meter over havets overflate tegnes med en lysebrun sirkel. Sirkler tegnes ved å bruke easygraphics.
 
+Det er kun hav-høyde som skal leses inn fra brukeren, terreng er bestemt av den to-dimensjonaletabellen som allerede finnes i programmet.
+
 ### Oppgave 3 - Matriser (del av obligatorisk innlevering)
 
 Les beskrivelsen av matriser i oppgave 5.17 i java-boken.
