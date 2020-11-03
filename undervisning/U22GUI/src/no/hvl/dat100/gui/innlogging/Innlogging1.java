@@ -17,8 +17,14 @@ public class Innlogging1 extends Application {
 	public void start(Stage stage) {
 
 		FlowPane panel = new FlowPane();
-		
-		// TODO implement
+		panel.setHgap(10);
+
+		Label etikett = new Label("Brukernavn:");
+		TextField brukernavn = new TextField();
+		brukernavn.setPrefColumnCount(25);
+
+		panel.getChildren().add(etikett);
+		panel.getChildren().add(brukernavn);
 
 		Scene scene = new Scene(panel, 500, 70);
 		stage.setScene(scene);
