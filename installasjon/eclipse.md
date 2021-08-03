@@ -7,7 +7,7 @@ Eclipse er et integrert utviklingsmiljø (Integrated Development Environment) so
 
 Eclipse IDE for Java Developers lastes ned via:
 
-https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-java-developers
+https://www.eclipse.org/downloads/packages/release/2021-06/r/eclipse-ide-java-developers
 
 Last ned filen under *Download Links* for rett operativsystem.
 
@@ -31,7 +31,7 @@ På noen Windows-plattformer kan det forekomme at en versjon av java’s virtuel
 Da må man endre i oppstarts-filen eclipse.ini som finnes i eclipse-mappen ved å tilføye:
 
 ```
--vm C:/Program Files/Java/jdk14.0.2/bin/javaw.exe
+-vm C:/Program Files/Java/jdk16.0.2/bin/javaw.exe
 ```
 
 før linjen som begynner med –vmargs.

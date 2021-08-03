@@ -22,7 +22,7 @@ Git vil i de fleste tilfelle allerede være installert på MacOS eller Linux. De
 
 `git --version`
 
-som vil gi output `git version 2.22` eller tilsvarende.
+som vil gi output `git version 2.32` eller tilsvarende.
 
 Om git ikke allerede er installert vil du få valg om å installere.
 
