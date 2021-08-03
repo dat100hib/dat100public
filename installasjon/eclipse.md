@@ -39,3 +39,5 @@ før linjen som begynner med –vmargs.
 Se [eclipse.ini](https://github.com/dat100hib/dat100public/blob/master/eclipse/eclipse.ini) som eksempel der rettelsen er gjort.
 
 **Husk** å endre i linjen ovenfor om man har valgt å installere JDK i en annen folder eller har installert en annen versjon av JDK.
+
+https://www.youtube.com/watch?v=sWSySXfR17c
