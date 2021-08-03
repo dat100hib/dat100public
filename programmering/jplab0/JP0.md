@@ -1,4 +1,4 @@
-# DAT100: Java Programmering 1 - uke 34 - del A
+# DAT100: Java Programmering 0 - uke 33
 
 ## Java programmering og utviklingsmiljø
 
@@ -11,7 +11,7 @@ Formålet med denne programmeringslab/øving er å sikre at du har en fungerende
 Du kan levere inn / få godkjennt oppgavene på to måter
 
 1. Demonsterere programmene til labassistent eller underviser på programmeringslaben eller alternativt via Zoom.
-- Laste opp skjermdump i oppgaven *Demonstrere kjørende Java programmer* på Canvas som viser: Eclipse-vindue etter programmet er kjørt (oppgave 2); Eclipse-vindue etter at enhetstester er kjørt (oppgave 4);  programkode og easygraphics vindu etter program er kjørt (oppgave 5).
+2. Laste opp skjermdump i oppgaven *Demonstrere kjørende Java programmer* på Canvas som viser: Eclipse-vindue etter programmet er kjørt (oppgave 2); Eclipse-vindue etter at enhetstester er kjørt (oppgave 4);  programkode og easygraphics vindu etter program er kjørt (oppgave 5).
 
 Det er veldig viktig at alle får dette til - så om du har problemer med dette så ta kontakt med undervisere eller labassistenter for å få hjelp.
 
@@ -28,9 +28,11 @@ og installer JDK, Eclipse og Git ved å gå igjennom de steg som er beskrevet i 
 I denne oppgaven skal du opprette et programmeringsprosjekt i Eclipse, skrive og kjøre et enkelt Java program.
 
 1.	Start Eclipse
-2.	Velg *File | New | Java Project* og skriv inn `Velkommen` som prosjektnavn. Trykk *Finish*
-3. 	I *Create module-info.java* velger du *Don't create* siden vi ikke i dette programmet skal bruke modulsystemet i Java
-4.	Velg *File | New | Class* og skriv inn `no.hvl.dat100` som pakkenavn og `Velkommen` som klassenavn. Kryss av for å generere `public static void main` automatisk. Trykk *Finish*
+2.	Velg *File | New | Java Project* og skriv inn `Velkommen` som prosjektnavn.
+3. 	Under *Module* fjern tick i *Create module-info.java* siden vi ikke i dette programmet skal bruke modulsystemet i Java
+4.  Trykk *Finish*
+5.  Åpne *Velkommen* i *Package Explorer* og velg *src*
+5.	Velg *File | New | Class* og skriv inn `no.hvl.dat100` som pakkenavn og `Velkommen` som klassenavn. Kryss av for å generere `public static void main` automatisk. Trykk *Finish*
 
     Skriv inn:
 
@@ -60,12 +62,11 @@ Vi skal bruke https://www.github.com til å distribuere kodeeksempler fra forele
 
 #### 3a - Opprette en github konto
 
-For å få tilgang til oppbevaringsplassene som skal brukes i faget må du opprette en brukerkonto på https://www.github.com og angi et brukernavn, epost og passord:
+For å få tilgang til oppbevaringsplassene som skal brukes i faget må du opprette en brukerkonto på https://www.github.com og angi et brukernavn, epost og passord.
 
-1. Bruk studentnummeret dit som brukernavn (username) (**VIKTIGT**). Eksempelvis h428400 om du har studentnummer 428400.
-2. I Step 2 (Choose your plan) velg Unlimited public repositories for free.
+**VIKTIGT**: Bruk studentnummeret dit som brukernavn (username)  Eksempelvis h428400 om du har studentnummer 428400.
 
-**Viktig** Du skal ikke opprette noen repositories nå - kun en brukerkonto. Du vil få en e-post fra github der du blir bedt om å verifisere at e-post addressen er gyldig.
+Du skal *ikke* opprette noen repositories nå - kun en brukerkonto. Du vil få en e-post fra github der du blir bedt om å verifisere at e-post addressen er gyldig.
 
 #### 3b - Opprette lokal kopi av oppbevaringsplassen
 

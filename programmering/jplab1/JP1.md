@@ -1,12 +1,12 @@
-# DAT100: Java Programmering 1 - uke 34 - Del B
+# DAT100: Java Programmering 1 - uke 34
 
 ## Uttrykk - innlesing og utskrift
 
 Formålet med denne programmeringslab er å bli bedre kjent med Java utviklingsmiljøet, dvs. skrive, lagre, kompilere, kjøre og rette feil i enkle Java-programmer. Egen PC brukes til utvikling av Java programmene.
 
-Om du ikke kom helt i mål med installasjon og oppgaver fra del A:
+Om du ikke kom helt i mål med installasjon og oppgaver fra forrige uke:
 
-https://github.com/dat100hib/dat100public/blob/master/programmering/jplab1-onsdag/JP1.md
+https://github.com/dat100hib/dat100public/blob/master/programmering/jplab0/JP0.md
 
 kan du også bruke programmeringslab'en til å komme videre med dette.
 
@@ -14,7 +14,7 @@ Vi skal i første omgang lage enkle Java-programmer som bare inneholder en enkel
 
 ### Gjennomføring
 
-I alle oppgavene er det meningen at dere skal jobbe på egenhånd men det er lov å diskutere og hjelpe hverandre. Dette gir den beste læringseffekten og gjør det lettere å komme gjennom alle oppgavene. Arbeidsmengden på oppgavene vil for noen være mer enn de timene som er satt av til programmerings-lab på timeplanen.
+I alle oppgavene er det meningen at dere skal jobbe på egen hånd men det er lov å diskutere og hjelpe hverandre. Dette gir den beste læringseffekten og gjør det lettere å komme gjennom alle oppgavene. Arbeidsmengden på oppgavene vil for noen være mer enn de timene som er satt av til programmerings-lab på timeplanen.
 
 Undervisere og lab-assistenter er til stede på labbene slik dere kan få hjelp til det dere står fast på.
 
@@ -101,9 +101,11 @@ public class FranskFlagg extends EasyGraphics {
 
 #### Oppgave 6a)
 
-Opprett et nytt Eclipse-prosjekt og legg inn koden ovenfor og se at det franske flagget blir tegnet. I oppgave 5 på programmeringlab del A:
+Opprett et nytt Eclipse-prosjekt og legg inn koden ovenfor og se at det franske flagget blir tegnet.
 
-https://github.com/dat100hib/dat100public/blob/master/programmering/jplab1-A/JP1.md
+I oppgave 5 på programmeringlab del A:
+
+https://github.com/dat100hib/dat100public/blob/master/programmering/jplab0/JP0.md#oppgave-5-bruk-av-easygraphics
 
 ble det vist hvordan vi refererer til EasyGraphics biblioteket når vi skal bruke det i et Eclipse-prosjekt. Referanse til EasyGraphics kan også settes opp når en oppretter Eclipse-prosjektet.
 
@@ -113,6 +115,6 @@ Modifiser programmet ovenfor slik det tegner det tyske flagget.
 
 ![](assets/markdown-img-paste-20190808132425839.png)
 
-### Oppgave 6c)
+#### Oppgave 6c)
 
 Utvid programmet fra b) slik det først leser inn en prosentverdi og deretter tegner ut flagget skalert prosentvis i forhold til den opprinnelige flaggstørrelsen. Dvs. 100 % er den opprinnelige flaggstørrelsen.
