@@ -6,7 +6,7 @@ Formålet med denne programmeringslab/øving er å sikre at du har en fungerende
 
 - [x] Oppgave 2,4 og 5 utgjør første obligatoriske innlevering der du må demonstrere at du har fått Java programmene til å fungere.
 
-**Deadline/Frist** for innlevering/godkjenning er **31. august kl. 16.00** (se Canvas for faget)
+**Deadline/Frist**: se Canvas for faget
 
 Du kan levere inn / få godkjennt oppgavene på to måter
 
