@@ -81,7 +81,7 @@ Du kan nå sjekke ut Eclipse-prosjekter med kodeeksempler på egen PC via Eclips
 4.	I dialogboksen *Branch Selection* velg *master* og trykk *Next*.
 5.	I dialogboksen *Local Destination* må du under *Directory* velge en mappe på PC’en der du ønsker å lagre den lokale kopien av oppbevaringsplassen.
 6.	I dialogboksen *Select a wizard* to use for importing projects velg *Import existing Eclipse Projects* og trykk *Next*.
-7.	I dialogboksen *Import Projects* velg *F01Introduksjon* og *F01Kaukulator* trykk *Finish*. Da vil de to Eclipse-prosjektene med eksempelkode fra første forelesning være tilgjengelig.
+7.	I dialogboksen *Import Projects* velg *U01Introduksjon* og *U01Kaukulator* trykk *Finish*. Da vil de to Eclipse-prosjektene med eksempel kode fra første forelesning være tilgjengelig.
 
 #### 3c - Tilgang til nye og oppdaterte prosjekt
 
@@ -90,7 +90,7 @@ Etterhvert i faget oppdaterer vi eksempelprosjektene og du får også bruk for �
 1.	Velg et av eksempelprosjektene i Eclipse, høyre-klikk og velg *Team | Pull*.   Dette oppdaterer oppbevaringsplassen for eksempler på din PC.
 2.	Velg *File | Import… | Git | Projects from Git | Existing local repository* og trykk *Next*.
 3.	I dialogboksen *Select a Git Repository* velg *dat100public* og trykk *Next*.
-4.	I dialogboksen *Select a wizard to use for importing projects* velg *Import existing Eclipse Projects*, vælg mappen *forelesninger* og trykk *Next*
+4.	I dialogboksen *Select a wizard to use for importing projects* velg *Import existing Eclipse Projects*, vælg mappen *undervisning* og trykk *Next*
 5.	I dialogboksen *Import Projects* kan du nå velge de nye Eclipse-prosjekter du ønsker å importere inn i Eclipse
 
 ### Oppgave 4: Enhetstesting og JUnit
