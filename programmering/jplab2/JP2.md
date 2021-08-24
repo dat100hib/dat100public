@@ -95,7 +95,6 @@ Utvid programmet ovenfor med en `for`-løkke slik programmet leser inn fem (5) t
 
 ### Oppgave B1 - Uttrykk og kulevolum
 
-#### a)
 Skriv program som beregner volum av en kule ved bruk av `Math`-biblioteket:
 
 https://docs.oracle.com/en/java/javase/16/docs/api/java.base/java/lang/Math.html
