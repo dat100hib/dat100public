@@ -21,7 +21,7 @@ Se evt. videoen: https://hvl.instructure.com/courses/17211/pages/programmeringsl
 Koden i oppgave G1 til G4 nedenfor skrives inn i `main`-metoden i klassen (ved **TODO** kommentaren):
 
 ```java
-public class OppgaveG2 {
+public class OppgaveG1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -104,13 +104,13 @@ Konstanten `PI` i Math-biblioteket gir tilnærmet verdi for 𝜋
 
 ![](assets/markdown-img-paste-20190817113526451.png)
 
-### Oppgave G3 - Uttrykk og vekslepenger
+### Oppgave B2 - Uttrykk og vekslepenger
 
 Skriv et program som leser inn en pris og et beløp (begge heltall) som er betalt og beregner hvor mange 10 og 1-kr kunden skal ha igjen i vekslepenger slik kunden får færrest mulig antall mønter tilbake.
 
 **Hint:** Operatoren `%` (modulo) gir rest ved heltalldivisjon.
 
-### Oppgave B2 - Valgsetninger
+### Oppgave B3 - Valgsetninger
 
 Se på koden for inntasting av brukernavn og passord via dialogvinduer:
 
@@ -120,7 +120,7 @@ Legg till to `String`-variable som inneholder korrekt brukernavn og passord. Bru
 
 I praksis vil en aldri legge inn brukernavn og passord i selve programmet da det utgjør en sikkerhetsrisiko - men vi gjør det slik inntil vi har lært mer om programmering.
 
-### <a name="jp2b3"></a> Oppgave B3 - Blir en del av obligatoriske innlevering 2
+### <a name="jp2b4"></a> Oppgave B4 - Blir en del av obligatoriske innlevering 2
 
 En trinnskatt (tidligere toppskatt) er en progressiv skatt på brutto lønn som beregnes når inntekten er
 høyere enn 164 100kr.
@@ -131,7 +131,7 @@ Se https://www.skatteetaten.no/satser/trinnskatt/?year=2021#rateShowYear for akt
 
 Lag et program som leser inn bruttoinntekt, beregner og skriver ut trinnskatten.
 
-### <a name="jp2b4"></a> Oppgave B4 - Blir en del av obligatoriske innlevering 2
+### <a name="jp2b5"></a> Oppgave B5 - Blir en del av obligatoriske innlevering 2
 
 #### a)
 
