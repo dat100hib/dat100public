@@ -10,7 +10,7 @@ Oppgavene nedenfor er oppdelt i tre kategorier
 
 Om du finner de grunnleggende- eller basisoppgavene vanskelig, så les Kap. 2 i Java-boken en gang til og se igjennom videoene og slides fra forelesninger. Husk å ta kontakt med undervisere eller lab-assistenter om du sitter fast med programmeringsoppgavene og trenger hjelp for å komme videre.   
 
-Som nevnt på første forelesning inneholder programmeringslab'ene flere oppgaver end de fleste vil klare å løse på 2 timer. Det er derfor viktig at du forsøker å løse en god del av oppgavene før programmeringslab. Da kan du få hjelp på programmeringslab til de deler som du finner vanskelig.
+Som nevnt på første forelesning inneholder programmeringslab'ene flere oppgaver end de fleste vil klare å løse på 2 timer. Det er derfor viktig at du forsøker å løse en god del av oppgavene før programmeringslab. Da kan du få hjelp på programmeringslab til de deler som du finner vanskelig. Dere kan gjerne jobbe sammen i grupper med 2-3 personer før og under lab.
 
 ## Grunnleggende oppgaver
 
@@ -64,8 +64,13 @@ Modifiser verdien av `a` fra `5` til `8` og sjekk at `c` nå har verdien `15` n�
 
 ### Oppgave G4 - Valgsetninger
 
-Lag et program som leser inn to tall `a` og `b`, og skriver ut verdien av `a/b` hvis ikke `b` er `0`, og en feilmelding ellers (siden det ikke går an å dele med `0`).
+#### a)
 
+Lag et program som leser inn to heltall `a` og `b`, og skriver ut verdien av `a/b` hvis ikke `b` er `0`, og en feilmelding ellers (siden det ikke går an å dele med `0`).
+
+#### b)
+
+Test programmet med ulike verdier for (`a`,`b`) = `(10,2)`, `(9,2)` og `(8,0)`
 ### Oppgave G5 - Input og for-løkker
 
 Vi kan lese et tall inn fra brukeren i et Java program ved å legge følgende til i toppen av filen (etter `package`)
@@ -105,7 +110,7 @@ Konstanten `PI` i Math-biblioteket gir tilnærmet verdi for 𝜋
 
 ### Oppgave B2 - Uttrykk og vekslepenger
 
-Skriv et program som leser inn en pris og et beløp (begge heltall) som er betalt og beregner hvor mange 10 og 1-kr kunden skal ha igjen i vekslepenger slik kunden får færrest mulig antall mønter tilbake.
+Skriv et program som leser inn en pris og et beløp (begge heltall) som er betalt og beregner hvor mange 10 og 1-kr kunden skal ha igjen i vekslepenger slik kunden får færrest mulig antall mynter tilbake.
 
 **Hint:** Operatoren `%` (modulo) gir rest ved heltalldivisjon.
 
@@ -121,7 +126,7 @@ I praksis vil en aldri legge inn brukernavn og passord i selve programmet da det
 
 ### <a name="jp2b4"></a> Oppgave B4 - Blir en del av obligatoriske innlevering 2
 
-En trinnskatt (tidligere toppskatt) er en progressiv skatt på brutto lønn som beregnes når inntekten er
+En trinnskatt er en progressiv skatt på bruttolønn som beregnes når inntekten er
 høyere enn 164 100kr.
 
 ![](assets/markdown-img-paste-20190821100958296.png)
@@ -164,11 +169,14 @@ Du skal lage et program som leser inn tre heltall fra brukeren, og skriver ut ig
 
 Eksemplene i Java-boken bruker *statisk* import av klasser fra de biblioteker som brukes i programmet. Eksempelvis vil vi da bruke:
 
+
 ```java
 import static java.lang.Math.*;
+import static javax.swing.JOptionPane.*;
+import static java.lang.Integer.*;
 ```
 
-i programmet for beregning av kulevolum for å få tilgang til konstanter og metoder i Math-bibliotekklassen.
+i programmet for beregning av kulevolum for å få tilgang til konstanter og metoder i Math-bibliotek klassen, metoder for å lese inn via dialogboks og for konvertering av strenger til heltall.
 
 Statisk import betyr at vi kan referere direkte til metoder og konstanter i klassen uten å legge klasse-navnet foran. Eks. kan vi med statisk import skrive:
 
@@ -182,10 +190,14 @@ istedet for:
 Math.pow(x,y);
 ```
 
-Statisk import er ikke anbefalt for større programmer da vi let kan få sammenfald i navne om der eks. er metoder med samme navn i flere av de biblioteker som importeres.
+Statisk import er ikke anbefalt for større programmer da vi lett kan få sammenfald i navne om der eks. er metoder med samme navn i flere av de biblioteker som importeres.
 
-Skriv om programmet for beregning av kulevolum slik det ikke bruker statisk import dvs. modifiser import-setningene slik de ikke bruke `static`. Eksempelvis skal import-setning for Math-biblioteket endres til:
+Skriv om programmet for beregning av kulevolum slik det ikke bruker statisk import dvs. modifiser import-setningene slik de ikke bruker `static` som vist nedenfor
 
 ```java
 import java.lang.Math.*;
+import javax.swing.JOptionPane.*;
+import java.lang.Integer.*;
 ```
+
+og modifiser programmet slik eliminerer de kompileringsfeil som oppstod da du endret til vanlig (ikke statisk) import.
