@@ -2,7 +2,7 @@
 
 ### Obligatorisk innlevering
 
-Oppgave O1, O2 og O6 nedenfor utgjør en **individuell obligatorisk innlevering**, men der er lov å jobbe sammen for å diskutere programmeringsoppgavene i grupper med opptil 3 personer.
+Oppgave O1, O2 og O3 nedenfor utgjør en **individuell obligatorisk innlevering**, men der er lov å jobbe sammen for å diskutere programmeringsoppgavene i grupper med opptil 3 personer.
 
 **Viktig** Se Canvas for informasjon om hvordan Java-koden for oppgavene skal leveres inn.
 
@@ -42,7 +42,7 @@ Bruk en while-løkke til å skrive ut tallene fra `20` ned til `1`.
 
 #### a)
 
-Skriv et Java program som bruker en for-løkke med en tellevaribel `i` som starter på 1 og løper opp til og med `20`
+Skriv et Java program som bruker en for-løkke med en tellevaribel `i` som starter på `1` og løper opp til og med `20`
 
 #### b)
 
@@ -50,7 +50,7 @@ Legg til set switch-setning inne i for-løkken slik programmet skriver ut `A` hv
 
 #### c)
 
-Modifiser programme i b) slik det bruker en valgsetning (if-then-else) i stedet for en switch-setning.
+Modifiser programmet fra b) slik det bruker en valgsetning (if-then-else) i stedet for en switch-setning.
 
 ### Oppgave G4
 
@@ -112,7 +112,7 @@ Resultat: 5, 7, 9, 11
 
 For å regne ut verdien x<sup>n</sup>, der *n* er et positivt heltall og *x* har en reell (double) verdi, kan du bruke funksjonen `Math.pow(x,n)` i Math-klassen. Dokumentasjon for Math-klassen finnes via https://docs.oracle.com/en/java/javase/16/docs/api/java.base/java/lang/Math.html
 
-Men du kan også lage en program-løkke vha. en while-setninge der du regner ut x<sup>n</sup> direkte ved å starte med å sette en variabel til `1.0`, og deretter multipliserer den med *x* så mange ganger som *n*-verdien er.
+Men du kan også lage en program-løkke vha. en while-setning der du regner ut x<sup>n</sup> direkte ved å starte med å sette en variabel til `1.0`, og deretter multipliserer den med *x* så mange ganger som *n*-verdien er.
 
 Lag en klasse der du i main-metoden regner ut x<sup>n</sup> på begge måter. Verdier til *x* og *n* skal leses inn fra tastaturet (dialogboks). Skriv ut resultatet med forklarende tekst.
 
