@@ -62,7 +62,7 @@ Legg til en tilordningssetning som setter verdien for variablen `c` lik summen a
 
 Modifiser verdien av `a` fra `5` til `8` og sjekk at `c` nå har verdien `15` når den skrives ut.
 
-### Oppgave G4 - Valgsetninger
+### Oppgave G3 - Valgsetninger
 
 #### a)
 
@@ -71,7 +71,7 @@ Lag et program som leser inn to heltall `a` og `b`, og skriver ut verdien av `a/
 #### b)
 
 Test programmet med ulike verdier for (`a`,`b`) = `(10,2)`, `(9,2)` og `(8,0)`
-### Oppgave G5 - Input og for-løkker
+### Oppgave G4 - Input og for-løkker
 
 Vi kan lese et tall inn fra brukeren i et Java program ved å legge følgende til i toppen av filen (etter `package`)
 
