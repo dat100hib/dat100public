@@ -57,7 +57,7 @@ Modifiser programmet fra b) slik det bruker en valgsetning (if-then-else) i sted
 Nedenfor ser du et lite program. Studer programkoden og prøv å finne ut hva som vil skje når programmet blir kjørt.
 
 ```java
-public class Oppg1 {
+public class OppgaveG4 {
 
   public static void main(String[] args) {
 
@@ -89,6 +89,8 @@ public class Oppg1 {
 
 Lag et nytt Eclipse prosjekt med en klasse der du limer inn koden ovenfor. Sjekk om du får forventet resultat.
 
+**HUSK** at i Java må ha samme navn på klasse og fil.
+
 ## Basisoppgaver
 
 ### Oppgave B1
@@ -116,7 +118,7 @@ Men du kan også lage en program-løkke vha. en while-setning der du regner ut x
 
 Lag en klasse der du i main-metoden regner ut x<sup>n</sup> på begge måter. Verdier til *x* og *n* skal leses inn fra tastaturet (dialogboks). Skriv ut resultatet med forklarende tekst.
 
-Kjør programmet flere ganger med ulike inndata. Får du alltid det samme resultatet på begge måter?
+Kjør programmet flere ganger med ulike inndata inkludert tilfeller der talet `x` har desimaler. Får du alltid det samme resultatet på begge måter?
 
 ## Obligatoriske oppgaver - skal leveres inn (se Canvas)
 
