@@ -34,7 +34,10 @@ public class DisplayApp {
 	}
 
 	private static String twoDigits (double x) {
-		return Double.toString(Math.round(x*100) / 100.0);
+		
+		String str = String.format("%.2f", x);
+		
+		return str;
 	}
 	
 	private static void display(int i, double current, double min, double max, double sum) {
