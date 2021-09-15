@@ -139,7 +139,7 @@ Modifiser main-metoden i programmet ovenfor slik den bruker metoden fra a) til �
 
 Utvid metoden `lesInnTall` fra a) slik metoden fortsetter med å lese inn et tall inntil tallet er positivt. **Hint:** bruk en do-while løkke.
 
-### Oppgave 3 - Løkker
+### Oppgave B3 - Løkker
 
 Java-boken Kap. 3 oppgave 13
 

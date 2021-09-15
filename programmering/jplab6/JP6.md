@@ -60,7 +60,7 @@ Implementer ferdig metoden `visualiser()` slik at felter i området/tabellen `te
 
 Det er kun hav-høyde som skal leses inn fra brukeren, terreng er bestemt av den to-dimensjonaletabellen som allerede finnes i programmet.
 
-## Obligatoriske oppgave O1-B
+## Obligatorisk oppgave O1-B
 
 Oppgaven omhandler flerdimensjonale tabeller og matricer og er andre halvdel av obligatorisk innlevering fra forrige programmeringslab.
 
@@ -137,7 +137,9 @@ public static int[][] multipliser(int[][] a, int[][] b)
 
 som kan multiplisere to matriser. Test metoden. Vi har lov å multiplisere to matriser hvis antall kolonner i den første matrisen er lik antall rekker i den andre.
 
-### Oppgave 4 - Bondesjakk
+## Valgfrie oppgaver
+
+### Oppgave V1 - Bondesjakk
 
 Prosjektet F13FlerDimTabeller https://github.com/dat100hib/dat100public/tree/master/undervisning/U10FlerDimTabeller i oppbevaringsplassen med eksempler fra forelesninger inneholder en pakke `no.hvl.dat100.tictactoe` som implementerer det meste av koden for et bondesjakk spill. Dette ble demonstrert på forelesning.
 
