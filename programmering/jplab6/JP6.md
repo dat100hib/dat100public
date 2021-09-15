@@ -1,8 +1,20 @@
 ## DAT100: Java Programmering 6 - uke 39
 
-Husk at oppgave 3 på denne programmeringslab er del av obligatorisk innlevering (se Canvas). Husk å bruke startkoden og enhetstester for oppgaven: https://github.com/dat100hib/dat100-javainnlevering2
+**Husk** at oppgave O1-B på denne programmeringslab er del av obligatorisk innlevering (se Canvas).
 
-### Oppgave 1 - Auditorie
+**Husk** å bruke startkoden og enhetstester for oppgaven https://github.com/dat100hib/dat100-javainnlevering2
+
+Se beskrivelsen på siden ovenfor.
+
+## Grunnleggende oppgaver
+
+### Oppgave G1: Flerdimensjonale tabeller
+
+** Under construction **
+
+## Basisoppgaver
+
+### Oppgave B1 - Auditorie
 
 Se på eksemplet som blev gjennomgått på forelesningen om flerdimensjonale tabeller der en to-dimensjonal tabell blev brukt til å representere ledige plasser i et auditorie:
 
@@ -28,7 +40,7 @@ Skriv en metode bruker en dobbel for-løkke med `return` til å finne ut om der 
 
 Skriv kode som sjekker om der er minimum to ledige plasser mellom personer i auditoriet (smittevern)
 
-### Oppgave 2 - Oversvømmelse
+### Oppgave B2 - Oversvømmelse
 
 Høyde i et terreng kan representeres som en 2-dimensjonal tabell (eks. 3x10 felter)
 
@@ -48,9 +60,13 @@ Implementer ferdig metoden `visualiser()` slik at felter i området/tabellen `te
 
 Det er kun hav-høyde som skal leses inn fra brukeren, terreng er bestemt av den to-dimensjonaletabellen som allerede finnes i programmet.
 
-### Oppgave 3 - Matriser (del av obligatorisk innlevering)
+## Obligatoriske oppgave O1-B
 
-Les beskrivelsen av matriser i oppgave 5.17 i java-boken.
+Oppgaven omhandler flerdimensjonale tabeller og matricer og er andre halvdel av obligatorisk innlevering fra forrige programmeringslab.
+
+Metodene i denne oppgaven skal implementeres fra bunden og det er derfor ikke lov å bruke metoder som finnes i Arrays-klassen.
+
+**Start**  med å lese beskrivelsen av matriser i oppgave 5.17 i Java boken.
 
 ##### a)
 
