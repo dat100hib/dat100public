@@ -35,7 +35,7 @@ Som del av oppgaven bør du videre teste at koden og metodene som implementeres 
 
 #### a)
 
-Legg til en metode `skrivUt(double[][] tabell)` som gitt en 2-dimensjonel tabellen av heltal skriver ut tabellen. Bruk metoden til å skrive ut tabellen `obs`.
+Legg til en metode `skrivUt(double[][] tabell)` som gitt en 2-dimensjonel tabellen av heltal skriver ut tabellen. Bruk metoden til å skrive ut tabellen `obs`. Prøv å implementere metoden både ved å bruke nøstet vanlige for-løkker med index og ved en bruke nøstede utvidede for-løkker. 
 
 #### b)
 
@@ -61,7 +61,7 @@ Skriv koden som bytter om på raden på index 0 og raden på index 2 i tabellen.
     };
 ```
 
-**Hint:** husk at en 2-dimensjonell tabell er pekere til en tabell (i dette tilfelle en tabell av flyttall). Ombytting kan gjøres med to tildelingssetninger. Bruk `skrivUt`-metoden til å sjekke at ombyttingen er gjort korrekt. 
+**Hint:** husk at en 2-dimensjonell tabell er pekere til en tabell (i dette tilfelle en tabell av flyttall). Ombytting kan gjøres med to tildelingssetninger. Bruk `skrivUt`-metoden til å sjekke at ombyttingen er gjort korrekt.
 
 ## Basisoppgaver
 
