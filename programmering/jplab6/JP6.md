@@ -10,7 +10,58 @@ Se beskrivelsen på siden ovenfor.
 
 ### Oppgave G1: Flerdimensjonale tabeller
 
-** Under construction **
+Koden i oppgavene nedenfor skrives inn i klasse `G` med en `main`-metode som vist nedenfor.
+
+```java
+public class OppgaveG {
+
+	public static void main(String[] args) {
+
+    double[][] obs = {
+    				{1.4,1.7,1.9,2.0},
+    				{5.4,7.8,9.8,7.9,3.0},
+    				{-1.7,-1.7,-2.8}
+    		};
+
+    // TODO - legg til metodekall her
+
+	}
+
+  // TODO - legg til deklarasjon av metoder her
+
+}
+```
+Som del av oppgaven bør du videre teste at koden og metodene som implementeres fungerer. Dette kan eksempelvis gjøres ved å skrive ut verdien i consollen.
+
+#### a)
+
+Legg til en metode `skrivUt(double[][] tabell)` som gitt en 2-dimensjonel tabellen av heltal skriver ut tabellen. Bruk metoden til å skrive ut tabellen `obs`.
+
+#### b)
+
+Legg til kode i main-metoden som skriver ut `obs.length` - forklar hvor det som skrives ut har verdien `3`.
+
+#### c)  
+
+Legg til kode i main-metoden som skriver ut `obs[0].length`, `obs[1].length` og `obs[2].length` - forklar resultatet som skrives ut.
+
+#### d)
+
+Legg til en metode `public boolean finnes(double[][] obs, double limit)` som avgjør om der finnes en observation i tabellen som er større end `limit`.
+
+#### e)
+
+Skriv koden som bytter om på raden på index 0 og raden på index 2 i tabellen. Dvs. den nye tabellen blir:
+
+```java
+    {
+        {-1.7,-1.7,-2.8},
+        {5.4,7.8,9.8,7.9,3.0},
+        {1.4,1.7,1.9,2.0}
+    };
+```
+
+**Hint:** husk at en 2-dimensjonell tabell er pekere til en tabell (i dette tilfelle en tabell av flyttall). Ombytting kan gjøres med to tildelingssetninger. Bruk `skrivUt`-metoden til å sjekke at ombyttingen er gjort korrekt. 
 
 ## Basisoppgaver
 

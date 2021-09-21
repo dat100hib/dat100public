@@ -29,7 +29,7 @@ public class OppgaveG {
 }
 ```
 
-Som del av oppgave bør du videre teste at koden og metodene som implementeres fungerer. Dette kan eksempelvis gjøres ved å skrive ut verdien i consollen.
+Som del av oppgaven bør du videre teste at koden og metodene som implementeres fungerer. Dette kan eksempelvis gjøres ved å skrive ut verdien i consollen.
 
 ### Oppgave G1: Tabeller
 
