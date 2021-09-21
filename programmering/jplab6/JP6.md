@@ -35,7 +35,7 @@ Som del av oppgaven bør du videre teste at koden og metodene som implementeres 
 
 #### a)
 
-Legg til en metode `skrivUt(double[][] tabell)` som gitt en 2-dimensjonel tabellen av heltal skriver ut tabellen. Bruk metoden til å skrive ut tabellen `obs`. Prøv å implementere metoden både ved å bruke nøstet vanlige for-løkker med index og ved en bruke nøstede utvidede for-løkker. 
+Legg til en metode `public static void skrivUt(double[][] tabell)` som gitt en 2-dimensjonel tabellen av heltal skriver ut tabellen. Bruk metoden til å skrive ut tabellen `obs`. Prøv å implementere metoden både ved å bruke nøstet vanlige for-løkker med index og ved en bruke nøstede utvidede for-løkker.
 
 #### b)
 
@@ -47,7 +47,7 @@ Legg til kode i main-metoden som skriver ut `obs[0].length`, `obs[1].length` og 
 
 #### d)
 
-Legg til en metode `public boolean finnes(double[][] obs, double limit)` som avgjør om der finnes en observation i tabellen som er større end `limit`.
+Legg til en metode `public static boolean finnes(double[][] obs, double limit)` som avgjør om der finnes en observation i tabellen som er større end `limit`.
 
 #### e)
 

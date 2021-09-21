@@ -51,7 +51,7 @@ Legg til kode i main-metoden som skriver ut innholdet av tabellen ved bruk av en
 
 #### e)
 
-Flyt koden fra d) ut i en egen metode `public void skrivUt(int[] tab) ` som kan skrive ut innholdet av en tabell. Kall `skrivUt`-metoden fra main-metoden.
+Flyt koden fra d) ut i en egen metode `public static void skrivUt(int[] tab) ` som kan skrive ut innholdet av en tabell. Kall `skrivUt`-metoden fra main-metoden.
 
 #### f)
 
