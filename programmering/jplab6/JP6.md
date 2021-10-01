@@ -186,7 +186,7 @@ Implementer en metode
 public static int[][] multipliser(int[][] a, int[][] b)
 ```
 
-som kan multiplisere to matriser. Test metoden. Vi har lov å multiplisere to matriser hvis antall kolonner i den første matrisen er lik antall rekker i den andre.
+som kan multiplisere to matriser. Test metoden. Vi har lov å multiplisere to matriser hvis antall kolonner i den første matrisen er lik antall rekker i den andre. For definisjon av matrise-multiplikasjon, se eks. https://en.wikipedia.org/wiki/Matrix_multiplication
 
 ## Valgfrie oppgaver
 
