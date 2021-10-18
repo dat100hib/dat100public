@@ -1,8 +1,71 @@
 ## DAT100: Java Programmering 6 - uke 39
 
-Husk at oppgave 3 på denne programmeringslab er del av obligatorisk innlevering (se Canvas). Husk å bruke startkoden og enhetstester for oppgaven: https://github.com/dat100hib/dat100-javainnlevering2
+**Husk** at oppgave O1-B på denne programmeringslab er del av obligatorisk innlevering (se Canvas).
 
-### Oppgave 1 - Auditorie
+**Husk** å bruke startkoden og enhetstester for oppgaven https://github.com/dat100hib/dat100-javainnlevering2
+
+Se beskrivelsen på siden ovenfor.
+
+## Grunnleggende oppgaver
+
+### Oppgave G1: Flerdimensjonale tabeller
+
+Koden i oppgavene nedenfor skrives inn i klasse `G` med en `main`-metode som vist nedenfor.
+
+```java
+public class OppgaveG {
+
+	public static void main(String[] args) {
+
+    double[][] obs = {
+    				{1.4,1.7,1.9,2.0},
+    				{5.4,7.8,9.8,7.9,3.0},
+    				{-1.7,-1.7,-2.8}
+    		};
+
+    // TODO - legg til metodekall her
+
+	}
+
+  // TODO - legg til deklarasjon av metoder her
+
+}
+```
+Som del av oppgaven bør du videre teste at koden og metodene som implementeres fungerer. Dette kan eksempelvis gjøres ved å skrive ut verdien i consollen.
+
+#### a)
+
+Legg til en metode `public static void skrivUt(double[][] tabell)` som gitt en 2-dimensjonel tabellen av heltal skriver ut tabellen. Bruk metoden til å skrive ut tabellen `obs`. Prøv å implementere metoden både ved å bruke nøstet vanlige for-løkker med index og ved en bruke nøstede utvidede for-løkker.
+
+#### b)
+
+Legg til kode i main-metoden som skriver ut `obs.length` - forklar hvor det som skrives ut har verdien `3`.
+
+#### c)  
+
+Legg til kode i main-metoden som skriver ut `obs[0].length`, `obs[1].length` og `obs[2].length` - forklar resultatet som skrives ut.
+
+#### d)
+
+Legg til en metode `public static boolean finnes(double[][] obs, double limit)` som avgjør om der finnes en observation i tabellen som er større end `limit`.
+
+#### e)
+
+Skriv koden som bytter om på raden på index 0 og raden på index 2 i tabellen. Dvs. den nye tabellen blir:
+
+```java
+    {
+        {-1.7,-1.7,-2.8},
+        {5.4,7.8,9.8,7.9,3.0},
+        {1.4,1.7,1.9,2.0}
+    };
+```
+
+**Hint:** husk at en 2-dimensjonell tabell er pekere til en tabell (i dette tilfelle en tabell av flyttall). Ombytting kan gjøres med to tildelingssetninger. Bruk `skrivUt`-metoden til å sjekke at ombyttingen er gjort korrekt.
+
+## Basisoppgaver
+
+### Oppgave B1 - Auditorie
 
 Se på eksemplet som blev gjennomgått på forelesningen om flerdimensjonale tabeller der en to-dimensjonal tabell blev brukt til å representere ledige plasser i et auditorie:
 
@@ -28,7 +91,7 @@ Skriv en metode bruker en dobbel for-løkke med `return` til å finne ut om der 
 
 Skriv kode som sjekker om der er minimum to ledige plasser mellom personer i auditoriet (smittevern)
 
-### Oppgave 2 - Oversvømmelse
+### Oppgave B2 - Oversvømmelse
 
 Høyde i et terreng kan representeres som en 2-dimensjonal tabell (eks. 3x10 felter)
 
@@ -48,9 +111,13 @@ Implementer ferdig metoden `visualiser()` slik at felter i området/tabellen `te
 
 Det er kun hav-høyde som skal leses inn fra brukeren, terreng er bestemt av den to-dimensjonaletabellen som allerede finnes i programmet.
 
-### Oppgave 3 - Matriser (del av obligatorisk innlevering)
+## Obligatorisk oppgave O1-B
 
-Les beskrivelsen av matriser i oppgave 5.17 i java-boken.
+Oppgaven omhandler flerdimensjonale tabeller og matricer og er andre halvdel av obligatorisk innlevering fra forrige programmeringslab.
+
+Metodene i denne oppgaven skal implementeres fra bunden og det er derfor ikke lov å bruke metoder som finnes i Arrays-klassen.
+
+**Start**  med å lese beskrivelsen av matriser i oppgave 5.17 i Java boken.
 
 ##### a)
 
@@ -119,9 +186,11 @@ Implementer en metode
 public static int[][] multipliser(int[][] a, int[][] b)
 ```
 
-som kan multiplisere to matriser. Test metoden. Vi har lov å multiplisere to matriser hvis antall kolonner i den første matrisen er lik antall rekker i den andre.
+som kan multiplisere to matriser. Test metoden. Vi har lov å multiplisere to matriser hvis antall kolonner i den første matrisen er lik antall rekker i den andre. For definisjon av matrise-multiplikasjon, se eks. https://en.wikipedia.org/wiki/Matrix_multiplication
 
-### Oppgave 4 - Bondesjakk
+## Valgfrie oppgaver
+
+### Oppgave V1 - Bondesjakk
 
 Prosjektet F13FlerDimTabeller https://github.com/dat100hib/dat100public/tree/master/undervisning/U10FlerDimTabeller i oppbevaringsplassen med eksempler fra forelesninger inneholder en pakke `no.hvl.dat100.tictactoe` som implementerer det meste av koden for et bondesjakk spill. Dette ble demonstrert på forelesning.
 

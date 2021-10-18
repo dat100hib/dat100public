@@ -2,17 +2,21 @@
 
 Oppgave 3 og 4 på denne programmeringslab er viktig i forbindelse med programmeringsprosjektet som skal gjennomføres i uke 41 og 42.
 
-**HUSK** også at du skal møtes med gruppen som du jobbet sammen med i Java Innlevering 2 for å gå igjennom løsningsforslag (se Canvas: https://hvl.instructure.com/courses/13433/assignments/34784)
+**HUSK** også at du skal møtes med gruppen som du jobbet sammen med i Java Innlevering 2 for å gå igjennom løsningsforslag (se oppgave på Canvas).
 
-### Oppgave 1 - Klasser
+## Grunnleggende oppgaver
+
+### Oppgave G1 - Klasser
 
 Oppgave 6.2 i Java-boken
 
-### Oppgave 2 - Klasser
+### Oppgave G2 - Klasser
 
 Oppgave 6.3 i Java-boken
 
-### Oppgave 3 - Klasser
+## Basisoppgaver
+
+### Oppgave B1 - Klasser
 
 I denne og i neste oppgave skal vi se på en klasse `Vare` og referansetabeller som vil bli gjennomgått i uke 40.
 
@@ -20,11 +24,11 @@ I oppgave 3 og 4 skal du ta utgangspunkt i start-kode med enhetstester som finne
 
 https://github.com/dat100hib/jplab7-startcode-varelager.git
 
-Du kan gjøre en *fork* på dennn oppbevaringsplassen etterfulgt av *klone* og importering inn i Eclipse tilsvarende som for Java Innlevering 2 (start-koden for oppgavene med tabeller og matriser).
+Du kan gjøre en *fork* på denne oppbevaringsplassen (på github) etterfulgt av *klone* og importering inn i Eclipse tilsvarende som for Java Innlevering 2 (start-koden for oppgavene med tabeller og matriser).
 
 Se evt. samlesiden på Canvas for instruksjonsvideoer om klone og fork:
 
-https://hvl.instructure.com/courses/13433/pages/videoer-og-veiledninger-om-bruke-av-git-i-faget?module_item_id=297320
+https://hvl.instructure.com/courses/17211/pages/videoer-om-bruk-av-git-og-github?module_item_id=426555
 
 Når du har gjort dette skal du ha tilgang til et prosjekt `jplab7-varelager-startkode` som inneholder to pakker:
 
@@ -55,11 +59,11 @@ som kan gi verdi til alle objektvariable.
 
 Test implementasjonen din ved å kjøre testene i test-klassen `TestVare.java`
 
-###### b) get/set-metoder
+##### b) get/set-metoder
 
 Gjør ferdig implementasjonen av get/set metoder og test de med enhetstestene.
 
-###### c) Objektmetoder
+##### c) Objektmetoder
 
 Gjør ferdig implementasjonen av følgende metoder som alle er `public` dvs. synlige utenfor klassen:
 
@@ -69,7 +73,7 @@ Gjør ferdig implementasjonen av følgende metoder som alle er `public` dvs. syn
 
 Test implementasjonen ved å bruke enhetstestene.
 
-### Oppgave 4 - Referansetabeller
+### Oppgave B2 - Referansetabeller
 
 I denne oppgaven skal vi bruke referanasetabeller dvs. tabeller der elementene som er lagret er pekere til objekt. I dette tilfelle skal vi bruke en tabell til å implementere et varelager dvs. elementene i tabellen er pekere til objekt av klassen `Vare`.
 
@@ -127,7 +131,7 @@ I klassen `VarelagerUtils.java` skal du implementere metodene nedenfor. Enhetste
 
 - `public static double[] finnPrisDifferanser(Vare[] varer)` beregner de successive differenser på prisene i tabellen. Metoden skal opprette en tabell av desimalltall som er en korterte enn tabellen `varer` og på posisjon `i` i denne tabellen skal der stå differensen på prisen mellom varen i posisjon `i+1` og posisjon `i`.
 
-## Oppgave 5 - Tabeller («arrays») og strenger
+## Oppgave B3 - Tabeller («arrays») og strenger
 
 Før du løser oppgavene nedenfor anbefales det å se igjennom dokumentasjon for String-klassen tilgjengelig via:
 https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html
@@ -162,7 +166,9 @@ Lag ein metode som gitt ein tabell av tekststrengar, returnerer den strengen i t
 
 Implementer sjølv en CompareTo-metode svarande til metoden frå String-klassen brukt i e). **Hint:** du skal bruke løkke.
 
-### Oppgave 6 - Nut of the week
+## Valgfrie oppgaver
+
+### Oppgave V1 - Nut of the week
 
 Sålangt har vi brukt en nøstet-løkke om vi skal skrive ut en to-dimensjonell tabell.
 

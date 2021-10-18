@@ -6,11 +6,14 @@ public class Flooding extends EasyGraphics {
 
 	// nesten dekket hvis mindre en fra havoverflaten
 	int NESTEN_DEKKET = 1;
-	int RADIUS = 20;
-	int MARGIN = 50;
+	
+	int RADIUS = 20; // radius for cirkler som skal tegnes
+	int MARGIN = 50; // venstre/høyre margin i tegneområdet
 
 	// terreng hogde
-	int[][] terreng = { { 0, 0, 0, 3, 3, 3, 6, 7, 8, 10 }, { 0, 0, 0, 3, 3, 3, 6, 7, 8, 10 },
+	int[][] terreng = { 
+			{ 0, 0, 0, 3, 3, 3, 6, 7, 8, 10 }, 
+			{ 0, 0, 0, 3, 3, 3, 6, 7, 8, 10 },
 			{ 0, 0, 0, 3, 3, 3, 6, 7, 8, 10 } };
 
 	public static void main(String[] args) {

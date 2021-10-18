@@ -1,11 +1,73 @@
 
 ## DAT100: Java Programmering 5 - Uke 38
 
-**Bemerk** Oppgave 6 nedenfor vil være en del av en obligatorisk innlevering med frist i starten av uke 40. Den obligatoriske innleveringen kan gjøres i gruppe med opp til 4 personer. Husk å bruke startkoden og enhetstester for oppgaven: https://github.com/dat100hib/dat100-javainnlevering2
+**Bemerk** Oppgave O1-A nedenfor vil være en del av en obligatorisk innlevering med frist i starten av uke 40.
 
-er informasjon om innlevering kommer via Canvas.
+Den obligatoriske innleveringen skal gjøres i grupper med opptil 4 personer. Det er de samme gruppene som dere skal bruke i programmeringsprosjektet i uke 41/42.
 
-### Oppgave 1: Repetisjonsløkke og matematiske funksjoner
+**Husk** å bruke startkoden og enhetstester for oppgaven:
+
+https://github.com/dat100hib/dat100-javainnlevering2
+
+På siden ovenfor er det også beskrevet hvordan dere kan clone startkoden til egen PC og hvordan dere kan utføre enhetstestene.
+
+## Grunnleggende oppgaver
+
+Koden i oppgavene nedenfor skrives inn i klasse `G` med en `main`-metode som vist nedenfor.
+
+```java
+public class OppgaveG {
+
+	public static void main(String[] args) {
+
+    // TODO - legg til tabeller og metodekall her
+
+	}
+
+  // TODO - legg til deklarasjon av metoder her
+
+}
+```
+
+Som del av oppgaven bør du videre teste at koden og metodene som implementeres fungerer. Dette kan eksempelvis gjøres ved å skrive ut verdien i consollen.
+
+### Oppgave G1: Tabeller
+
+#### a)
+
+Legg inn en tabell med heltal `int[] tabell = {1, 3, 4, 7, 9, 10}` i main-metoden.
+
+#### b)
+
+Legg til kode i main-metoden som skriver ut innholdet/verdien som står på posisjon `2` i tabellen (riktig svar er 4).
+
+#### c)
+
+Legg til kode i main-metoden som endrer innholdet som er lagret på posisjon 2 fra verdien 4 til verdien 7.
+
+#### d)
+
+Legg til kode i main-metoden som skriver ut innholdet av tabellen ved bruk av en for-løkke med indeks.
+
+#### e)
+
+Flyt koden fra d) ut i en egen metode `public static void skrivUt(int[] tab) ` som kan skrive ut innholdet av en tabell. Kall `skrivUt`-metoden fra main-metoden.
+
+#### f)
+
+Modifiser metoden fra e) slik den bruker en utvidet for-løkke.
+
+#### g)
+
+Skriv en metode `public void finnes(int[] tabell, int tall)` som returnerer `true` om `tall` finnes i tabellen og `false` ellers. Bruk en while-løkke.
+
+#### h)
+
+Skriv en metode `public int[] skiftfortegn (int[] tabell)` som returnerer en ny tabell som er identisk med tabellen gitt med som parameteren med hvor alle verdier har fått endret fortegn.
+
+## Basisoppgaver
+
+### Oppgave B1: Repetisjonsløkke og matematiske funksjoner
 
 Ved å bruke Math-klassen får du tilgang til matematiske funksjoner som sinus og cosinus ved å bruke `Math.sin(x)` og `Math.cos(x)` i koden. Når du f.eks. skal regne ut verdien `y = sin(x)`, må *x* være i *radianer*.
 
@@ -35,7 +97,7 @@ Utskriften kan f. eks. se slik ut:
 
 Prøv å løse oppgaven både ved å bruke en for-løkke og etterfølgende ved å bruke en while-løkke.
 
-### Oppgave 2: Metoder og løkker
+### Oppgave B2: Metoder og løkker
 
 Se på programmet nedenfor som leser inn to tall (en høyde og en bredde) og beregner areal via metoden `private static int areal(int bredde, int hoyde)`
 
@@ -75,13 +137,13 @@ Modifiser main-metoden i programmet ovenfor slik den bruker metoden fra a) til �
 
 ##### c)
 
-Utvid metoden `lesInnTall` fra a) slik metoden fortsetter med å lese inn et tall inntil tallet er positivt. Hint: bruk en do-while løkke.
+Utvid metoden `lesInnTall` fra a) slik metoden fortsetter med å lese inn et tall inntil tallet er positivt. **Hint:** bruk en do-while løkke.
 
-### Oppgave 3 - Løkker
+### Oppgave B3 - Løkker
 
 Java-boken Kap. 3 oppgave 13
 
-### Oppgave 4 - Tabeller og decimaltall
+### Oppgave B4 - Tabeller og decimaltall
 
 Du skal lage et program for å lese inn temperaturen i Bergen for et bestemt klokkeslett for alle dager i en bestemt uke (dvs. 7 temperaturer).
 
@@ -105,11 +167,15 @@ Gjennomsnittstemperaturen var 22.1
 Maksimum for denne uken var 26.5 grader
 ```
 
-### Oppgave 5
+### Oppgave B5
 
-Java-boken Kap 3 oppgave 14
+Java-boken Kap. 3 oppgave 14
 
-### Oppgave 6 - Tabeller og metoder (del av obligatorisk innlevering)
+## Obligatoriske oppgave O1-A
+
+Løses i grupper på opptil 4 personer.
+
+Oppgaven omhandler tabeller og metoder og vil være en del av neste obligatorisk innlevering.
 
 Metodene i denne oppgaven skal implementeres fra bunden og det er derfor ikke lov å bruke metoder som finnes i Arrays-klassen.
 

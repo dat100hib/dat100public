@@ -4,7 +4,7 @@ Denne uken er det **obligatorisk skoleprøve for alle tirsdag 14.15 - 16.00** (s
 
 ### Oppgave 1 - Debugging
 
-Som beskrevet i læreboken innebærer «Debugging» - eller feilfjerning – å kjøre et program steg for steg for å finne og fjerne feil. Utviklingsverktøy som Eclipse støtter dette og gjør det mulig bla. å inspisere tilstanden av programmet dvs. verdier av variable underveis.
+Som beskrevet i læreboken og vist på forelesning innebærer «Debugging» (feilfjerning) å kjøre et program steg for steg for å finne og fjerne feil. Utviklingsverktøy som Eclipse støtter dette og gjør det mulig bla. å inspisere tilstanden av programmet dvs. verdier av variable underveis.
 
 I tillegg til feilfinning og feilfjerning kan stegvis utførsel også være nyttig for å forstå hvordan de ulike konstruksjoner i Java fungerer (semantikken).
 
@@ -57,17 +57,7 @@ public class BoksVolum {
 
 ### Oppgave 2
 
-**Oppgave 18 Kap. 2 i Java-boken:** Denne oppgaven blir relevant for programmeringsprosjektet som kommer senere i faget.
-
-Lag et program ved bruk av EasyGraphics som presenterer kjønnsfordeling i tre skoleklasser som delte linjediagram:
-
-![Problem med bilde](assets/markdown-img-paste-20190815114443618.png)
-
-Andelen av gutter i A-klassen er 28 %, i B-klassen er den 38 % og i C klassen er den 46 %.
-
-Fyll et rektangel som er 28 % av bredden til det grafiske vinduet med grønt og fortsett horisontalt mot høyre med at fyllt et rektangel med resten (72 %) av vindusbredden med rødt. Tegn et svart rektangel rundt de to fargefylte rektanglene. Gjenta slik uttegning for de to gjenstående klasser.
-
-### Oppgave 3
+Oppgavene nedenfor er tatt fra tidligere eksamener i faget. Prøv først å finne ut hva som blir skrevet ut uten å kjøre programmet i Eclipse. Når du er kommet frem til et svar kan du sjekke svaret ved å kjøre programme i Eclipse. 
 
 #### a)
 
@@ -130,6 +120,18 @@ public static void main(String[] args) {
 	System.out.println(b(28, 12));
 }
 ```
+
+### Oppgave 3
+
+**Oppgave 18 Kap. 2 i Java-boken:**
+
+Lag et program ved bruk av EasyGraphics som presenterer kjønnsfordeling i tre skoleklasser som delte linjediagram:
+
+![Problem med bilde](assets/markdown-img-paste-20190815114443618.png)
+
+Andelen av gutter i A-klassen er 28 %, i B-klassen er den 38 % og i C klassen er den 46 %.
+
+Fyll et rektangel som er 28 % av bredden til det grafiske vinduet med grønt og fortsett horisontalt mot høyre med at fyllt et rektangel med resten (72 %) av vindusbredden med rødt. Tegn et svart rektangel rundt de to fargefylte rektanglene. Gjenta slik uttegning for de to gjenstående klasser.
 
 ### Oppgave 4: Lese Java kode - Gruppearbeid
 
