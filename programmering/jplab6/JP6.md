@@ -162,7 +162,7 @@ som returnerer en ny matrise der alle tall i matrisen er multiplisert med parame
 
 Implementer en metode
 
-```
+```java
 public static boolean erLik(int[][] mat1, int[][] mat2)
 ```
 
