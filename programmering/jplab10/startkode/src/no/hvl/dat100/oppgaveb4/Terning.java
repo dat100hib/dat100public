@@ -1,4 +1,4 @@
-package no.hvl.dat100.oppgave5;
+package no.hvl.dat100.oppgaveb4;
 
 public class Terning {
 

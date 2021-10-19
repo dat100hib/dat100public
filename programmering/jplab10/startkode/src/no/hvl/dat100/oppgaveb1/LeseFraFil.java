@@ -1,4 +1,4 @@
-package no.hvl.dat100.oppgave2;
+package no.hvl.dat100.oppgaveb1;
 
 import java.io.File;
 import java.io.FileNotFoundException;

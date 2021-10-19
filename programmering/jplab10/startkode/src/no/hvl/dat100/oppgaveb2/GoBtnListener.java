@@ -1,4 +1,4 @@
-package no.hvl.dat100.oppgave3;
+package no.hvl.dat100.oppgaveb2;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

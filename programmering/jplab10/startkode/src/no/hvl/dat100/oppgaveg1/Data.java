@@ -1,4 +1,4 @@
-package no.hvl.dat100.oppgave1;
+package no.hvl.dat100.oppgaveg1;
 
 public class Data {
 

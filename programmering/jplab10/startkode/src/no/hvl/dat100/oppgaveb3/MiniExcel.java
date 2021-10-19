@@ -1,4 +1,4 @@
-package no.hvl.dat100.oppgave4;
+package no.hvl.dat100.oppgaveb3;
 
 public class MiniExcel {
 
