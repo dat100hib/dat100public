@@ -7,7 +7,7 @@ Eclipse er et integrert utviklingsmiljø (Integrated Development Environment) so
 
 Eclipse IDE for Java Developers lastes ned via:
 
-https://www.eclipse.org/downloads/packages/release/2021-06/r/eclipse-ide-java-developers
+https://www.eclipse.org/downloads/packages/release/2022-06/r/eclipse-ide-java-developers
 
 Last ned filen under *Download Links* for rett operativsystem.
 
