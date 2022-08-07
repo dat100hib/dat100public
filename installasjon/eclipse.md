@@ -31,7 +31,7 @@ På noen Windows-plattformer kan det forekomme at en versjon av java’s virtuel
 Da må man endre i oppstarts-filen eclipse.ini som finnes i eclipse-mappen ved å tilføye:
 
 ```
--vm C:/Program Files/Java/jdk16.0.2/bin/javaw.exe
+-vm C:/Program Files/Java/jdk18.0.2/bin/javaw.exe
 ```
 
 før linjen som begynner med –vmargs.
