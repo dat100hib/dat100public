@@ -78,7 +78,7 @@ Du kan nå sjekke ut Eclipse-prosjekter med kodeeksempler på egen PC via Eclips
 4.	I dialogboksen *Branch Selection* velg *master* og trykk *Next*.
 5.	I dialogboksen *Local Destination* må du under *Directory* velge en mappe på PC’en der du ønsker å lagre den lokale kopien av oppbevaringsplassen.
 6.	I dialogboksen *Select a wizard* to use for importing projects velg *Import existing Eclipse Projects* og trykk *Next*.
-7.	I dialogboksen *Import Projects* velg *U01Introduksjon* og *U01Kaukulator* trykk *Finish*. Da vil de to Eclipse-prosjektene med eksempel kode fra første forelesning være tilgjengelig.
+7.	I dialogboksen *Import Projects* velg *U01Introduksjon* og *U01Kalkulator* trykk *Finish*. Da vil de to Eclipse-prosjektene med eksempel kode fra første forelesning være tilgjengelig.
 
 #### 3c - Tilgang til nye og oppdaterte prosjekt
 
