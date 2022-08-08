@@ -8,16 +8,13 @@ Formålet med denne programmeringslab/øving er å sikre at du har en fungerende
 
 **Deadline/Frist**: se Canvas for faget
 
-Du kan levere inn / få godkjennt oppgavene på to måter
-
-1. Demonsterere programmene til labassistent eller underviser på programmeringslaben eller alternativt via Zoom.
-2. Laste opp skjermdump i oppgaven *Demonstrere kjørende Java programmer* på Canvas som viser: Eclipse-vindue etter programmet er kjørt (oppgave 2); Eclipse-vindue etter at enhetstester er kjørt (oppgave 4);  programkode og easygraphics vindu etter program er kjørt (oppgave 5).
+Du skal laste opp skjermbilder i oppgaven *Demonstrere kjørende Java programmer* på Canvas som viser: Eclipse-vindue etter programmet er kjørt (oppgave 2); Eclipse-vindue etter at enhetstester er kjørt (oppgave 4);  programkode og easygraphics vindu etter program er kjørt (oppgave 5).
 
 Det er veldig viktig at alle får dette til - så om du har problemer med dette så ta kontakt med undervisere eller labassistenter for å få hjelp.
 
 ### Oppgave 1: Nedlasting og installasjon av JDK, Eclipse IDE og Git
 
-Les installasjonsveiledningen
+Følg installasjonsveiledningene som finnes nederst på siden
 
 https://github.com/dat100hib/dat100public/blob/master/README.md
 
