@@ -12,6 +12,8 @@ Du skal laste opp skjermbilder i oppgaven *Demonstrere kjørende Java programmer
 
 Det er veldig viktig at alle får dette til - så om du har problemer med dette så ta kontakt med undervisere eller labassistenter for å få hjelp.
 
+Les de enkelte oppgaver igjennom før du begynner.
+
 ### Oppgave 1: Nedlasting og installasjon av JDK, Eclipse IDE og Git
 
 Følg installasjonsveiledningene som finnes nederst på siden
@@ -56,6 +58,13 @@ public class Velkommen {
 ### Oppgave 3: Sjekke ut kode fra github
 
 Vi skal bruke https://www.github.com til å distribuere kodeeksempler fra forelesninger og startkode for programmeringsoppgaver. Til dette formålet er der opprettet en oppbevaringsplass (repository) med navnet `dat100public` på github som vil inneholde Eclipse-prosjekter for eksemplene.
+
+Før du gjør denne oppgaven bør du se igjennom videoene
+
+- Git - Deling og samarbeid om koding
+- Git - Pull
+
+som ligger på Canvas siden for denne programmeringslab.
 
 #### 3a - Opprette en github konto
 
