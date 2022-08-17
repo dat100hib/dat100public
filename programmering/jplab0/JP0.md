@@ -113,7 +113,7 @@ Eksempelkoden fra første forelesning du sjekket ut i oppgave 3 inneholder et Ec
 Enhetstestene i punkt 2 ovenfor feiler fordi ikke alt er implementert i filen `Kalkulator.java`:
 
 1.	Åpn filen `Kalkulator.java` i editoren ved å dobbel-klikke på den.
-2.	Implementer metodene `add`, `sub`, `mul` og `div` som vist på første forelesning.
+2.	Implementer metodene `add`, `sub`, `mul` og `div` som vist i videoen om JUnit.
 
 Kjør enhets-testene igjen og prøv applikasjonen via grensesnittet. Sjekk at alt fungerer som ønsket.
 
