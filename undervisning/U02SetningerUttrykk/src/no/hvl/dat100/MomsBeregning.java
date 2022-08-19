@@ -12,15 +12,14 @@ public class MomsBeregning {
 		
 		double belop = parseDouble(belopTxt);
 		
-		// beregning moms + totalpris
+		// beregne moms + totalpris
 		double moms = belop * 0.25;
-		double totalpris = belop * 1.25;
+		double totalpris = belop + moms;
 		
-		// skrive ut
+		// skrive ut i dialog vindue
 		String utTxt = 
-				"Beløp:" + belop + "\nMoms:" + moms + "\nTotal: " + totalpris;
+				"Beløp:" + belop + "\nMoms: " + moms + "\nTotal: " + totalpris;
 				
-		System.out.println(utTxt);
+		showMessageDialog(null,utTxt);
 	}
-
 }

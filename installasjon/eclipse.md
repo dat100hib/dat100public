@@ -43,3 +43,5 @@ Se [eclipse.ini](https://github.com/dat100hib/dat100public/blob/master/eclipse/e
 https://www.youtube.com/watch?v=sWSySXfR17c
 
 https://stackoverflow.com/questions/70725347/the-application-eclipse-can-t-be-opened-macos-monterey
+
+sudo codesign --force --deep --sign - /Applications/Eclipse.app
