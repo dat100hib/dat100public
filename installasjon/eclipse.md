@@ -41,3 +41,5 @@ Se [eclipse.ini](https://github.com/dat100hib/dat100public/blob/master/eclipse/e
 **Husk** å endre i linjen ovenfor om man har valgt å installere JDK i en annen folder eller har installert en annen versjon av JDK.
 
 https://www.youtube.com/watch?v=sWSySXfR17c
+
+https://stackoverflow.com/questions/70725347/the-application-eclipse-can-t-be-opened-macos-monterey
