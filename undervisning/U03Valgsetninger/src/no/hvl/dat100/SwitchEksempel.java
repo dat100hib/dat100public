@@ -1,7 +1,6 @@
 package no.hvl.dat100;
 
-import static javax.swing.JOptionPane.showInputDialog;
-import static javax.swing.JOptionPane.showMessageDialog;
+import java.util.Scanner;
 
 public class SwitchEksempel {
 
@@ -10,36 +9,49 @@ public class SwitchEksempel {
 		String brukernavn = null;
 		String passord = null;
 
-		String funksjonTxt = 
-				"Velg funksjon\n a) - opprette konto\n b) - endre passord\n c) - slette konto\n d) - login";
+		Scanner input = new Scanner(System.in);
 
-		String valgTxt = showInputDialog(funksjonTxt);
+		String funksjonTxt = "Velg funksjon\n a) - opprette konto\n b) - endre passord\n c) - slette konto\n d) - login";
+
+		System.out.println(funksjonTxt);
+		System.out.print(">");
+
+		String valgTxt = input.nextLine();
 
 		switch (valgTxt) {
 
 		case "a":
-			brukernavn = showInputDialog("Opprett bruker\nBrukernavn :");
-			passord = showInputDialog("Passord :");
+			System.out.print("Opprett konto\nBrukernavn:");
+			brukernavn = input.nextLine();
+			System.out.print("Passord:");
+			passord = input.nextLine();
 			break;
 		case "b":
-			passord = showInputDialog("Endre passord\nNåværende passord :");
-			passord = showInputDialog("Nytt passord :");
+			System.out.print("Endre passord\nGammelt passord:");
+			passord = input.nextLine();
+			System.out.print("Nytt passord:");
+			passord = input.nextLine();
 			break;
 		case "c":
-			brukernavn = showInputDialog("Slette bruker\nBrukernavn :");
-			passord = showInputDialog("Passord :");
+			System.out.print("Slette bruker\nBrukernavn:");
+			brukernavn = input.nextLine();
+			System.out.print("Passord:");
+			passord = input.nextLine();
 			break;
-		case "d:":
-			brukernavn = showInputDialog("Login\nBrukernavn :");
-			passord = showInputDialog("Passord :");
+		case "d":
+			System.out.print("Login\nBrukernavn:");
+			brukernavn = input.nextLine();
+			System.out.print("Passord:");
+			passord = input.nextLine();
 			break;
 		default:
-			showMessageDialog(null, "Ingen funkskjon valgt");
+			System.out.println("Ingen funksjon valgt");
 		}
-		
+
 		System.out.println(brukernavn);
 		System.out.println(passord);
-		
+
+		input.close();
 	}
 
 }
