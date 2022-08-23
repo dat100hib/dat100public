@@ -24,6 +24,4 @@ public class IfEksempel extends EasyGraphics {
 	    fillCircle(100, 160, 60);
 	    
 	  }
-
-
 }

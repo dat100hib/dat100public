@@ -1,43 +1,35 @@
 package no.hvl.dat100;
 
-import static java.lang.Integer.*;
 import static javax.swing.JOptionPane.showInputDialog;
 import static javax.swing.JOptionPane.showMessageDialog;
 
 public class SwitchEksempel {
 
-	public final static int OPPRETTE_KONTO = 1;
-	public final static int ENDRE_PASSORD = 2;
-	public final static int SLETTE_KONTO = 3;
-	public final static int LOGIN = 4;
-
 	public static void main(String[] args) {
 
-		String brukernavn = "dat100student";
-		String passord = "hemli";
+		String brukernavn = null;
+		String passord = null;
 
 		String funksjonTxt = 
-				"Velg funksjon\n 1 - opprette konto\n 2 - endre passord\n 3 - slette konto\n 4 - login";
+				"Velg funksjon\n a) - opprette konto\n b) - endre passord\n c) - slette konto\n d) - login";
 
 		String valgTxt = showInputDialog(funksjonTxt);
 
-		int valg = parseInt(valgTxt);
+		switch (valgTxt) {
 
-		switch (valg) {
-
-		case 1:
+		case "a":
 			brukernavn = showInputDialog("Opprett bruker\nBrukernavn :");
 			passord = showInputDialog("Passord :");
 			break;
-		case 2:
+		case "b":
 			passord = showInputDialog("Endre passord\nNåværende passord :");
 			passord = showInputDialog("Nytt passord :");
 			break;
-		case 3:
+		case "c":
 			brukernavn = showInputDialog("Slette bruker\nBrukernavn :");
 			passord = showInputDialog("Passord :");
 			break;
-		case 4:
+		case "d:":
 			brukernavn = showInputDialog("Login\nBrukernavn :");
 			passord = showInputDialog("Passord :");
 			break;
