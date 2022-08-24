@@ -4,14 +4,20 @@ import static java.lang.Integer.*;
 import static javax.swing.JOptionPane.showInputDialog;
 import static javax.swing.JOptionPane.showMessageDialog;
 
+import java.util.Scanner;
+
 public class Skuddaar {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		Scanner input = new Scanner(System.in);
 
-		int aar = parseInt(showInputDialog("År :"));
-		int mnd = parseInt(showInputDialog("Måned :"));
+		System.out.print("År:");
+		int aar = parseInt(input.nextLine());
 
+		System.out.print("Måned:");
+		int mnd = parseInt(input.nextLine());
+	
 		int antDager = 31;
 
 		if (mnd == 4 || mnd == 6 || mnd == 9 || mnd == 11) {
@@ -30,6 +36,7 @@ public class Skuddaar {
 		}
 
 		System.out.println(mnd + "-"+aar + ":" + antDager);
+		input.close();
 	}
 
 }
