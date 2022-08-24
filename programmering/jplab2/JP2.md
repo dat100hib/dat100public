@@ -16,7 +16,7 @@ Som nevnt på første forelesning inneholder programmeringslab'ene flere oppgave
 
 Start oppgavene med å opprette et nytt Eclipse-prosjekt og en ny klasse i inne i dette prosjektet for hver av oppgavene nedenfor.
 
-Se evt. videoen: https://hvl.instructure.com/courses/17211/pages/programmeringslab-0-fredag-20-dot-8-14-15-installasjon-av-java-utviklingsmiljo?module_item_id=399739 fra første programmeringslab om grunnleggende bruk av Eclipse om du ikke husker stegene.
+Se evt. videoen: https://hvl.instructure.com/courses/21897/pages/programmeringslab-0-installasjon-av-java-utviklingsmiljo-onsdag?module_item_id=531403 fra første programmeringslab om grunnleggende bruk av Eclipse om du ikke husker stegene.
 
 Koden i oppgave G1 til G4 nedenfor skrives inn i `main`-metoden i klassen (ved **TODO** kommentaren):
 
@@ -100,7 +100,7 @@ Utvid programmet ovenfor med en `for`-løkke slik programmet leser inn fem (5) t
 
 ### Oppgave B1 - Uttrykk og kulevolum
 
-Skriv program som beregner volum av en kule ved bruk av `Math`-biblioteket:
+Skriv et program som beregner volum av en kule ved bruk av `Math`-biblioteket:
 
 https://docs.oracle.com/en/java/javase/16/docs/api/java.base/java/lang/Math.html
 
@@ -131,7 +131,7 @@ høyere enn 164 100kr.
 
 ![](assets/markdown-img-paste-20190821100958296.png)
 
-Se https://www.skatteetaten.no/satser/trinnskatt/?year=2021#rateShowYear for aktuelle satser.
+Se https://www.skatteetaten.no/satser/trinnskatt/?year=2022#rateShowYear for aktuelle satser.
 
 Lag et program som leser inn bruttoinntekt, beregner og skriver ut trinnskatten.
 
@@ -148,8 +148,7 @@ Skriv ut feilmelding ved ugyldig poengsum (negativ verdi eller over 100).
 
 #### b)
 
-Utvid programmet i pkt. a) slik at det kan lese inn poengsummer fra 10 studenter og skrive ut karakteren
-(eller feilmelding) etter hver innlesing. **HINT:** hvordan kan du bruke en for-løkke til dette.
+Utvid programmet i pkt. a) slik at det kan lese inn poengsummer fra 10 studenter og skrive ut karakteren (eller feilmelding) etter hver innlesing. **HINT:** hvordan kan du bruke en for-løkke til dette.
 
 #### c)
 
