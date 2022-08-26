@@ -22,7 +22,7 @@ Last ned filen under *Download Links* for rett operativsystem.
 2.	Nå kan man starte Eclipse ved å åpne mappen du valgte for å pakke ut filene. Der finner du en programfil som heter `eclipse`. Start denne ved å dobbelklikke.
 3.	Når du får spørsmål om workspace, oppretter du et workspace som heter DAT100 (det er praktisk med ett workspace pr. fag og det er mulig å opprette flere workspaces senere).
 
-### Problem med å starte Eclipse
+### Problem med å starte Eclipse Windows
 
 På noen Windows-plattformer kan det forekomme at en versjon av java’s virtuelle maskin (JVM) er installert som forhindrer Eclipse i å starte. Feilmeldingen ser ut lignende bildet nedenfor
 
@@ -40,8 +40,20 @@ Se [eclipse.ini](https://github.com/dat100hib/dat100public/blob/master/eclipse/e
 
 **Husk** å endre i linjen ovenfor om man har valgt å installere JDK i en annen folder eller har installert en annen versjon av JDK.
 
-https://www.youtube.com/watch?v=sWSySXfR17c
+### Problem med å starte Eclipse MacOS
 
-https://stackoverflow.com/questions/70725347/the-application-eclipse-can-t-be-opened-macos-monterey
+På noen versjon av MacOS kan der være/oppstå problemer med å kjøre Eclipse pga. digital signatur på Eclipse App'en.
 
+Dette kan løses ved å started en terminal og utføre kommandoen
+
+```
 sudo codesign --force --deep --sign - /Applications/Eclipse.app
+```
+
+Kilde:
+
+- https://stackoverflow.com/questions/70725347/the-application-eclipse-can-t-be-opened-macos-monterey
+
+Noen har også problemer med rettigheter for å starte Eclipse. Her kan denne videon hjelpe:
+
+- https://www.youtube.com/watch?v=sWSySXfR17c
