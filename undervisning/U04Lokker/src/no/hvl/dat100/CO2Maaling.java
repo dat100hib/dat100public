@@ -15,7 +15,7 @@ public class CO2Maaling extends EasyGraphics {
 		  
 	    makeWindow("CO-2 nivå indikator");
 
-	    for (int i = 1; i<ANTALL; i++) {
+	    for (int i = 1; i<=ANTALL; i++) {
 	    	
 	    	int co2 = parseInt( getText("PPM: [" + i + "]" ));
 			
