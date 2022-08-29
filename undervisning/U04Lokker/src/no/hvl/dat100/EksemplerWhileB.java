@@ -1,26 +1,9 @@
 package no.hvl.dat100;
 
-public class EksemplerWhile {
+public class EksemplerWhileB {
 
 	public static void main(String[] args) {
-
-		// a)
-		
-		int tal = 11;
-
-		int a = 0;
-		while (tal > 1) {
-			
-			tal = tal / 2;
-			a++;
-			
-		}
-		
-		System.out.println("tal = " + tal);
-		System.out.println("a = " + a);
-
-		// b)
-		
+	
 		int x = 16;
 		int y = 12;
 
@@ -31,11 +14,11 @@ public class EksemplerWhile {
 			} else {
 				y = y - x;
 			}
+			
 		}
 
 		System.out.println("x = " + x);
 		System.out.println("y = " + y);
 
 	}
-
 }
