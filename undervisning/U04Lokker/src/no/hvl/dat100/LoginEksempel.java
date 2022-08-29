@@ -59,7 +59,7 @@ public class LoginEksempel {
 					System.out.println("Feil i passord");
 				}
 				
-			} while (!loggedinn && forsok <= 3);
+			} while (!loggedinn && forsok < 3);
 			break;
 		default:
 			System.out.println("Ingen funksjon valgt");
