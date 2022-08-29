@@ -42,6 +42,7 @@ public class LoginEksempel {
 			System.out.print("Login\nBrukernavn:");
 			brukernavn = input.nextLine();
 			
+			// TODO - START
 			boolean loggedinn = false;
 			int forsok = 0;
 			
@@ -60,6 +61,9 @@ public class LoginEksempel {
 				}
 				
 			} while (!loggedinn && forsok < 3);
+			
+			// TODO - END
+			
 			break;
 		default:
 			System.out.println("Ingen funksjon valgt");
