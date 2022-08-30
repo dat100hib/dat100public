@@ -12,20 +12,23 @@ public class Sjakkbrett extends EasyGraphics {
 	public void run() {
 
 		final int L = 20;
-		final int N = 10;
-		final int startX = 20;
-		final int startY = 20;
+		final int N = 12;
+		final int startX = 50;
+		final int startY = 50;
 
 		makeWindow("Sjakk");
 
 		int x = startX;
 		int y = startY;
-		boolean fyll = true;
-
+		
 		setColor(0, 0, 0);
+		
+		boolean fyll;
 
 		for (int i = 1; i <= N; i++) {
 
+			fyll = (i % 2 != 0);
+			
 			for (int j = 1; j <= N; j++) {
 
 				if (fyll) {
@@ -38,8 +41,6 @@ public class Sjakkbrett extends EasyGraphics {
 
 				fyll = (!fyll);
 			}
-
-			fyll = (!fyll);
 
 			x = startX;
 			y = y + L;

@@ -25,7 +25,9 @@ public class BiljardKugle extends EasyGraphics {
 		
 		int id = fillCircle(x,y,r);
 		
-		for (int i = 0; i<ANT_ITER; i++) {
+		// TODO - START
+		
+		for (int i = 1; i<=ANT_ITER; i++) {
 			
 			if ( (x+dx-r <= 0) || (x+dx+r >=BREDDE) ) {
 				dx = - dx;
@@ -43,6 +45,8 @@ public class BiljardKugle extends EasyGraphics {
 			pause(10);
 			
 		}
+		
+		// TODO END
 	}
 
 }
