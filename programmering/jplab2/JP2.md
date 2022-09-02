@@ -124,7 +124,7 @@ Legg till to `String`-variable som inneholder korrekt brukernavn og passord. Bru
 
 I praksis vil en aldri legge inn brukernavn og passord i selve programmet da det utgjør en sikkerhetsrisiko - men vi gjør det slik inntil vi har lært mer om programmering.
 
-### <a name="jp2b4"></a> Oppgave B4 - Blir en del av obligatoriske innlevering 2
+### <a name="jp2b4"></a> Oppgave B4 - Blir en del av obligatoriske innlevering neste uke
 
 En trinnskatt er en progressiv skatt på bruttolønn som beregnes når inntekten er
 høyere enn 164 100kr.
@@ -135,7 +135,7 @@ Se https://www.skatteetaten.no/satser/trinnskatt/?year=2022#rateShowYear for akt
 
 Lag et program som leser inn bruttoinntekt, beregner og skriver ut trinnskatten.
 
-### <a name="jp2b5"></a> Oppgave B5 - Blir en del av obligatoriske innlevering 2
+### <a name="jp2b5"></a> Oppgave B5 - Blir en del av obligatoriske innlevering neste uke
 
 #### a)
 
