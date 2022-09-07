@@ -32,7 +32,7 @@ Legg til en for-løkke som skriver ut tallene fra `1` opptil `10`. Kjør program
 
 #### c)
 
-Modifiser for-løkken slik den skriver tallene fra `1` opptil med ikke med verdien av variabelen `n`. Kjør programmet der du en gir `n` forskjellige verdier og se at programmet gir korrekt utskrift. Hva skjer om `n` settes til en negativ verdi?
+Modifiser for-løkken slik den skriver tallene fra `1` til (men ikke med) verdien av variabelen `n`. Kjør programmet der du en gir `n` forskjellige verdier og se at programmet gir korrekt utskrift. Hva skjer om `n` settes til en negativ verdi?
 
 ### Oppgave G2
 
