@@ -1,6 +1,6 @@
 # DAT100: Java Programmering 4 - uke 37
 
-Denne uken er det **obligatorisk skoleprøve for alle tirsdag 14.15 - 16.00** (se informasjon på Canvas). Der er derfor få lab programmeringsoppgaver - men det kan være lurt å bruke programmeringslab denne uken på eventuelle tidligere programmeringsoppgaver som dere ikke er kommet i mål med.
+Denne uken er det **obligatorisk skoleprøve for alle tirsdag i lab-tiden** (se informasjon på Canvas). Der er derfor få lab programmeringsoppgaver. Oppgave 2 nedenfor kan være nyttig som del av forberedelse til skoleprøven.
 
 ### Oppgave 1 - Debugging
 
@@ -57,11 +57,11 @@ public class BoksVolum {
 
 ### Oppgave 2
 
-Oppgavene nedenfor er tatt fra tidligere eksamener i faget. Prøv først å finne ut hva som blir skrevet ut uten å kjøre programmet i Eclipse. Når du er kommet frem til et svar kan du sjekke svaret ved å kjøre programme i Eclipse. 
+Oppgavene nedenfor er tatt fra tidligere eksamener i faget. Prøv først å finne ut hva som blir skrevet ut uten å kjøre programmet i Eclipse. Når du er kommet frem til et svar kan du sjekke svaret ved å kjøre programme i Eclipse.
 
 #### a)
 
-Hva bli skrevet ut når metodekallet main-metoden nedenfor blir utført?
+Hva bli skrevet ut når main-metoden nedenfor blir utført?
 
 ```java
 public static void main(String[] args) {
@@ -80,7 +80,7 @@ public static void main(String[] args) {
 
 ##### b)
 
-Hva bli skrevet ut når metodekallet main-metoden nedenfor blir utført?
+Hva bli skrevet ut når main-metoden nedenfor blir utført?
 
 ```java
 
@@ -99,7 +99,7 @@ public static void main(String[] args) {
 
 ##### c)
 
-Hva bli skrevet ut når metodekallet main-metoden nedenfor blir utført?
+Hva bli skrevet ut når main-metoden nedenfor blir utført?
 
 ```java
 public static int b(int x, int y) {
