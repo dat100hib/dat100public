@@ -7,7 +7,9 @@ import static javax.swing.JOptionPane.showInputDialog;
 public class InnleseTall {
 
 	public static void main(String[] args) {
-			    
+			 
+		// TODO - START
+		
 	    int antall = lesInteger("Hvor mange tall skal leses inn?");
 	    
 	    double[] tall = new double[antall];
@@ -21,6 +23,9 @@ public class InnleseTall {
 	    }
 	   
 	    skrivUt(tall);
+	    
+	    // TODO - END
+	    
 	}
 	
 	private static double lesDouble(String message) {
@@ -43,7 +48,10 @@ public class InnleseTall {
 	    
 	}
 	
+	// TODO - START
+	
 	private static void skrivUt(double[] tab) {
+		
 		
 		System.out.print("[ ");
 		
@@ -55,4 +63,5 @@ public class InnleseTall {
 		
 	}
 
+	// TODO - END
 }
