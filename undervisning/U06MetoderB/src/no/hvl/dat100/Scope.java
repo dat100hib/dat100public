@@ -2,7 +2,7 @@ package no.hvl.dat100;
 
 public class Scope {
 
-	private static int z = 5;
+	private static int y = 5;
 
 	public static void main(String[] args) {
 		
@@ -11,13 +11,13 @@ public class Scope {
 		set(x,10);
 
 		System.out.println(x);
-		System.out.println(z);
+		System.out.println(y);
 	}
 
 	private static void set(int x, int v) {
 				
 		x = v;
-		z = v;
+		y = v;
 
 	}
 }
