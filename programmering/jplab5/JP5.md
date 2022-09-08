@@ -3,14 +3,6 @@
 
 **Bemerk** Oppgave O1-A nedenfor vil være en del av en obligatorisk innlevering med frist i starten av uke 40.
 
-Den obligatoriske innleveringen skal gjøres i grupper med opptil 4 personer. Det er de samme gruppene som dere skal bruke i programmeringsprosjektet i uke 41/42.
-
-**Husk** å bruke startkoden og enhetstester for oppgaven:
-
-https://github.com/dat100hib/dat100-javainnlevering2
-
-På siden ovenfor er det også beskrevet hvordan dere kan clone startkoden til egen PC og hvordan dere kan utføre enhetstestene.
-
 ## Grunnleggende oppgaver
 
 Koden i oppgavene nedenfor skrives inn i klasse `G` med en `main`-metode som vist nedenfor.
@@ -173,11 +165,17 @@ Java-boken Kap. 3 oppgave 14
 
 ## Obligatoriske oppgave O1-A
 
-Løses i grupper på opptil 4 personer.
+Denne oppgaven omhandler tabeller og metoder og vil være en del av neste obligatorisk innlevering med frist i starten av uke 40.
 
-Oppgaven omhandler tabeller og metoder og vil være en del av neste obligatorisk innlevering.
+Den obligatoriske innleveringen skal gjøres i grupper med opptil 4 personer. Det er de **samme gruppene** som dere skal bruke i programmeringsprosjektet i uke 41/42.
 
-Metodene i denne oppgaven skal implementeres fra bunden og det er derfor ikke lov å bruke metoder som finnes i Arrays-klassen.
+**Husk** å bruke startkoden og enhetstester for oppgaven:
+
+https://github.com/dat100hib/dat100-javainnlevering2
+
+På siden ovenfor er det også beskrevet hvordan dere kan clone startkoden til egen PC og hvordan dere kan utføre enhetstestene.
+
+Metodene i denne oppgaven skal implementeres fra bunden og det er derfor **ikke** lov å bruke metoder som finnes i Arrays-klassen.
 
 ##### a)
 
@@ -197,7 +195,7 @@ Implementer en metode:
 public static String tilStreng (int[] tabell)
 ```
 
-som kan returnere en string med innholdet av en tabell. For en tabell med elementene 42,67,89 skal følgende streng returneres:
+som kan returnere en tekstreng (Stringg) med innholdet av en tabell. For en tabell med elementene 42,67,89 skal følgende streng returneres:
 
 ```java
 "[42,67,89]"
