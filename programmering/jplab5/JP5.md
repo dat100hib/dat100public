@@ -171,7 +171,7 @@ Den obligatoriske innleveringen skal gjøres i grupper med opptil 4 personer. De
 
 **Husk** å bruke startkoden og enhetstester for oppgaven:
 
-https://github.com/dat100hib/dat100-javainnlevering2
+https://github.com/dat100hib/dat100-javainnlevering2/blob/master/README.md
 
 På siden ovenfor er det også beskrevet hvordan dere kan clone startkoden til egen PC og hvordan dere kan utføre enhetstestene.
 
@@ -195,7 +195,7 @@ Implementer en metode:
 public static String tilStreng (int[] tabell)
 ```
 
-som kan returnere en tekstreng (Stringg) med innholdet av en tabell. For en tabell med elementene 42,67,89 skal følgende streng returneres:
+som kan returnere en tekststreng (String) med innholdet av en tabell. For en tabell med elementene 42,67,89 skal følgende streng returneres:
 
 ```java
 "[42,67,89]"
@@ -263,4 +263,4 @@ Implementer en metode:
 public static int[] settSammen(int[] tabell1,int[] tabell2)
 ```
 
-som gitt to tabeller `tabell1` og `tabell2` som paramtere returnerer en ny tabell som er sammensetning av de to tabeller.
+som gitt to tabeller `tabell1` og `tabell2` som parametre og returnerer en ny tabell som er sammensetning av de to tabeller.

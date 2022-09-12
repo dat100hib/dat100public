@@ -2,10 +2,6 @@
 
 **Husk** at oppgave O1-B på denne programmeringslab er del av obligatorisk innlevering (se Canvas).
 
-**Husk** å bruke startkoden og enhetstester for oppgaven https://github.com/dat100hib/dat100-javainnlevering2
-
-Se beskrivelsen på siden ovenfor.
-
 ## Grunnleggende oppgaver
 
 ### Oppgave G1: Flerdimensjonale tabeller
@@ -31,11 +27,11 @@ public class OppgaveG {
 
 }
 ```
-Som del av oppgaven bør du videre teste at koden og metodene som implementeres fungerer. Dette kan eksempelvis gjøres ved å skrive ut verdien i consollen.
+Som del av oppgaven bør du videre teste at koden og metodene som implementeres fungerer. Dette kan eksempelvis gjøres ved å skrive ut verdien i konsollen.
 
 #### a)
 
-Legg til en metode `public static void skrivUt(double[][] tabell)` som gitt en 2-dimensjonel tabellen av heltal skriver ut tabellen. Bruk metoden til å skrive ut tabellen `obs`. Prøv å implementere metoden både ved å bruke nøstet vanlige for-løkker med index og ved en bruke nøstede utvidede for-løkker.
+Legg til en metode `public static void skrivUt(double[][] tabell)` som gitt en 2-dimensjonel tabellen av heltal skriver ut tabellen. Bruk metoden til å skrive ut tabellen `obs`. Prøv å implementere metoden både ved å bruke nøstete vanlige for-løkker med index og ved en bruke nøstede utvidede for-løkker.
 
 #### b)
 
@@ -77,7 +73,7 @@ Skriv kode som teller sammen hvor mange ledige plasser som er i auditoriet
 
 ##### b)
 
-Skriv kode som finner og skriver ut hvor stor en prosentdel av plassene som er opptatt. Metoden skal virke generelt uavhengig av antall rad og antall plasser på hver rad
+Skriv kode som finner og skriver ut hvor stor en prosentdel av plassene som er opptatt. Metoden skal virke generelt uavhengig av antall rad og antall plasser på hver rad.
 
 ##### c)
 
@@ -85,7 +81,7 @@ Skriv kode som finner og skriver første ledige plass (rad og posisjon). Prøv �
 
 ##### d)
 
-Skriv en metode bruker en dobbel for-løkke med `return` til å finne ut om der finnes en ledig plass. Skriv om til å bruke en dobbel utvidet for-løkke med `return`
+Skriv en metode som bruker en dobbel for-løkke med `return` til å finne ut om der finnes en ledig plass. Skriv om til å bruke en dobbel utvidet for-løkke med `return`
 
 ##### e)
 
@@ -127,7 +123,7 @@ Implementer en metode:
 public static void skrivUtv1(int[][] matrise)
 ```
 
-som kan skrive ut en matrise. Prøv å bruk to to (nøstede) utvidede for-løkker (se avsnitt 5.6 i boken for beskrivelse av utvidet for-løkke).
+som kan skrive ut en matrise. Prøv å bruke to (nøstede) utvidede for-løkker (se avsnitt 5.6 i boken for beskrivelse av utvidet for-løkke).
 
 ##### b)
 
