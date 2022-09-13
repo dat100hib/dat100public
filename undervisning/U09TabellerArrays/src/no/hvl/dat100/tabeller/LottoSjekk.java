@@ -10,6 +10,8 @@ public class LottoSjekk {
 	public static boolean finnesTall(int tall, int[] tabell) {
 		
 		boolean funnet = false;
+		
+		// TODO
 		int pos = 0;
 		
 		while (!funnet && pos < tabell.length) {
@@ -23,6 +25,8 @@ public class LottoSjekk {
 	}
 	
 	public static boolean sjekkkupong(int[] kupong, int[] lottotall) {
+		
+		// TODO
 		
 		for (int tall : lottotall) {
 			
