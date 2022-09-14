@@ -26,18 +26,21 @@ public class LottoSjekk {
 	
 	public static boolean sjekkkupong(int[] kupong, int[] lottotall) {
 		
+		boolean fanttall = true;
+		
 		// TODO
+		int i = 0;
 		
-		for (int tall : lottotall) {
+		while (fanttall && i<lottotall.length) {
 			
-			boolean hartall = finnesTall(tall,kupong);
+			int tall = lottotall[i];
 			
-			if (!hartall) {
-				return false;
-			}
+			fanttall = finnesTall(tall,kupong);
+			
+			i++;
 		}
-		
-		return true;
+			
+		return fanttall;
 	}
 	
 	public static void main(String[] args) {
