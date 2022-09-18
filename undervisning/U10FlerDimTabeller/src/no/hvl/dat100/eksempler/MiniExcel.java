@@ -13,6 +13,8 @@ public class MiniExcel {
 
 	public static void skrivUt() {
 
+		// TODO
+		
 		System.out.println("---------------");
 
 		for (int[] rad : data) {
@@ -29,7 +31,7 @@ public class MiniExcel {
 
 	public static void beregnSum() {
 
-		
+		// TODO 
 		for (int r = 0; r<data.length-1; r++) {
 			
 			int[] rad = data[r];
@@ -49,6 +51,8 @@ public class MiniExcel {
 		int radlengde = data[0].length;
 		
 		int[] sisterad = data[sisteradpos];
+		
+		// TODO
 		
 		for (int k = 0; k<radlengde; k++) {
 			
