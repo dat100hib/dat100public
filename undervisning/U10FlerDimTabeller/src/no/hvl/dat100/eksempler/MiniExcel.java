@@ -15,6 +15,8 @@ public class MiniExcel {
 
 		System.out.println("---------------");
 
+		// TODO
+		
 		for (int[] rad : data) {
 			
 			for (int v : rad) {
@@ -29,6 +31,7 @@ public class MiniExcel {
 
 	public static void beregnSum() {
 
+		// TODO - SUMMER RAD
 		
 		for (int r = 0; r<data.length-1; r++) {
 			
@@ -44,6 +47,8 @@ public class MiniExcel {
 			rad[sistepos] = sum;
 			
 		}
+		
+		// TODO - SUMMER KOLONNER
 		
 		int sisteradpos = data.length-1;
 		int radlengde = data[0].length;
