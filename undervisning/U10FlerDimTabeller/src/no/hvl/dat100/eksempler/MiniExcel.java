@@ -55,6 +55,8 @@ public class MiniExcel {
 		
 		int[] sisterad = data[sisteradpos];
 		
+		// TODO
+		
 		for (int k = 0; k<radlengde; k++) {
 			
 			int sum = 0;
