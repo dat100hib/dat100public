@@ -1,6 +1,6 @@
 ## DAT100: Java Programmering 7 - Uke 40
 
-Oppgave 3 og 4 på denne programmeringslab er viktig i forbindelse med programmeringsprosjektet som skal gjennomføres i uke 41 og 42.
+Oppgave B1 og B2 på denne programmeringslab er viktig i forbindelse med programmeringsprosjektet som skal gjennomføres i uke 41 og 42.
 
 **HUSK** også at du skal møtes med gruppen som du jobbet sammen med i Java Innlevering 2 for å gå igjennom løsningsforslag (se oppgave på Canvas).
 
@@ -25,10 +25,6 @@ I oppgave 3 og 4 skal du ta utgangspunkt i start-kode med enhetstester som finne
 https://github.com/dat100hib/jplab7-startcode-varelager.git
 
 Du kan gjøre en *fork* på denne oppbevaringsplassen (på github) etterfulgt av *klone* og importering inn i Eclipse tilsvarende som for Java Innlevering 2 (start-koden for oppgavene med tabeller og matriser).
-
-Se evt. samlesiden på Canvas for instruksjonsvideoer om klone og fork:
-
-https://hvl.instructure.com/courses/17211/pages/videoer-om-bruk-av-git-og-github?module_item_id=426555
 
 Når du har gjort dette skal du ha tilgang til et prosjekt `jplab7-varelager-startkode` som inneholder to pakker:
 
