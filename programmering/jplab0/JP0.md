@@ -85,7 +85,7 @@ Du kan nå sjekke ut Eclipse-prosjekter med kodeeksempler på egen PC via Eclips
 
 3.	Under *Authentication* legger du inn brukernavn og passord for github-kontoen din og trykker *Next*.
 4.	I dialogboksen *Branch Selection* velg *master* og trykk *Next*.
-5.	I dialogboksen *Local Destination* må du under *Directory* velge en mappe på PC’en der du ønsker å lagre den lokale kopien av oppbevaringsplassen.
+5.	I dialogboksen *Local Destination* må du under *Directory* velge en mappe på PC’en der du ønsker å lagre den lokale kopien av oppbevaringsplassen. Du bør **ikke** som lokal destinasjon velge en Dropbox eller OneDrive mappe da dette skape problemer i forhold til synkronisering og Eclipse.
 6.	I dialogboksen *Select a wizard* to use for importing projects velg *Import existing Eclipse Projects* og trykk *Next*.
 7.	I dialogboksen *Import Projects* velg *U01Introduksjon* og *U01Kalkulator* trykk *Finish*. Da vil de to Eclipse-prosjektene med eksempel kode fra første forelesning være tilgjengelig.
 

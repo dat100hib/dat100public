@@ -32,6 +32,9 @@ Om git ikke allerede er installert vil du få valg om å installere.
 - Opprette egen github oppbevaringsplass: https://github.com/dat100hib/dat100public/blob/master/git/ownrepo.md
 - Pushe kode til egen github oppbevaringsplass: https://github.com/dat100hib/dat100public/blob/master/git/origin.md
 
+### GitHub Desktop
+
+For Windows og Mac OS er det også mulig å bruke GitHub Desktop: https://desktop.github.com
 ### Mer informasjon
 
 - GitHub nettstedet: <https://github.com/>
