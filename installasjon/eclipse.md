@@ -7,9 +7,9 @@ Eclipse er et integrert utviklingsmiljø (Integrated Development Environment) so
 
 Eclipse IDE for Java Developers lastes ned via:
 
-https://www.eclipse.org/downloads/packages/release/2022-06/r/eclipse-ide-java-developers
+https://www.eclipse.org/downloads/packages/release/2023-06/r/eclipse-ide-java-developers
 
-Last ned filen under *Download Links* for rett operativsystem.
+Last ned filen under *Download Links* for rett operativsystem. For nyere Mac med M1/M2 Apple Chip velg Aarch64 produktet. Eldre Mac har en x86 Chip og da skal du velge x86 produktet.
 
 ### Installasjon av Eclipse IDE
 
@@ -17,9 +17,9 @@ Last ned filen under *Download Links* for rett operativsystem.
 
 1.	Pakk ut den filen som inneholder Eclipse (zip,dmg,tar.gz)
    - **Windows** Om du lastet ned en .exe-fil da kan du dobbelklikke på denne for installasjon. Om du lastet ned en .zip-fil må du flytte zip-filen til den mappen der du ønsker å installere Eclipse. Høyre-klikk på .zip filen og velg *Pakk ut alle …*
-   - **MacOS** Dobbel-klikk på .dmg filen og etter dette på Eclipse Installer og velg mappene der du ønsker å instyallere. Standard valg fungerer vanligvis bra.
+   - **MacOS** Dobbel-klikk på .dmg filen og etter dette dobbelklikk på Eclipse Installer og velg mappene der du ønsker å installere. Standard valg fungerer vanligvis bra. I *eclipseinstaller* skal du velge **Eclipse IDE for Java Developers**
    - **Linux** Flyt .tar.gz filen til den mappen der du ønsker å installere Eclipse. Pakk ut tar.gz filen ved bruk av `tar`-kommandoen.
-2.	Nå kan man starte Eclipse ved å åpne mappen du valgte for å pakke ut filene. Der finner du en programfil som heter `eclipse`. Start denne ved å dobbelklikke.
+2.	Nå kan man starte Eclipse ved å åpne mappen du valgte for å pakke ut filene. Der finner du en programfil som heter `Eclipse`. Start denne ved å dobbelklikke.
 3.	Når du får spørsmål om workspace, oppretter du et workspace som heter DAT100 (det er praktisk med ett workspace pr. fag og det er mulig å opprette flere workspaces senere).
 
 ### Problem med å starte Eclipse Windows
@@ -31,7 +31,7 @@ På noen Windows-plattformer kan det forekomme at en versjon av java’s virtuel
 Da må man endre i oppstarts-filen eclipse.ini som finnes i eclipse-mappen ved å tilføye:
 
 ```
--vm C:/Program Files/Java/jdk18.0.2/bin/javaw.exe
+-vm C:/Program Files/Java/jdk20.0.2/bin/javaw.exe
 ```
 
 før linjen som begynner med –vmargs.
