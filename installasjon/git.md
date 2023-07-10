@@ -8,11 +8,17 @@ Vi skal bruke GitHub Desktop applikasjonen i DAT100. Der finnes også Git komman
 
 For Windows og Mac OS kan GitHub Desktop applikasjonen lastes ned via: https://desktop.github.com
 
+#### Windows
+
+1. Dobbelklikk på den *.exe* som er lastet ned for å installere.
+2. Start GitHub Desktop programmet og login inn. Om du ikke allerede har en konto så opprett en (gratis) konto og log inn etterfølgende.
+
+#### MacOS
+
 Applikasjonen ligger i en zip-fil:
 
 1. Flytt zip-filen fra *Download* mappen til en mappe på PC'en der du ønsker å installere. **Ikke** installer programmet i en OneDrive mappe eller lignende mapper som blir synkronisert med en skytjeneste.
-2. Høyreklikk og velg *Extract* (Windows) for å pakke ut zip-filen eller dobbelklikk (Mac). På Mac velg du senere for et valg om å flytte applikasjonen inn i *Applications* mappen hvilket er fornuftig å gjøre.
-3. Start GitHub Desktop programmet og login inn. Om du ikke allerede har en konto så opprett en (gratis) konto og log inn etterfølgende.
+2. Dobbelklikk (Mac) på zip-filen for å pakke den ut. Første gang programmet starter vil du få valg om å flytte applikasjonen inn i *Applications* mappen hvilket er fornuftig å gjøre.
 
 ### Git kommandolinje klient
 
