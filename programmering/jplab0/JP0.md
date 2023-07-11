@@ -20,7 +20,7 @@ Følg installasjonsveiledningene som finnes nederst på siden
 
 https://github.com/dat100hib/dat100public/blob/master/README.md
 
-og installer JDK, Eclipse og Git ved å gå igjennom de steg som er beskrevet i veiledningen.
+og installer JDK, Eclipse og GitHub Desktop ved å gå igjennom de stegene som er beskrevet i veiledninge som er lenket til nederst.
 
 ### Oppgave 2: Første JAVA Eclipse-prosjekt
 
@@ -59,6 +59,8 @@ public class Velkommen {
 
 Vi skal bruke https://www.github.com til å distribuere kodeeksempler fra forelesninger og startkode for programmeringsoppgaver. Til dette formålet er der opprettet en oppbevaringsplass (repository) med navnet `dat100public` på github som vil inneholde Eclipse-prosjekter for eksemplene.
 
+#### 3a - Videoer og github konto
+
 Før du gjør denne oppgaven bør du se igjennom videoene
 
 - Git - Deling og samarbeid om koding
@@ -66,13 +68,7 @@ Før du gjør denne oppgaven bør du se igjennom videoene
 
 som ligger på Canvas siden for denne programmeringslab.
 
-#### 3a - Opprette en github konto
-
-For å få tilgang til oppbevaringsplassene som skal brukes i faget må du opprette en brukerkonto på https://www.github.com og angi et brukernavn, epost og passord.
-
-**VIKTIGT**: Bruk studentnummeret dit som brukernavn (username)  Eksempelvis h428400 om du har studentnummer 428400.
-
-Du skal *ikke* opprette noen repositories nå - kun en brukerkonto. Du vil få en e-post fra github der du blir bedt om å verifisere at e-post addressen er gyldig.
+Videre bør du ha opprettet en brukerkonto på github som beskrevet i veiledningen for installasjon av [GitHub Desktop applikajonen](https://github.com/dat100hib/dat100public/blob/master/installasjon/git.md).
 
 #### 3b - Opprette lokal kopi av oppbevaringsplassen
 
