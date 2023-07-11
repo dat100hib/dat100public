@@ -6,7 +6,7 @@ EasyGraphics er et bibliotek som vi skal bruke ifm. en del programmeringsoppgave
 
 I oppgave 5 på første programmeringslab:
 
-https://github.com/dat100hib/dat100public/blob/master/programmering/jplab1-onsdag/JP1.md
+https://github.com/dat100hib/dat100public/blob/master/programmering/jplab0/JP0.md#oppgave-5-bruk-av-easygraphics
 
 ble det vist hvordan man setter opp bruk av EasyGraphics i egne prosjekt ved å inkludere jar-filen for biblioteket.
 

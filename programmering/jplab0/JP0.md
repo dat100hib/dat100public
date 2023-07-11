@@ -70,7 +70,7 @@ som ligger på Canvas siden for denne programmeringslab.
 
 Videre bør du ha opprettet en brukerkonto på github som beskrevet i veiledningen for installasjon av [GitHub Desktop applikajonen](https://github.com/dat100hib/dat100public/blob/master/installasjon/git.md).
 
-#### 3b - Opprette lokal kopi av oppbevaringsplassen
+#### 3b - Opprette lokal kopi av oppbevaringsplassen (TODO: Oppdateres)
 
 Du kan nå sjekke ut Eclipse-prosjekter med kodeeksempler på egen PC via Eclipse:
 
@@ -85,7 +85,7 @@ Du kan nå sjekke ut Eclipse-prosjekter med kodeeksempler på egen PC via Eclips
 6.	I dialogboksen *Select a wizard* to use for importing projects velg *Import existing Eclipse Projects* og trykk *Next*.
 7.	I dialogboksen *Import Projects* velg *U01Introduksjon* og *U01Kalkulator* trykk *Finish*. Da vil de to Eclipse-prosjektene med eksempel kode fra første forelesning være tilgjengelig.
 
-#### 3c - Tilgang til nye og oppdaterte prosjekt
+#### 3c - Tilgang til nye og oppdaterte prosjekt  (TODO: Oppdateres)
 
 Etterhvert i faget oppdaterer vi eksempelprosjektene og du får også bruk for å få tilgang til eksempler for de neste forelesninger. For å få tilgang til de må du oppdatere den lokale oppbevaringsplassen på PC’en din:
 
@@ -99,7 +99,7 @@ Etterhvert i faget oppdaterer vi eksempelprosjektene og du får også bruk for �
 
 For noen programmeringsoppgaver skal vi bruke [JUnit](https://junit.org/junit5/) til å teste java-koden som dere skriver. Formålet med denne oppgaven er å bli kjent med JUnit.
 
-Før du går videre med denne oppgaven bør du se igjennom videoen om JUnit som er tilgjengelig på Canvas siden for denne programmeringslab.
+**Før** du går videre med denne oppgaven bør du se igjennom videoen om JUnit som er tilgjengelig på Canvas siden for denne programmeringslab.
 
 Eksempelkoden fra første forelesning du sjekket ut i oppgave 3 inneholder et Eclipse-prosjekt `U01Kalkulator` som implementerer en enkel kalkulator med enkelt brukergrensesnitt.
 
@@ -122,7 +122,7 @@ For å kunne bruke easygraphics biblioteket i egen kode må Eclipse-prosjektet h
 1.	Opprett et nytt Eclipse-prosjekt som i oppgave 2 med navnet *EasyGraphicsTest*. Det er **VIKTIG** at du svarer nei til å oprette module-info filen.
 
 2. Lag en pakke `no.hvl.dat100` i prosjektet
-3.	Legg inn en ny Java-klasse *Grafikk* i pakken `no.hvl.dat100` med følgende innhold:
+3. Legg inn en ny Java-klasse *Grafikk* i pakken `no.hvl.dat100` med følgende innhold:
 
 ```java
 package no.hvl.dat100;
