@@ -19,14 +19,15 @@ For Windows og Mac OS kan GitHub Desktop applikasjonen lastes ned via: https://d
 #### Windows
 
 1. Dobbelklikk på den *.exe*-filen som er lastet ned for å installere.
-2. Start GitHub Desktop programmet og login inn. Om du ikke allerede har en konto så opprett en (gratis) konto og log inn etterfølgende.
+2. Start GitHub Desktop programmet og velg *Sign in to GitHub.com*. Om du ikke allerede har en konto så opprett en (gratis) konto og log inn etterfølgende.
 
 #### MacOS
 
 Applikasjonen ligger i en zip-fil:
 
 1. Flyt zip-filen fra *Download* mappen til en mappe på PC'en der du ønsker å installere. **Ikke** installer programmet i en OneDrive mappe eller lignende mappe som blir synkronisert med en skytjeneste.
-2. Dobbelklikk (Mac) på zip-filen for å pakke den ut. Første gang programmet starter vil du få valg om å flytte applikasjonen inn i *Applications* mappen hvilket er fornuftig å gjøre.
+2. Dobbelklikk (Mac) på zip-filen for å pakke den ut. Første gang programmet starter vil du evt. få valg om å flytte applikasjonen inn i *Applications* mappen hvilket er fornuftig å gjøre.
+3. Start GitHub Desktop programmet og velg *Sign in to GitHub.com*. Om du ikke allerede har en konto så opprett en (gratis) konto og log inn etterfølgende.
 
 ### Git kommandolinje klient
 
