@@ -92,6 +92,7 @@ Du skal først opprette (clone) en lokal kopi på din egen PC av `dat100public` 
 Neste steg er å importere prosjektene inn i Eclipse IDE.
 
 1. Start Eclipse IDE.
+
 2. Velg *File | Import… | General | Existing Projects into Workspace* og trykk på *Next*
 
 3. Bruk *Browse* til å navigere ned der du lagret mappen *dat100public* i forrige steg dvs. den den lokale kopi av oppbevaringsplassen.
@@ -102,15 +103,17 @@ Neste steg er å importere prosjektene inn i Eclipse IDE.
 
  ![Problem med bilde](assets/eclipseimportprojects.png)
 
-#### 3c - Tilgang til nye og oppdaterte prosjekt  (TODO: Oppdateres)
+#### 3c - Tilgang til nye og oppdaterte prosjekt 
 
 Etterhvert i faget oppdaterer vi eksempelprosjektene og du får også bruk for å få tilgang til eksempler for de neste forelesninger. For å få tilgang til de må du oppdatere den lokale oppbevaringsplassen på PC’en din:
 
-1.	Velg et av eksempelprosjektene i Eclipse, høyre-klikk og velg *Team | Pull*.   Dette oppdaterer oppbevaringsplassen for eksempler på din PC.
-2.	Velg *File | Import… | Git | Projects from Git | Existing local repository* og trykk *Next*.
-3.	I dialogboksen *Select a Git Repository* velg *dat100public* og trykk *Next*.
-4.	I dialogboksen *Select a wizard to use for importing projects* velg *Import existing Eclipse Projects*, vælg mappen *undervisning* og trykk *Next*
-5.	I dialogboksen *Import Projects* kan du nå velge de nye Eclipse-prosjekter du ønsker å importere inn i Eclipse
+1. Start GitHub Desktop og sjekk at `dat100public` er valgt som *Current Repository* (se nedenfor)
+
+2. Trykk på *Fetch origin* etterfulgt av *Pull origin* da vil den lokale kopi av oppbevaringsplassen bli oppdatert.
+
+3. Endringer i i filer som allerede er importert inn i Eclipse vil umiddelbart være synlige. Eventuelle nye prosjekt må importeres inn i Eclipse som beskrevet i steg 3-5 i punker 3b ovenfor.
+
+![Problem med bilde](assets/gitpullgithubdesktop.png)
 
 ### Oppgave 4: Enhetstesting og JUnit
 
