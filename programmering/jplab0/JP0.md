@@ -1,4 +1,4 @@
-# DAT100: Java Programmering 0 - uke 33
+# DAT100: Java Programmering 0 - uke 33 og 34
 
 ## Java programmering og utviklingsmiljø
 
@@ -63,17 +63,13 @@ public class Velkommen {
 
 Vi skal bruke https://www.github.com til å distribuere kodeeksempler fra forelesninger og startkode for programmeringsoppgaver. Til dette formålet er der opprettet en oppbevaringsplass (repository) med navnet `dat100public` på github som vil inneholde Eclipse-prosjekter for eksemplene.
 
-#### 3a - Videoer og github konto
+#### 3a - Videoer om Git og GitHub Desktop
 
-Før du gjør denne oppgaven bør du se igjennom videoene
+Før du gjør denne oppgaven bør du se igjennom videoene om Git (Deling og samarbeid om koding) samt GitHub (Clone og Import) som ligger på Canvas i modulet for den første uken.
 
-- Git - Deling og samarbeid om koding
-- Git - Clone
-- Git - Pull
+Følg veiledningen for å opprette en brukerkonto på github og installasjon av GitHub Desktop applikajonen:
 
-som ligger på i modulet for den første uken.
-
-Videre bør du ha opprettet en brukerkonto på github som beskrevet i veiledningen for installasjon av [GitHub Desktop applikajonen](https://github.com/dat100hib/dat100public/blob/master/installasjon/git.md).
+https://github.com/dat100hib/dat100public/blob/master/installasjon/git.md
 
 #### 3b - Opprette lokal kopi av oppbevaringsplassen
 
