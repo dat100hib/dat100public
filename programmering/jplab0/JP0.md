@@ -8,11 +8,15 @@ Formålet med denne programmeringslab/øving er å sikre at du har en fungerende
 
 **Deadline/Frist**: se Canvas for faget
 
-Du skal laste opp skjermbilder i oppgaven *Demonstrere kjørende Java programmer* på Canvas som viser: Eclipse-vindue etter programmet er kjørt (oppgave 2); Eclipse-vindue etter at enhetstester er kjørt (oppgave 4);  programkode og easygraphics vindu etter program er kjørt (oppgave 5).
+På Canvas skal du laste opp skjermbilder i oppgaven *Demonstrere kjørende Java programmer* på Canvas som viser: 
+
+1. Eclipse-vindue etter programmet er kjørt (oppgave 2)
+2. Eclipse-vindue etter at enhetstester er kjørt (oppgave 4)
+3. Programkode og easygraphics vindu etter program er kjørt (oppgave 5)
 
 Det er veldig viktig at alle får dette til - så om du har problemer med dette så ta kontakt med undervisere eller labassistenter for å få hjelp.
 
-Les de enkelte oppgaver igjennom før du begynner.
+Les de enkelte oppgaver nedenfor igjennom før du begynner.
 
 ### Oppgave 1: Nedlasting og installasjon av JDK, Eclipse IDE og Git
 
@@ -64,26 +68,39 @@ Vi skal bruke https://www.github.com til å distribuere kodeeksempler fra forele
 Før du gjør denne oppgaven bør du se igjennom videoene
 
 - Git - Deling og samarbeid om koding
+- Git - Clone
 - Git - Pull
 
-som ligger på Canvas siden for denne programmeringslab.
+som ligger på i modulet for den første uken.
 
 Videre bør du ha opprettet en brukerkonto på github som beskrevet i veiledningen for installasjon av [GitHub Desktop applikajonen](https://github.com/dat100hib/dat100public/blob/master/installasjon/git.md).
 
-#### 3b - Opprette lokal kopi av oppbevaringsplassen (TODO: Oppdateres)
+#### 3b - Opprette lokal kopi av oppbevaringsplassen
 
-Du kan nå sjekke ut Eclipse-prosjekter med kodeeksempler på egen PC via Eclipse:
+Du skal først opprette (clone) en lokal kopi på din egen PC av `dat100public` oppbevaringsplasen.
 
-1.	Velg *File | Import… | Git | Projects from Git | Clone URI*
-2.	I dialogboksen limer du inn følgende https://github.com/dat100hib/dat100public.git i feltet URI. Dette angir lokasjon av oppbevaringsplassen for eksempelkode på github.
+1. Start GitHub Desktop applikasjonen
+2. Velg *File | Clone Repository*
+3. I diaglog-boksen velger du *URL* (se nedenfor) 
+4. Limer inn https://github.com/dat100hib/dat100public.git i feltet *Repository URL* 
+5. Velge via *Choose* en lokal plass på PC'en der du ønsker å lagre oppbevaringsplassen. Her er det **VIKTIG** at den mappen du velger **ikke** er en mappe som ligger under en sky-tjeneste (eks. en Dropbox- eller OneDrive mappe) da dete vil gi problemer med Git og Eclipse.
+6. Til slutt trykker du på *Clone*
+7. Sjekk å filene er korrekt lastet ned ved å valge *View the files...*
 
-    ![Problem med bilde](assets/gitimport.png)
+![Problem med bilde](assets/gitclonegithubdesktop.png)
 
-3.	Under *Authentication* legger du inn brukernavn og passord for github-kontoen din og trykker *Next*.
-4.	I dialogboksen *Branch Selection* velg *master* og trykk *Next*.
-5.	I dialogboksen *Local Destination* må du under *Directory* velge en mappe på PC’en der du ønsker å lagre den lokale kopien av oppbevaringsplassen. Du bør **ikke** som lokal destinasjon velge en Dropbox eller OneDrive mappe da dette skape problemer i forhold til synkronisering og Eclipse.
-6.	I dialogboksen *Select a wizard* to use for importing projects velg *Import existing Eclipse Projects* og trykk *Next*.
-7.	I dialogboksen *Import Projects* velg *U01Introduksjon* og *U01Kalkulator* trykk *Finish*. Da vil de to Eclipse-prosjektene med eksempel kode fra første forelesning være tilgjengelig.
+Neste steg er å importere prosjektene inn i Eclipse IDE.
+
+1. Start Eclipse IDE.
+2. Velg *File | Import… | General | Existing Projects into Workspace* og trykk på *Next*
+
+3. Bruk *Browse* til å navigere ned der du lagret mappen *dat100public* i forrige steg dvs. den den lokale kopi av oppbevaringsplassen.
+
+4. Under *Projects* skal du nå se en lang rekke Eclipse prosjekt med eksempelkode (se nedenfor). 
+
+5. Trykk *Finish* for å importere prosjektene inn i Eclipse. 
+
+ ![Problem med bilde](assets/eclipseimportprojects.png)
 
 #### 3c - Tilgang til nye og oppdaterte prosjekt  (TODO: Oppdateres)
 
