@@ -1,4 +1,4 @@
-# DAT100: Java Programmering 1 - uke 34
+# DAT100: Java Programmering 1 - uke 35
 
 ## Uttrykk - innlesing og utskrift
 
@@ -8,7 +8,7 @@ Om du ikke kom helt i mål med installasjon og oppgaver fra forrige uke:
 
 https://github.com/dat100hib/dat100public/blob/master/programmering/jplab0/JP0.md
 
-kan du også bruke programmeringslab'en til å komme videre med dette.
+kan du også bruke programmeringslab'en til å komme i mål med dette.
 
 Vi skal i første omgang lage enkle Java-programmer som bare inneholder en enkelt `main()`– metode som utfører det vi vil ha gjort. Vi skriver programmene ved bruk av Eclipse og man kan eksempelvis opprette et nytt Eclipse prosjekt med navn DAT100 Lab1 for denne programmeringslab og legge de java-filer som utvikles som en del av dette prosjektet.
 
@@ -103,7 +103,7 @@ public class FranskFlagg extends EasyGraphics {
 
 Opprett et nytt Eclipse-prosjekt og legg inn koden ovenfor og se at det franske flagget blir tegnet.
 
-I oppgave 5 på programmeringlab del A:
+I oppgave 5 på første programmeringlab 
 
 https://github.com/dat100hib/dat100public/blob/master/programmering/jplab0/JP0.md#oppgave-5-bruk-av-easygraphics
 
