@@ -27,7 +27,7 @@ public class Skuddaar {
 			if (mnd == 2) {
 				antDager = 28;
 
-				boolean skuddaar = (aar % 4 == 0 && (aar % 100 != 0) || (aar % 400 == 0));
+				boolean skuddaar = (aar % 4 == 0 && ((aar % 100 != 0) || (aar % 400 == 0)));
 
 				if (skuddaar) {
 					antDager = 29;
