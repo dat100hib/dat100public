@@ -1,4 +1,4 @@
-# DAT100: Java Programmering 2 - uke 35
+# DAT100: Java Programmering 2 - uke 36
 
 Oppgavene nedenfor er oppdelt i tre kategorier
 
