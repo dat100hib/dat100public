@@ -12,12 +12,15 @@ public class BiljardKugle extends EasyGraphics {
 	public void run() {
 		
 		final int ANT_ITER = 5000;
+		
 		final int BREDDE = 800;
 		final int HOYDE = 600;
 		
-		int r = 10;
-		int x = 10, y = 10;
-		int dx = 2, dy = 3;
+		int r = 10; // radius på kuglen
+		
+		int x = 10, y = 10; // start posisjon
+		
+		int dx = 2, dy = 3; // start retning
 		
 		makeWindow("Biljard", BREDDE, HOYDE);
 		
