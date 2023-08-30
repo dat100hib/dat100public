@@ -124,11 +124,11 @@ Kjør programmet flere ganger med ulike inndata inkludert tilfeller der talet `x
 
 ### Oppgave O1 - Obligatorisk innlevering
 
-**Oppgave B4** (trinnskatt) fra uke 2 / 35 https://github.com/dat100hib/dat100public/blob/master/programmering/jplab2/JP2.md#-oppgave-b4---blir-en-del-av-obligatoriske-innlevering-2
+**Oppgave B4** (trinnskatt) fra uke 36 https://github.com/dat100hib/dat100public/blob/master/programmering/jplab2/JP2.md#-oppgave-b4---blir-en-del-av-obligatoriske-innlevering-neste-uke
 
 ### Oppgave O2 - Obligatorisk innlevering
 
-**Oppgave B5** (karakterskala) fra uke 2 / 35 https://github.com/dat100hib/dat100public/blob/master/programmering/jplab2/JP2.md#-oppgave-b5---blir-en-del-av-obligatoriske-innlevering-2
+**Oppgave B5** (karakterskala) fra uke 36 https://github.com/dat100hib/dat100public/blob/master/programmering/jplab2/JP2.md#-oppgave-b5---blir-en-del-av-obligatoriske-innlevering-neste-uke
 
 ### Oppgave O3 - Obligatorisk innlevering
 
