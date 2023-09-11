@@ -133,7 +133,7 @@ høyere enn 164 100kr.
 
 Se https://www.skatteetaten.no/satser/trinnskatt/?year=2022#rateShowYear for aktuelle satser.
 
-Lag et program som leser inn bruttoinntekt, beregner og skriver ut trinnskatten.
+Lag et program som leser inn bruttoinntekt, beregner og skriver ut trinnskatten dvs. det beløpet om personen skal betale i trinnskatt.
 
 ### <a name="jp2b5"></a> Oppgave B5 - Blir en del av obligatoriske innlevering neste uke
 
