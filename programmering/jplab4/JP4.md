@@ -1,3 +1,5 @@
+# 2023: IKKE I BRUK PGA. SKOLEPRØVE
+
 # DAT100: Java Programmering 4 - uke 37
 
 Denne uken er det **obligatorisk skoleprøve for alle tirsdag i lab-tiden** (se informasjon på Canvas). Der er derfor få lab programmeringsoppgaver. Oppgave 2 nedenfor kan være nyttig som del av forberedelse til skoleprøven.

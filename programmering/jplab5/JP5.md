@@ -59,6 +59,59 @@ Skriv en metode `public int[] skiftfortegn (int[] tabell)` som returnerer en ny 
 
 ## Basisoppgaver
 
+### Oppgave B0 - Debugging
+
+Som beskrevet i læreboken og vist på forelesning innebærer «Debugging» (feilfjerning) å kjøre et program steg for steg for å finne og fjerne feil. Utviklingsverktøy som Eclipse støtter dette og gjør det mulig bla. å inspisere tilstanden av programmet dvs. verdier av variable underveis.
+
+I tillegg til feilfinning og feilfjerning kan stegvis utførsel også være nyttig for å forstå hvordan de ulike konstruksjoner i Java fungerer (semantikken).
+
+#### a)
+
+Les først og gjør stegene:
+
+https://github.com/dat100hib/dat100public/blob/master/eclipse/debugging.md
+
+som gir en introduksjon til debugging i Eclipse.
+
+#### b)
+
+Se på JAVA programmet nedenfor som har til oppgave å beregne volum av en boks utefra høyde, bredde og dybde.
+
+Legg programmet inn i et Eclipse prosjekt og test ved å kjøre programmet om det gir riktig resultat. Prøv eks. med høyde 2, bredde 4 og dybde 8. Forventet resultat er 2 * 4 * 8 = 64.
+
+Bruk debugging som beskrevet i oppgave a) ovenfor til å finne og rette feilen.
+
+```java
+import javax.swing.JOptionPane;
+
+public class BoksVolum {
+
+  public static void main(String[] args) {
+
+    int b, h, d;
+    String btext, htext, dtext;
+
+    // les inn høyde, bredde, dybde
+    htext = JOptionPane.showInputDialog("Angi høyde:");
+    btext = JOptionPane.showInputDialog("Angi bredde:");
+    dtext = JOptionPane.showInputDialog("Angi dybde:");
+
+    // konverter fra tekst til heltal
+
+    h = Integer.parseInt(htext);
+    b = Integer.parseInt(btext);
+    d = Integer.parseInt(htext);
+
+    int volum = b * h * d;
+
+    String respons =
+        "Volum [" + htext + "," + btext + "," + dtext + "] = " + volum;
+
+        JOptionPane.showMessageDialog(null, respons);
+      }
+}
+```
+
 ### Oppgave B1: Repetisjonsløkke og matematiske funksjoner
 
 Ved å bruke Math-klassen får du tilgang til matematiske funksjoner som sinus og cosinus ved å bruke `Math.sin(x)` og `Math.cos(x)` i koden. Når du f.eks. skal regne ut verdien `y = sin(x)`, må *x* være i *radianer*.
@@ -163,17 +216,18 @@ Maksimum for denne uken var 26.5 grader
 
 Java-boken Kap. 3 oppgave 14
 
+
 ## Obligatoriske oppgave O1-A
 
 Denne oppgaven omhandler tabeller og metoder og vil være en del av neste obligatorisk innlevering med frist i starten av uke 40.
 
-Den obligatoriske innleveringen skal gjøres i grupper med opptil 4 personer. Det er de **samme gruppene** som dere skal bruke i programmeringsprosjektet i uke 41/42.
+Den obligatoriske innleveringen skal gjøres i **grupper** med opptil 4 personer. Det er de **samme gruppene** som dere skal bruke i programmeringsprosjektet i uke 41/42.
 
 **Husk** å bruke startkoden og enhetstester for oppgaven:
 
 https://github.com/dat100hib/dat100-javainnlevering2/blob/master/README.md
 
-På siden ovenfor er det også beskrevet hvordan dere kan clone startkoden til egen PC og hvordan dere kan utføre enhetstestene.
+På siden ovenfor er det også beskrevet hvordan dere kan kopiere og clone startkoden til egen PC og hvordan dere kan utføre enhetstestene.
 
 Metodene i denne oppgaven skal implementeres fra bunden og det er derfor **ikke** lov å bruke metoder som finnes i Arrays-klassen.
 
@@ -211,9 +265,7 @@ public static int summer (int[] tabell)
 
 som gitt en `tabell` av heltall som parameter beregner summen av tallene som er lagret i tabellen.
 
-Implementer tre varianter av metoden: en som bruker en vanlig for-løkke, en som bruker en while-løkke, og en som bruker en utvidet for-løkke.
-
-Test de ulike implementasjoner av metoden på utvalgte tabeller og se at de gir riktig resultat. Metoden fra a) kan brukes ifm. test.
+Prøv å implementere tre varianter av metoden: en som bruker en vanlig for-løkke, en som bruker en while-løkke, og en som bruker en utvidet for-løkke.
 
 ##### d)
 
@@ -243,7 +295,7 @@ Implementer en metode
 public static int[] reverser(int[] tabell)
 ```
 
-som gitt en `tabell` av heltall returnerer en ny tabell som har de samme elementene som `tabell` men i modsatt rekkefølge.
+som gitt en `tabell` av heltall returnerer en *ny tabell* som har de samme elementene som `tabell` men i modsatt rekkefølge.
 
 ##### g)
 
@@ -263,4 +315,4 @@ Implementer en metode:
 public static int[] settSammen(int[] tabell1,int[] tabell2)
 ```
 
-som gitt to tabeller `tabell1` og `tabell2` som parametre og returnerer en ny tabell som er sammensetning av de to tabeller.
+som gitt to tabeller `tabell1` og `tabell2` som parametre og returnerer en ny tabell som er sammensetning av de to tabellene gitt med som parameter.
