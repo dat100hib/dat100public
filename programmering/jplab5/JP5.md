@@ -51,11 +51,11 @@ Modifiser metoden fra e) slik den bruker en utvidet for-løkke.
 
 #### g)
 
-Skriv en metode `public void finnes(int[] tabell, int tall)` som returnerer `true` om `tall` finnes i tabellen og `false` ellers. Bruk en while-løkke.
+Skriv en metode `public static void finnes(int[] tabell, int tall)` som returnerer `true` om `tall` finnes i tabellen og `false` ellers. Bruk en while-løkke.
 
 #### h)
 
-Skriv en metode `public int[] skiftfortegn (int[] tabell)` som returnerer en ny tabell som er identisk med tabellen gitt med som parameteren med hvor alle verdier har fått endret fortegn.
+Skriv en metode `public static int[] skiftfortegn (int[] tabell)` som returnerer en ny tabell som er identisk med tabellen gitt med som parameteren med hvor alle verdier har fått endret fortegn.
 
 ## Basisoppgaver
 
