@@ -156,11 +156,17 @@ Lag ein metode som skriv ut ein streng baklengs.
 
 ##### e)
 
-Lag ein metode som gitt ein tabell av tekststrengar, returnerer den strengen i tabellen som kjem først i (Unikode) alfabetet. Hint: Du skal bruke en løkke og CompareTo-metoden for strenger.
+Lag ein metode som gitt ein tabell av tekststrengar, returnerer den strengen i tabellen som kjem først i (Unikode) alfabetet. Hint: Du skal bruke en løkke og `compareTo`-metoden for strenger.
 
 ##### f)
 
-Implementer sjølv en CompareTo-metode svarande til metoden frå String-klassen brukt i e). **Hint:** du skal bruke løkke.
+Implementer sjølv en metode:
+
+```
+public static int CompareTo(String str1, String str2) 
+```
+
+svarande til metoden frå String-klassen brukt i e). **Hint:** du skal bruke løkke.
 
 ## Valgfrie oppgaver
 
