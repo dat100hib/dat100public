@@ -163,7 +163,7 @@ Lag ein metode som gitt ein tabell av tekststrengar, returnerer den strengen i t
 Implementer sjølv en metode:
 
 ```
-public static int CompareTo(String str1, String str2) 
+public static int compareTo(String str1, String str2) 
 ```
 
 svarande til metoden frå String-klassen brukt i e). **Hint:** du skal bruke løkke.
