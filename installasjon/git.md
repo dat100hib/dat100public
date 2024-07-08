@@ -10,7 +10,7 @@ For å få tilgang til oppbevaringsplassene som skal brukes i faget må du oppre
 
 **VIKTIGT**: Bruk studentnummeret dit som brukernavn (username)  Eksempelvis h428400 om du har studentnummer 428400.
 
-Du skal *ikke* opprette noen oppveabringsplasser (repositories) nå - kun en brukerkonto. Du vil få en e-post fra github der du blir bedt om å verifisere at e-post addressen er gyldig.
+Du skal *ikke* opprette noen oppbevaringsplasser (repositories) nå - kun en brukerkonto. Du vil få en e-post fra github der du blir bedt om å verifisere at e-post addressen er gyldig.
 
 ### GitHub Desktop
 
@@ -23,7 +23,7 @@ For Windows og Mac OS kan GitHub Desktop applikasjonen lastes ned via: https://d
 
 #### MacOS
 
-Applikasjonen ligger i en zip-fil:
+Applikasjonen ligger i en zip-fil i Download-mappen
 
 1. Flyt zip-filen fra *Download* mappen til en mappe på PC'en der du ønsker å installere. **Ikke** installer programmet i en OneDrive mappe eller lignende mappe som blir synkronisert med en skytjeneste.
 2. Dobbelklikk (Mac) på zip-filen for å pakke den ut. 
@@ -44,7 +44,7 @@ Der finnes også Git kommando-linje klient og klienter som er innebygget i integ
 
    `git --version`
 
-  som vil gi output `git version 2.22` eller tilsvarende.
+  som vil gi output `git version 2.39` eller tilsvarende.
 
 #### MacOS og Linux
 
