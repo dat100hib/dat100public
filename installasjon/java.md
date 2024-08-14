@@ -59,7 +59,7 @@ En endret versjon av [eclipse.ini](https://github.com/dat100hib/dat100public/blo
 
 ## Installasjon MacOS
 
-For nyere Mac med M1/M2 Apple Chip last ned *ARM64 DMG Installer*. Eldre Mac har en x86 Chip og da skal du laste ned *x86 DMG Installer*.
+For nyere Mac med M1/M2 Apple Chip last ned *ARM64 DMG Installer*. Eldre Mac har en x86 Chip og da skal du laste ned *x64 DMG Installer*.
 
 1.	Dobbeltklikk på filen `jdk-22_macos-{aarch64,x64}_bin.dmg` og deretter på filen `JDK 22.0.1.pkg`
 2.	Følg instruksjonene. Foreslåtte valg vil vanligvis fungere fint.
