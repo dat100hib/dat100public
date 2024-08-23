@@ -22,38 +22,24 @@ Husk å ta kontakt med undervisere eller lab-assistenter om du sitter fast med p
 
 ## Grunnleggende oppgaver
 
-Vi skal i første omgang lage enkle Java-programmer som bare inneholder en enkelt `main()`– metode som utfører det vi vil ha gjort. Vi skriver programmene ved bruk av Eclipse.
-
-Koden i oppgave G1-G4 nedenfor skrives inn i `main`-metoden for klassen for programmet (ved **TODO** kommentaren):
-
-```java
-public class OppgaveG1 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-}
-```
+Vi skal i første omgang lage enkle Java-programmer som bare inneholder en enkelt `main()`– metode som utfører det vi vil ha gjort. Vi skriver programmene ved bruk av Eclipse. Koden i oppgave G1-G4 nedenfor skrives inn i `main`-metoden for klassen for programmet 
 
 ### Oppgave G0 - Opprett Eclipse-prosjekt
 
-
-
  Opprett et nytt Eclipse prosjekt med navn `DAT100Lab1` for denne programmeringslab og legg de java-filer som utvikles som en del av dette prosjektet. Lag en klasse for hver oppgave med et navn som svarer til oppgaven, eks. `OppgaveG1` og skriv koden inn i main-metoden. 
  
- Eksempel for Oppgave G1 er gitt nedenfor:
+ Eksempel for Oppgave G1 er gitt nedenfor. Koden skrives inn ved `TODO`-kommentaren.
 
 ```java
 public class OppgaveG1 {
 
 	public static void main(String[] args) {
 		
-    // sett inn koden for oppgave her - i dette tilfelle Oppgave G1
+      // TODO: sett inn koden for oppgave her - i dette tilfelle Oppgave G1
 
 	}
 }
- ```
+```
 
 ### Oppgave G1 - Variable og tilordninger
 
