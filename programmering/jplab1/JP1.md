@@ -4,13 +4,7 @@
 
 Formålet med denne programmeringslab er å bli bedre kjent med Java utviklingsmiljøet, dvs. skrive, lagre, kompilere, kjøre og rette feil i enkle Java-programmer. Egen PC brukes til utvikling av Java programmene.
 
-Om du ikke kom helt i mål med installasjon og oppgaver fra forrige uke:
-
-https://github.com/dat100hib/dat100public/blob/master/programmering/jplab0/JP0.md
-
-kan du også bruke programmeringslab'en til å komme i mål med dette.
-
-Vi skal i første omgang lage enkle Java-programmer som bare inneholder en enkelt `main()`– metode som utfører det vi vil ha gjort. Vi skriver programmene ved bruk av Eclipse og man kan eksempelvis opprette et nytt Eclipse prosjekt med navn DAT100 Lab1 for denne programmeringslab og legge de java-filer som utvikles som en del av dette prosjektet.
+Vi skal i første omgang lage enkle Java-programmer som bare inneholder en enkelt `main()`– metode som utfører det vi vil ha gjort. Vi skriver programmene ved bruk av Eclipse og man kan eksempelvis opprette et nytt Eclipse prosjekt med navn `DAT100Lab1` for denne programmeringslab og legge de java-filer som utvikles som en del av dette prosjektet.
 
 ### Gjennomføring
 
@@ -24,7 +18,7 @@ Lag et program som leser inn to heltall fra brukeren og skriver ut summen av de.
 
 ### Oppgave 2
 
-**Oppgave 6 Kap. 2 i Java-boken:** Metoden `min` i klassen `Math` finner det minste av to tall dvs. `min(1,10) = 1`. Bruk denne metoden til å beregne og skrive ut det minste av 4 tall som brukeren skriver inn. Benytt gjerne sammensatte metodekall.
+**Oppgave 6 Kap. 2 i Java-boken:** Metoden `min` i klassen `Math` finner det minste av to tall dvs. `min(1,10) = 1`. Bruk denne metoden til å beregne og skrive ut det minste av 4 tall som brukeren skriver inn. 
 
 ### Oppgave 3
 
@@ -36,15 +30,19 @@ Vi skal lage et program som regner en tid gitt i hele sekunder om til timer, min
 
 **Eksempel:** 3690 sekunder skal gi som svar 1 timer, 1 minutter og 30 sekunder.
 
-Legg merke til at i denne oppgaven tillater vi å bruke flertall selv om vi om vi strengt tatt skulle brukt entall når det gjelder antall timer, minutter og sekunder. Når vi har lært mer, kan vi eventuelt rette det opp.
-
 **Hint:** Bruk heltallsdivisjon og restdivisjon (%) i Java. Eksempel: 13 % 10 gir 3 som svar.
+
+Legg merke til at i første del av denne oppgaven tillater vi å bruke flertall selv om vi om vi strengt tatt skulle brukt entall når det gjelder antall timer, minutter og sekunder. 
 
 Før dere skriver programmet i Java, lag en algoritme for hvordan beregningene utføres. Algoritmen kan du foreløpig skrive inn først på filen i kommentarblokk `/* <algoritmebeskrivelse> */` over koden.
 
 Svaret skal skrives på formatet: 1 timer, 1 minutter, 30 sekunder (alt skrives på samme linje).
 
 For innlesing og utskrift brukes dialogvindu.
+
+Modifiser programmet slik det bruker entall i utskriften (time, minutt, sekund) i det tilfelle der vi har bare en time, eller 1 minutt, eller 1 sekund. 
+
+**Hint:** tenk på bruk av valgsetning.
 
 ### Oppgave 5 (Gruppearbeid)
 
@@ -118,3 +116,28 @@ Modifiser programmet ovenfor slik det tegner det tyske flagget.
 #### Oppgave 6c)
 
 Utvid programmet fra b) slik det først leser inn en prosentverdi og deretter tegner ut flagget skalert prosentvis i forhold til den opprinnelige flaggstørrelsen. Dvs. 100 % er den opprinnelige flaggstørrelsen.
+
+### Oppgave 7 (litt mer utfordrende)
+
+Så på eksemplene fra forelesning om valgsetninger:
+
+https://github.com/dat100hib/dat100public/tree/master/undervisning/U03Valgsetninger/src/no/hvl/dat100
+
+#### Oppgave 7a)
+
+Prøv å skriv om programmet som bruker switch-setning:
+
+https://github.com/dat100hib/dat100public/blob/master/undervisning/U03Valgsetninger/src/no/hvl/dat100/SwitchEksempel.java
+
+slik det bruker en `if-then-else`-valgsetning istedet for. Prøv også å skrive programmet slik the bruker `if-else if-else ... else`
+
+#### Oppgave 7b)
+
+Prøv å skrive om programmer som bruker if-valgsetning:
+
+https://github.com/dat100hib/dat100public/blob/master/undervisning/U03Valgsetninger/src/no/hvl/dat100/IfEksempel.java
+
+slik det bruker en `switch`-valgsetning istedet for. Utvid programmet slik den skrive ut en gul-sirkel hvis co2-nivå er mellem 500 og 700. Kan switch-setning brukes da?
+
+
+
