@@ -10,7 +10,7 @@ public class VektGrense {
 		
 		Scanner input = new Scanner(System.in);
 
-		System.out.print("Start vekt:");
+		System.out.print("Startvekt:");
 		int startVekt = parseInt(input.nextLine());
 
 		System.out.print("Grense:");
@@ -19,16 +19,7 @@ public class VektGrense {
 		int totalVekt = startVekt;
 		
 		// TODO - START
-		while (totalVekt < grense) {
-			
-			System.out.print("Registrer vekt:");
-			int nesteVekt = parseInt(input.nextLine());
-			
-			totalVekt = totalVekt + nesteVekt;
-			
-			System.out.println(totalVekt);
-		}
-
+		
 		System.out.println("Grense nådd:" + totalVekt);
 		// TODO - END
 		
