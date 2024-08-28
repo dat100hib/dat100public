@@ -44,11 +44,11 @@ Skriv et Java program som bruker en for-løkke med en tellevaribel `i` som start
 
 #### b)
 
-Legg til set switch-setning inne i for-løkken slik programmet skriver ut `A` hvis `i` har verdien, `1` og `B` om i har verdien `2`, og `C` ellers.
+Legg til en switch-setning inne i for-løkken slik programmet skriver ut `A` hvis `i` har verdien, `1` og `B` om i har verdien `2`, og `C` ellers.
 
 #### c)
 
-Modifiser programmet fra b) slik det bruker en valgsetning (if-then-else) i stedet for en switch-setning.
+Modifiser programmet fra b) slik det bruker en valgsetning (if-else if ... else) i stedet for en switch-setning.
 
 ### Oppgave G4
 
@@ -111,7 +111,7 @@ int tall = parseInt(tallTxt);
 
 #### a)
 
-Skriv et program som leser et tall inn fra brukeren og skriver dette tall ut på skjermen via `System.out.println`-metoden.
+Skriv et program som leser et tall inn fra brukeren og skriver tallet ut på skjermen via `System.out.println`-metoden.
 
 #### b)
 
@@ -119,7 +119,7 @@ Utvid programmet ovenfor med en `for`-løkke slik programmet leser inn fem (5) t
 
 ### Oppgave B3 - Om tall i Java
 
-Fra matematikken vet vi at tall ikke har en øvre grense og at når vi regner med desimaltall så får vi nøyaktige svar. Det trenger ikke vær riktig når vi programmerer. Det er to ting som er *spesielt viktig* å være klar over:
+Fra matematikken vet vi at tall ikke har en øvre grense og at når vi regner med desimaltall så får vi nøyaktige svar. Det trenger ikke være riktig når vi programmerer. Det er to ting som er *spesielt viktig* å være klar over:
 
 -	Heltall har en øvre og nedre grense.
 -	Det har for så vidt også flyttallene (desimaltallene), men det er sjelden et problem.  For disse kan beregninger bli litt unøyaktige.  
@@ -206,7 +206,7 @@ Legg inn kontroll på innlesinga i programmet i pkt. b) slik at ugyldige poengsu
 ### Oppgave B6 - Blir en del av obligatoriske innlevering neste uke
 
 En trinnskatt er en progressiv skatt på bruttolønn som beregnes når inntekten er
-høyere enn 164 100kr.
+høyere enn 208 050 kr.
 
 Se https://www.skatteetaten.no/satser/trinnskatt/?year=2024#rateShowYear for aktuelle satser.
 
@@ -260,4 +260,4 @@ Lag et program ved bruk av EasyGraphics som presenterer kjønnsfordeling i tre s
 
 Andelen av gutter i A-klassen er 28 %, i B-klassen er den 38 % og i C klassen er den 46 %.
 
-Fyll et rektangel som er 28 % av bredden til det grafiske vinduet med grønt og fortsett horisontalt mot høyre med at fyllt et rektangel med resten (72 %) av vindusbredden med rødt. Tegn et svart rektangel rundt de to fargefylte rektanglene. Gjenta slik uttegning for de to gjenstående klasser.
+Fyll et rektangel som er 28 % av bredden til det grafiske vinduet med grønt og fortsett horisontalt mot høyre med å fylle et rektangel med resten (72 %) av vindusbredden med rødt. Tegn et svart rektangel rundt de to fargefylte rektanglene. Gjenta slik uttegning for de to gjenstående klasser.
