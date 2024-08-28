@@ -123,17 +123,7 @@ public static void main(String[] args) {
 }
 ```
 
-### Oppgave 3
 
-**Oppgave 18 Kap. 2 i Java-boken:**
-
-Lag et program ved bruk av EasyGraphics som presenterer kjønnsfordeling i tre skoleklasser som delte linjediagram:
-
-![Problem med bilde](assets/markdown-img-paste-20190815114443618.png)
-
-Andelen av gutter i A-klassen er 28 %, i B-klassen er den 38 % og i C klassen er den 46 %.
-
-Fyll et rektangel som er 28 % av bredden til det grafiske vinduet med grønt og fortsett horisontalt mot høyre med at fyllt et rektangel med resten (72 %) av vindusbredden med rødt. Tegn et svart rektangel rundt de to fargefylte rektanglene. Gjenta slik uttegning for de to gjenstående klasser.
 
 ### Oppgave 4: Lese Java kode - Gruppearbeid
 

@@ -20,37 +20,7 @@ public class OppgaveG {
 }
 ```
 
-### Oppgave G1
 
-#### a)
-
-Legg til en deklarasjon av en variabel `n` of typen heltall (`int`) i main-metoden.
-
-#### b)
-
-Legg til en for-løkke som skriver ut tallene fra `1` opptil `10`. Kjør programmet å se at det fungerer.
-
-#### c)
-
-Modifiser for-løkken slik den skriver tallene fra `1` til (men ikke med) verdien av variabelen `n`. Kjør programmet der du en gir `n` forskjellige verdier og se at programmet gir korrekt utskrift. Hva skjer om `n` settes til en negativ verdi?
-
-### Oppgave G2
-
-Bruk en while-løkke til å skrive ut tallene fra `20` ned til `1`.
-
-### Oppgave G3
-
-#### a)
-
-Skriv et Java program som bruker en for-løkke med en tellevaribel `i` som starter på `1` og løper opp til og med `20`
-
-#### b)
-
-Legg til set switch-setning inne i for-løkken slik programmet skriver ut `A` hvis `i` har verdien, `1` og `B` om i har verdien `2`, og `C` ellers.
-
-#### c)
-
-Modifiser programmet fra b) slik det bruker en valgsetning (if-then-else) i stedet for en switch-setning.
 
 ### Oppgave G4
 
