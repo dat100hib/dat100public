@@ -1,6 +1,6 @@
 # DAT100: Java Programmering 2 - uke 36
 
-NOT COMPLETED - UNDER CONSTRUCTION 
+Oppgavene på denne programmeringslab er oppdelt i **grunnleggende oppgaver** (G oppgaver), basis oppgaver (B oppgaver), samt valgfrie oppgaver (V oppgaver) som beskrevet på [forrige programmeringslab](https://github.com/dat100hib/dat100public/blob/master/programmering/jplab1/JP1.md) 
 
 ### Oppgave 1
 

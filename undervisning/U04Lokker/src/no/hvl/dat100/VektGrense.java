@@ -18,10 +18,17 @@ public class VektGrense {
 		
 		int totalVekt = startVekt;
 		
-		// TODO - START
+		while (totalVekt < grense) {
+			
+			System.out.print("Registerer vekt:");
+			int nesteVekt = parseInt(input.nextLine());
+			
+			totalVekt = totalVekt + nesteVekt;
+			
+			System.out.println(totalVekt);
+		}
 		
-		System.out.println("Grense nådd:" + totalVekt);
-		// TODO - END
+		System.out.println("Grense nådd: " + totalVekt);
 		
 		input.close();
 	}
