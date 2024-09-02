@@ -2,4 +2,4 @@
 
 Denne uken er det **obligatorisk prøve for alle** med programmeringsoppgaver.
 
-Se informasjon på Canvas). 
+Informasjon om prøven vil bli gjort tilgjengelig på Canvas. 
