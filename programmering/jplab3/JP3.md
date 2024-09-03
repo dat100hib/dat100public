@@ -270,21 +270,21 @@ Stegene for å legge opp Java-koden er beskrevet i opphave O4 nedenfor.
 
 ### Oppgave O1 - Trinnskatt
 
-**Oppgave B4** (trinnskatt) fra uke 36 https://github.com/dat100hib/dat100public/blob/master/programmering/jplab2/JP2.md#oppgave-b5---blir-en-del-av-obligatoriske-innlevering-neste-uke
+**Oppgave B5** (karakterskala) fra uke 36 https://github.com/dat100hib/dat100public/blob/master/programmering/jplab2/JP2.md#oppgave-b5---blir-en-del-av-obligatoriske-innlevering-neste-uke
 
 Legg inn koden i klassen `O1` i Eclipse-prosjektet.
 
 ### Oppgave O2 - Karakterskala
 
-**Oppgave B5** (karakterskala) fra uke 36 https://github.com/dat100hib/dat100public/blob/master/programmering/jplab2/JP2.md#oppgave-b6---blir-en-del-av-obligatoriske-innlevering-neste-uke
+**Oppgave B6** (trinnskatt) fra uke 36 https://github.com/dat100hib/dat100public/blob/master/programmering/jplab2/JP2.md#oppgave-b6---blir-en-del-av-obligatoriske-innlevering-neste-uke
 
-Legg inn koden i klassen `O1` i Eclipse-prosjektet.
+Legg inn koden i klassen `O2` i Eclipse-prosjektet.
 
 ### Oppgave O3 - Fakultet
 
 Lag et program som leser inn et heltall `n > 0`, beregner verdien `n!` (n fakultet) og skriver verdien til `n!` ut på skjermen, der `n! = 1*2*3* … *(n-1)*n`.
 
-Legg inn koden i klassen `O1` i Eclipse-prosjektet.
+Legg inn koden i klassen `O3` i Eclipse-prosjektet.
 
 ### Oppgave O4 - Levere inn koden på GitHub
 
