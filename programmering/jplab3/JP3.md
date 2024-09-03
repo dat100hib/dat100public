@@ -262,9 +262,9 @@ Første steg er derfor å opprette en oppbevaringsplass (et repository) på GitH
 
 #### Opprette Eclipse prosjekt 
 
-6. Opprett et nytt Eclipse Java prosjekt for koden til oppgave O1-O3. Gi det navne "DAT100Innlevering1". Prosjektet må legges under den *Local Path* som du valgte i Steg 5. Du må derfor fravelge *Use default location* når du oppretter prosjektet og via *Browse..." navigere ned til mappen svarende til *Local Path*. Trykk på *Finish* for å opprettet prosjektet
+6. Opprett et nytt Eclipse Java prosjekt for koden til oppgave O1-O3. Gi det navne "DAT100Innlevering1". Prosjektet må legges under den *Local Path* som du valgte i Steg 5. Du må derfor fravelge *Use default location* når du oppretter prosjektet og via *Browse...* navigere ned til mappen svarende til *Local Path*. Trykk på *Finish* for å opprettet prosjektet
 
-7. Opprett klassene `O1`, `O2` og `O3` med pakke no.hvl.dat100 inne i prosjektene som du kan bruke til å legge in koden for oppgavene.
+7. Opprett klassene `O1`, `O2` og `O3` med pakke `no.hvl.dat100` inne i prosjektene som du kan bruke til å legge in koden for oppgavene.
 
 Stegene for å legge opp Java-koden er beskrevet i opphave O4 nedenfor.
 
@@ -293,5 +293,7 @@ Når du er ferdig med koden i oppgave O1-O3 og har testet at det virker skal kod
 8. Gå til GitHub Desktop og sjekk at *Current repository* er `dat100-innlevering-1`. DU skal nå se en del filer inkl. `O1.java`, `O2.java` og `O3.java`
 9. Skriv en en kort melding under *Summary (required)* - eksempelvis *leverer inn* to trykke på *Commit to main*.
 10. I vinduet som kommer frem velg *Push origin*. Gå inn på siden for oppbevaringsplassen på GitHub og sjekk at koden er kommet inn.
+
+**Husk** også å levere inn lenke til GitHub oppbevaringsplassen på Canvas.
 
 
