@@ -186,7 +186,7 @@ public class BoksVolum {
 }
 ```
 
-### B2: Lese Java kode - Gruppearbeid
+### B2 - Lese Java kode (Gruppearbeid)
 
 #### a)
 Programmet nedenfor inneheld fire deler. Først studerer kvar student programmet nøye for å finne ut kva som blir skrive ut. Deretter diskuterer gruppen kva som blir skrive ut. Til slutt utfører de programmet og ser om de har rett svar.
@@ -243,18 +243,55 @@ Kjør programmet flere ganger med ulike inndata inkludert tilfeller der talet `x
 
 ## Individuelle obligatoriske oppgaver 
 
-### Oppgave O0 - Opprette GitHub repository
+### Oppgave O0 - Opprette GitHub repository 
 
-TEKST KOMMER
+Koden som du skriver i oppgave O1-O3 nedenfor skal du levere inn ved å legge dem inn på en oppbevaringsplass under kontoen din på GitHub.
 
-### Oppgave O1 - Obligatorisk innlevering
+Første steg er derfor å opprette en oppbevaringsplass (et repository) på GitHue, klone ned en lokal kopi av oppbevaringsplassen på PC'en din, o opprette et Eclipse-prosjekt inne under den lokale oppbevaringsplassen.
+
+#### Opprette repository på GitHub
+
+1. Login på Github - du skal nå komme inn på dashboard-siden din
+2. Velg *New* for å opprette et nytt repository. Gi det navnet `dat100-innlevering-1`, velg *Add a README file* og velg *Java* under *Add .gitignore*
+3. Trykk på *Create Repository* og du har nå opprettet et repository
+
+#### Klone repository ned på PC'en
+
+4. Velg *Code* på repository siden og kopier URL'en som står i dialogboksen
+5. Gå til GitHub Desktop og velg *File -> Clone repository* og velg *URL* alternativet i dialoboksen som kommer opp. Legg inn URL'en du kopierte i Steg 4, velg en *Local Path* på PC'en som ikke er under OneDrive eller lignende skytjeneste. Trykk på *Clone*. Du har nå fått en lokal kopi av den nye oppbevaringsplassen på PC'en. 
+
+#### Opprette Eclipse prosjekt 
+
+6. Opprett et nytt Eclipse Java prosjekt for koden til oppgave O1-O3. Gi det navne "DAT100Innlevering1". Prosjektet må legges under den *Local Path* som du valgte i Steg 5. Du må derfor fravelge *Use default location* når du oppretter prosjektet og via *Browse..." navigere ned til mappen svarende til *Local Path*. Trykk på *Finish* for å opprettet prosjektet
+
+7. Opprett klassene `O1`, `O2` og `O3` med pakke no.hvl.dat100 inne i prosjektene som du kan bruke til å legge in koden for oppgavene.
+
+Stegene for å legge opp Java-koden er beskrevet i opphave O4 nedenfor.
+
+### Oppgave O1 - Trinnskatt
 
 **Oppgave B4** (trinnskatt) fra uke 36 https://github.com/dat100hib/dat100public/blob/master/programmering/jplab2/JP2.md#oppgave-b5---blir-en-del-av-obligatoriske-innlevering-neste-uke
 
-### Oppgave O2 - Obligatorisk innlevering
+Legg inn koden i klassen `O1` i Eclipse-prosjektet.
+
+### Oppgave O2 - Karakterskala
 
 **Oppgave B5** (karakterskala) fra uke 36 https://github.com/dat100hib/dat100public/blob/master/programmering/jplab2/JP2.md#oppgave-b6---blir-en-del-av-obligatoriske-innlevering-neste-uke
 
-### Oppgave O3 - Obligatorisk innlevering
+Legg inn koden i klassen `O1` i Eclipse-prosjektet.
+
+### Oppgave O3 - Fakultet
 
 Lag et program som leser inn et heltall `n > 0`, beregner verdien `n!` (n fakultet) og skriver verdien til `n!` ut på skjermen, der `n! = 1*2*3* … *(n-1)*n`.
+
+Legg inn koden i klassen `O1` i Eclipse-prosjektet.
+
+### Oppgave O4 - Levere inn koden på GitHub
+
+Når du er ferdig med koden i oppgave O1-O3 og har testet at det virker skal koden legges opp (pushes) på oppbevaringsplassen på GitHub.
+
+8. Gå til GitHub Desktop og sjekk at *Current repository* er `dat100-innlevering-1`. DU skal nå se en del filer inkl. `O1.java`, `O2.java` og `O3.java`
+9. Skriv en en kort melding under *Summary (required)* - eksempelvis *leverer inn* to trykke på *Commit to main*.
+10. I vinduet som kommer frem velg *Push origin*. Gå inn på siden for oppbevaringsplassen på GitHub og sjekk at koden er kommet inn.
+
+
