@@ -1,4 +1,4 @@
-## DAT100: Java Programmering 6 - uke 39
+## DAT100: Java Programmering 6 - uke 40
 
 **Husk** at oppgave O1-B på denne programmeringslab er del av obligatorisk innlevering (se Canvas).
 

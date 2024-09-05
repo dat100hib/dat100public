@@ -1,5 +1,5 @@
 
-## DAT100: Java Programmering 5 - Uke 38
+## DAT100: Java Programmering 5 - Uke 39
 
 **Bemerk** Oppgave O1-A nedenfor vil være en del av en obligatorisk innlevering med frist i starten av uke 40.
 
