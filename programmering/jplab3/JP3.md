@@ -247,7 +247,7 @@ Kjør programmet flere ganger med ulike inndata inkludert tilfeller der talet `x
 
 Koden som du skriver i oppgave O1-O3 nedenfor skal du levere inn ved å legge dem inn på en oppbevaringsplass under kontoen din på GitHub.
 
-Første steg er derfor å opprette en oppbevaringsplass (et repository) på GitHue, klone ned en lokal kopi av oppbevaringsplassen på PC'en din, o opprette et Eclipse-prosjekt inne under den lokale oppbevaringsplassen.
+Første steg er derfor å opprette en oppbevaringsplass (et repository) på GitHub, klone ned en lokal kopi av oppbevaringsplassen på PC'en din, o opprette et Eclipse-prosjekt inne under den lokale oppbevaringsplassen.
 
 #### Opprette repository på GitHub
 
