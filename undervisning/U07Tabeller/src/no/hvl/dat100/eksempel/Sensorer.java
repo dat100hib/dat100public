@@ -37,16 +37,16 @@ public class Sensorer {
 		System.out.println("] ");
 	}
 	
-	public static int[] beregnTid(int[] tabell) {
+	public static int[] beregnTid(int[] passtider) {
 		
-		int antall = tabell.length-1;
-		int[] tidstabell = new int[antall];
+		int antall = passtider.length-1;
+		int[] segtider = new int[antall];
 		
-		for (int i = 0; i<tidstabell.length;i++) {
-			tidstabell[i] = tabell[i+1] - tabell[i];
+		for (int i = 0; i<segtider.length;i++) {
+			segtider[i] = passtider[i+1] - passtider[i];
 		}
 		
-		return tidstabell;
+		return segtider;
 	}
 	
 	public static boolean bruktMer(int[] tabell, int tidsgrense) {
