@@ -1,146 +1,182 @@
 ## DAT100: Java Programmering 6 - uke 40
 
-**Husk** at oppgave O1-B på denne programmeringslab er del av obligatorisk innlevering (se Canvas).
+Oppgave B1 og B2 på denne programmeringslab er viktig i forbindelse med programmeringsprosjektet som skal gjennomføres i uke 41 og 42.
 
 ## Grunnleggende oppgaver
 
-### Oppgave G1: Flerdimensjonale tabeller
+### Oppgave G1 - Klasser
 
-Koden i oppgavene nedenfor skrives inn i klasse `G` med en `main`-metode som vist nedenfor.
+Oppgave 6.2 i Java-boken
 
-```java
-public class OppgaveG {
+### Oppgave G2 - Klasser
 
-	public static void main(String[] args) {
-
-    double[][] obs = {
-    				{1.4,1.7,1.9,2.0},
-    				{5.4,7.8,9.8,7.9,3.0},
-    				{-1.7,-1.7,-2.8}
-    		};
-
-    // TODO - legg til metodekall her
-
-	}
-
-  // TODO - legg til deklarasjon av metoder her
-
-}
-```
-Som del av oppgaven bør du videre teste at koden og metodene som implementeres fungerer. Dette kan eksempelvis gjøres ved å skrive ut verdien i konsollen.
-
-#### a)
-
-Legg til en metode `public static void skrivUt(double[][] tabell)` som gitt en 2-dimensjonel tabellen av heltal skriver ut tabellen. Bruk metoden til å skrive ut tabellen `obs`. Prøv å implementere metoden både ved å bruke nøstete vanlige for-løkker med index og ved en bruke nøstede utvidede for-løkker.
-
-#### b)
-
-Legg til kode i main-metoden som skriver ut `obs.length` - forklar hvor det som skrives ut har verdien `3`.
-
-#### c)  
-
-Legg til kode i main-metoden som skriver ut `obs[0].length`, `obs[1].length` og `obs[2].length` - forklar resultatet som skrives ut.
-
-#### d)
-
-Legg til en metode `public static boolean finnes(double[][] obs, double limit)` som avgjør om der finnes en observation i tabellen som er større end `limit`.
-
-#### e)
-
-Skriv koden som bytter om på raden på index 0 og raden på index 2 i tabellen. Dvs. den nye tabellen blir:
-
-```java
-    {
-        {-1.7,-1.7,-2.8},
-        {5.4,7.8,9.8,7.9,3.0},
-        {1.4,1.7,1.9,2.0}
-    };
-```
-
-**Hint:** husk at en 2-dimensjonell tabell er pekere til en tabell (i dette tilfelle en tabell av flyttall). Ombytting kan gjøres med to tildelingssetninger. Bruk `skrivUt`-metoden til å sjekke at ombyttingen er gjort korrekt.
+Oppgave 6.3 i Java-boken
 
 ## Basisoppgaver
 
-### Oppgave B1 - Auditorie
+### Oppgave B1 - Klasser
 
-Se på eksemplet som blev gjennomgått på forelesningen om flerdimensjonale tabeller der en to-dimensjonal tabell blev brukt til å representere ledige plasser i et auditorie:
+I denne og i neste oppgave skal vi se på en klasse `Vare` og referansetabeller.
 
-https://github.com/dat100hib/dat100public/blob/master/undervisning/U10FlerDimTabeller/src/no/hvl/dat100/eksempler/Auditorium.java
+I oppgavene du ta utgangspunkt i start-kode med enhetstester som finnes på følgende github oppbevaringsplass:
+
+https://github.com/dat100hib/jplab7-startcode-varelager.git
+
+Du kan gjøre en *Use this template* på denne oppbevaringsplassen (på github) etterfulgt av *klone* og importering inn i Eclipse tilsvarende som for Java Innlevering 2 (start-koden for oppgavene med tabeller og matriser).
+
+Når du har gjort dette skal du ha tilgang til et prosjekt `jplab7-varelager-startkode` som inneholder to pakker:
+
+- `no.hvl.dat100.varelager` med startkode for de klasser og metoder du skal implementere nedenfor.
+- `no.hvl.dat100.varelager.tests` med en rekke enhetstest som du skal bruke til å teste koden etterhvert som du implementerer.
+
+Du kjører enhetstestene på samme måte som på Java Innlevering 2.
+
+##### a) Objektvariable og konstruktør
+
+Se på start-koden for klassen `Vare.java`.
+
+Skriv kode slik klassen får tre objektvariable:
+
+-	varenr (heltall)
+-	navn (streng)
+-	pris (desimaltall)
+
+som alle skal være `private` dvs. kun synlige innenfor klassen.
+
+Videre skal klassen ha en *konstruktør*
+
+```java
+public Vare(int varenr, String navn, double pris)
+```
+
+som kan gi verdi til alle objektvariable.
+
+Test implementasjonen din ved å kjøre testene i test-klassen `TestVare.java`
+
+##### b) get/set-metoder
+
+Gjør ferdig implementasjonen av get/set metoder og test de med enhetstestene.
+
+##### c) Objektmetoder
+
+Gjør ferdig implementasjonen av følgende metoder som alle er `public` dvs. synlige utenfor klassen:
+
+- `public double beregnMoms()` – som beregner moms svarende til 20% av prisen som er gitt ved objektvariabelen pris. Dersom pris er 100 kr, skal moms være 20 kr.
+- `erBilligereEnn(Vare v)` – skal sammenligne prisen på en vare med en annen vare `v` gitt som parameter.
+- `toString()` –  som returnerer en strengrepresentasjon av objektvariablene på formen: `Vare [varenr=1, navn=ostepops, pris=200.0]`
+
+Test implementasjonen ved å bruke enhetstestene.
+
+### Oppgave B2 - Referansetabeller
+
+I denne oppgaven skal vi bruke referanasetabeller dvs. tabeller der elementene som er lagret er pekere til objekt. I dette tilfelle skal vi bruke en tabell til å implementere et varelager dvs. elementene i tabellen er pekere til objekt av klassen `Vare`.
+
+Starten på implementasjonen finnes i klassen `Varelager.java`:
+
+```java
+public class Varelager {
+
+ protected Vare[] varer;
+ protected int antall;
+
+ [...]
+
+```
+
+Objektvariabelen `varer` skal brukes til å peke på referansetabellen av varar. Objektvariabelen `antall` skal brukes ifm. med innsettelse i tabellen til å holde kontroll på hvor (dvs. på hvilken posisjon/indeks) neste vare skal settes inn.
+
+Variabelen `antall` vil til ethvert tidspunkt angi hvor mange varer som er satt inn i tabellen. Indeks der det ikke er satt inn noen vare vil ha verdien `null` (en null-peker).
+
+De to objektvariable har modifikatoren `protected` for å gjøre det enklere å teste klassen. Testene for klassen finnes i klassen `TestVarelager.java`.
 
 ##### a)
 
-Skriv kode som teller sammen hvor mange ledige plasser som er i auditoriet
+Gjør ferdig implementasjonen av følgende metoder:
+
+- `public Varelager(int n)` som er kontruktør for klassen. Konstruktøren skal opprettet en tabell av varer gitt ved parameteren `n` og sette `antall` lik `0` (siden første element skal inn på position 0).
+
+- `public Vare[] getVarer()` som returnerer en referanse til tabellen `varer`
+
+- `public boolean leggTilVare(Vare v)` som setter inn varen `v` i `varer`-tabellen på posisjonen angitt ved objektvariablen `antall`. Videre skal metoden inkrementere `antall` slik neste vare kommmer inn på neste posisjon. Metoden skal kun sette inn `v` hvis der er plass i tabellen dvs. hvis `antall` er strengt mindre enn `varer.length`. Metoden skal returnere `true` om varen blev satt inn og `false` ellers.
+
+- `public boolean leggTil(int varenr, String navn, double pris)` som oppretter et nytt vare-objekt med varenummer, navn og pris gitt som parametre til metoden, og legger inn det nye vare-objekt i varelageret. Metoden skal returnere `true` om vare-objektet blev lagt til og `false` ellers. Metoden skal bruke `leggTilVare`-metoden som implementert ovenfor til å legge inn vare-objektet i varelageret.
+
+- `public Vare finnVare(int varenr)` som gitt et `varenr` søker igjennom tabellen `varer` og ser om der finnes en vare i tabellen med dette varenummer. Om varen finnes skal metoden returnere en peker til varen som er funnet. Husk å avbryte søket hvis funnet. Hvis ikke vare finnes da skal metoden returnere `null`.  **Hint:** Bruk while-løkke eller vanlig for løkke.
+
+- `public void printVarelager()` som skal skrive ut varelageret på følgende formen (**hint**: bruk løkke og `toString-metoden` på Vare-objekt)
+
+```
+=================================
+Vare [varenr=0, navn=0, pris=1.0]
+Vare [varenr=1, navn=1, pris=2.0]
+Vare [varenr=2, navn=2, pris=3.0]
+=================================
+```
 
 ##### b)
 
-Skriv kode som finner og skriver ut hvor stor en prosentdel av plassene som er opptatt. Metoden skal virke generelt uavhengig av antall rad og antall plasser på hver rad.
+I klassen `VarelagerUtils.java` skal du implementere metodene nedenfor. Enhetstester for metodene finnes i filen `TestUtils.java`. Du kan anta at tabellen som gis med som parameter er fyllt dvs. at alle elementer inneholder en referanse til et vare-objekt.
 
-##### c)
+- `public static Vare finnBilligste(Vare[] varer)` som tar en (referanse)tabell med vare-objekt og returnerer en peker til et av de vare-objekt som er billigst.
 
-Skriv kode som finner og skriver første ledige plass (rad og posisjon). Prøv å skrive kode som begynner på rad/rekke 0 og kode som begynner på siste rad.
+- `public static double totalPris(Vare[] varer)` som finner den samlede pris på alle varer.
 
-##### d)
+- `public static int[] finnVarenr(Vare[] varer)` som returnerer en tabell med varenumre for alle varer i lageret. **Hint:** metoden skal opprette en ny tabell av heltall og sette inn varenumrene for de varene som finnes i tabelle `varer`.
 
-Skriv en metode som bruker en dobbel for-løkke med `return` til å finne ut om der finnes en ledig plass. Skriv om til å bruke en dobbel utvidet for-løkke med `return`
-
-##### e)
-
-Skriv kode som sjekker om der er minimum to ledige plasser mellom personer i auditoriet (smittevern)
-
-### Oppgave B2 - Oversvømmelse
-
-Høyde i et terreng kan representeres som en 2-dimensjonal tabell (eks. 3x10 felter)
-
-```java
-int[][] terreng = { { 0, 0, 0, 3, 3, 3, 6, 7, 8, 10 },
-                    { 0, 0, 0, 3, 3, 3, 6, 7, 8, 10 },
-                    { 0, 0, 0, 3, 3, 3, 6, 7, 8, 10 } };
-```
-
-Prosjektet U10FlerDimTabeller https://github.com/dat100hib/dat100public/tree/master/undervisning/U10FlerDimTabeller i oppbevaringsplassen med eksempler fra undervisning inneholder en pakke `eksempler`.
-
-I pakken finnes en klasse [Flooding.java](https://github.com/dat100hib/dat100public/blob/master/undervisning/U10FlerDimTabeller/src/no/hvl/dat100/flooding/Flooding.java som inneholder starten på et program som kan visualisere konsekvens av en øking av hav-høyden. Hav-høyde leses inn via dialog-boks. Dette blev introdusert på forelesning.
-
-![](assets/markdown-img-paste-20180926181141274.png)
-
-Implementer ferdig metoden `visualiser()` slik at felter i området/tabellen `terreng` som kommer under havets overflate tegnes med en blå sirkel, felter som er mindre en 1 meter over havet tegnes med en oransje sirkel og de felter som er mer en 1 meter over havets overflate tegnes med en lysebrun sirkel. Sirkler tegnes ved å bruke easygraphics.
-
-Det er kun hav-høyde som skal leses inn fra brukeren, terreng er bestemt av den to-dimensjonaletabellen som allerede finnes i programmet.
+- `public static double[] finnPrisDifferanser(Vare[] varer)` beregner de successive differenser på prisene i tabellen. Metoden skal opprette en tabell av desimalltall som er en korterte enn tabellen `varer` og på posisjon `i` i denne tabellen skal der stå differensen på prisen mellom varen i posisjon `i+1` og posisjon `i`.
 
 ## Valgfrie oppgaver
 
-### Oppgave V1 - Bondesjakk
+### Oppgave V1 - Nut of the week
 
-Prosjektet F13FlerDimTabeller https://github.com/dat100hib/dat100public/tree/master/undervisning/U10FlerDimTabeller i oppbevaringsplassen med eksempler fra forelesninger inneholder en pakke `no.hvl.dat100.tictactoe` som implementerer det meste av koden for et bondesjakk spill. Dette ble demonstrert på forelesning.
+Sålangt har vi brukt en nøstet-løkke om vi skal skrive ut en to-dimensjonell tabell.
 
-![](assets/markdown-img-paste-20180926174926430.png)
-
-For å avgjøre om en spiller har vunnet spillet trenger programmet følgende følgende tre metoder i klassen [GameController.java](https://github.com/dat100hib/dat100public/blob/master/undervisning/U10FlerDimTabeller/src/no/hvl/dat100/tictactoe/GameController.java)
+Skriv en metode
 
 ```java
-private boolean checkHorizontal(int y, char player)
-
-private boolean checkVertical(int x, char player)
-
-private boolean checkDiagonals(char player)
+public void skrivUt(int[][] tabell)
 ```
 
-Metodene skal avgjøre om karakteren gitt ved `player` (enten `´X´`eller `´O´`) finnes på alle posisjoner i en horisontal linje (gitt ved `x`), en vertikal linje (gitt ved `y`) eller på en av de to diagonaler.
+som kan skrive ut en to-dimensjonell tabell av heltall men som kun bruker en løkke.
 
-Disse metoder vil (automatisk) bli kaldt av resten av programmet hver gang en spiller har gjort et trekk. Dvs. dere trenger kun å se på disse tre metodene og ikke resten av programmet.
+### Oppgave V2 - Tabeller («arrays») og strenger
 
-Den aktuelle tilstand av brettet finnes i den to-dimensjonale tabellen board definert som
+Før du løser oppgavene nedenfor anbefales det å se igjennom dokumentasjon for String-klassen tilgjengelig via:
+https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html
 
-```java
-char[][] board = new char[TicTacToe.SIZE][TicTacToe.SIZE];
-```
+Gitt en streng `s` kan en metode fra String-klassen kalles ved å bruke `s.<metodenavn>`. Eksempelvis kan metoden `length()` kalles ved å bruke `s.length()`
 
-der `TicTacToe.SIZE` angir størrelsen på brettet (i figuren ovenfor er den 3).
+Metodane i d) - f) nedanfor skal vere klassemetodar (static). Plasser dei ein eigen klasse og lag eit main-program som testar metodane.
 
 ##### a)
 
-Implementer de tre metoder ovenfor og test spillet. Det går fint an å implementer metodene en om gangen og teste de ved å starte spillet etter hvert. Main-metoden for programmet finnes i klassen [TicTacToe.java](https://github.com/dat100hib/dat100public/blob/master/undervisning/U10FlerDimTabeller/src/no/hvl/dat100/tictactoe/TicTacToe.java).
+Lag en klasse med en main-metode som leser antall ord og oppretter en strengtabell (String-array) med den gitte størrelsen. Les deretter ordene fra brukeren og plasser dem i tabellen. Skriv ut tabellen for å se at ordene er kommet inn.
 
 ##### b)
 
-Prøv å endre på verdien av `SIZE` i klassen [TicTacToe.java](https://github.com/dat100hib/dat100public/blob/master/undervisning/U10FlerDimTabeller/src/no/hvl/dat100/tictactoe/TicTacToe.java). Virker spillet fortsatt korrekt?
+Utvid main-metoden så den leser inn et mønster (streng). Tell hvor mange ord i tabellen fra pkt. a) som inneholder mønsteret og skriv ut svaret.
+
+Se om der finnes en metode for å teste om en streng inneholder en gitt sekvens av tegn (char).
+
+##### c)
+
+Gå gjennom tabellen og skriv ut de midterste tegnene i hver streng der du bruker følgende regler. Dersom strengen inneholder bare ett tegn, skrives hele strengen ut. Dersom lengden er partall, skal de to midterste tegnene skrives ut. Dersom strengen har odde lengde (odde antall tegn), skal de 3 midterste tegnene skrives ut om strengen inneholder 3 tegn eller mer.
+
+##### d)
+
+Lag ein metode som skriv ut ein streng baklengs.
+
+##### e)
+
+Lag ein metode som gitt ein tabell av tekststrengar, returnerer den strengen i tabellen som kjem først i (Unikode) alfabetet. Hint: Du skal bruke en løkke og `compareTo`-metoden for strenger.
+
+##### f)
+
+Implementer sjølv en metode:
+
+```
+public static int compareTo(String str1, String str2) 
+```
+
+svarande til metoden frå String-klassen brukt i e). **Hint:** du skal bruke løkke.
+
