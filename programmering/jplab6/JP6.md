@@ -24,7 +24,7 @@ https://github.com/dat100hib/jplab7-startcode-varelager.git
 
 Du kan gjøre en *Use this template* på denne oppbevaringsplassen (på github) etterfulgt av *klone* og importering inn i Eclipse tilsvarende som for Java Innlevering 2 (start-koden for oppgavene med tabeller og matriser).
 
-Når du har gjort dette skal du ha tilgang til et prosjekt `jplab7-varelager-startkode` som inneholder to pakker:
+Når du har gjort dette skal du ha tilgang til et prosjekt `jplab6-varelager-startkode` som inneholder to pakker:
 
 - `no.hvl.dat100.varelager` med startkode for de klasser og metoder du skal implementere nedenfor.
 - `no.hvl.dat100.varelager.tests` med en rekke enhetstest som du skal bruke til å teste koden etterhvert som du implementerer.
@@ -174,7 +174,7 @@ Lag ein metode som gitt ein tabell av tekststrengar, returnerer den strengen i t
 
 Implementer sjølv en metode:
 
-```
+```java
 public static int compareTo(String str1, String str2) 
 ```
 
