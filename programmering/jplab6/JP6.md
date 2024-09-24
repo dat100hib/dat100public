@@ -12,7 +12,7 @@ Oppgave 6.2 i Java-boken
 
 Oppgave 6.3 i Java-boken
 
-## Basisoppgaver
+## Basisoppgaver - viktige for programmeringsprosjektet!
 
 ### Oppgave B1 - Klasser
 
