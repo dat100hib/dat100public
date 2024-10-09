@@ -16,7 +16,7 @@ public class InnleseTall {
 		
 		// TODO - START
 		
-	    int antall = lesInteger("Antall tall som skal leses inn: ");
+		int antall = lesInteger("Antall tall som skal leses inn: ");
 	    
 	    double[] tall = new double[antall];
 	    
@@ -41,6 +41,7 @@ public class InnleseTall {
 	    input.close();
 	    
 	}
+
 	
 	private static double lesDouble(String message) {
 		

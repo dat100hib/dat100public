@@ -54,21 +54,17 @@ public class Kino extends EasyGraphics {
 
 	public void reserver() {
 		
-		System.out.println("Angi sal i tekstvinduet...");
-		int salnr = Integer.parseInt(getText("sal"));
+		int salnr = Integer.parseInt(getText("Sal"));
 		
-		System.out.println("Angi film i tekstvinduet...");
-		int filmnr = Integer.parseInt(getText("forestilling"));
+		int filmnr = Integer.parseInt(getText("Forestilling"));
 
 		boolean[][] forestilling = saler[salnr][filmnr];
 		
 		visReservasjoner(forestilling);
 		
-		System.out.println("Angi rad i tekstvinduet...");
-		int radnr = Integer.parseInt(getText("rad"));
+		int radnr = Integer.parseInt(getText("Rad for reservasjon"));
 		
-		System.out.println("Angi sete i tekstvinduet...");
-		int setenr = Integer.parseInt(getText("sete"));
+		int setenr = Integer.parseInt(getText("Sete for reservasjon"));
 	
 		forestilling[radnr][setenr] = true;
 		
