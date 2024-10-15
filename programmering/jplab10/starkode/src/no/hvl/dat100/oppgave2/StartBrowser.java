@@ -1,4 +1,4 @@
-package no.hvl.dat100.oppgaveb2;
+package no.hvl.dat100.oppgave2;
 
 import javax.swing.SwingUtilities;
 

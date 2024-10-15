@@ -1,4 +1,4 @@
-package no.hvl.dat100.oppgaveb1;
+package no.hvl.dat100.oppgave1;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 public class LeseFraFil {
 
-	static String MAPPE_STR = System.getProperty("user.dir") + "/src/no/hvl/dat100/oppgaveb1/";
+	static String MAPPE_STR = System.getProperty("user.dir") + "/src/no/hvl/dat100/oppgave1/";
 
 	static public void main(String[] args) throws FileNotFoundException {
 

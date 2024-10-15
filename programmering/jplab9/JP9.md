@@ -1,4 +1,4 @@
-## DAT100: Java Programmering 10 - Uke 43
+## DAT100: Java Programmering 9 - Uke 43
 
 Java-koden som skal brukes i oppgavene nedenfor finnes på den vanlige github-oppbevaringsplassen for faget: https://github.com/dat100hib/dat100public
 
@@ -6,11 +6,9 @@ Gjør en *Repository -> Pull* i GitHub desktop på `dat100public`-oppvebaringspl
 
 Start med å importere JPLab9-prosjektet inn i Eclipse om du ikke allerede har gjort dette.
 
-## Grunnleggende oppgaver
+### Oppgave 1: Utvidet for-løkke og oppdatering av tabeller
 
-### Oppgave G1: Utvidet for-løkke og oppdatering av tabeller
-
-Koden for denne oppgaven finnes i pakken `no.hvl.dat100.oppgaveg1` i JPLab9 Eclipse-prosjektet
+Koden for denne oppgaven finnes i pakken `no.hvl.dat100.oppgave1` i JPLab9 Eclipse-prosjektet
 
 Vi ønsker å skrive et program som oppdaterer en tabell `tab` av heltall ved å legge 1 til hvert element i tabellen.
 
@@ -117,100 +115,11 @@ public class DataTabell {
 
 Kjør programmet. Oppdateres objektene som ønskes i utvidet for-løkke? Hvorfor virker en utvidet for-løkke her mens den ikke virket for oppdatering i deloppgave a)?
 
-## Basisoppgaver
-
-### Oppgave B1 - Filer og unntak
-
-Koden nedenfor finnes i klassen `LeseFraFil.java`, pakken `no.hvl.dat100.oppgaveb1` i JPLab9 Eclipse-prosjektet
-
-Main-metoden leser inn navn på fil og etterpå skrives hver linje i filen ut med et linjenummer foran.
-
-```java
-public class LeseFraFil {
-
-  static String MAPPE_STR = System.getProperty("user.dir") + "/src/no/hvl/dat100/oppgaveb1/";
-
-  static public void main(String[] args) throws FileNotFoundException {
-
-  String filnavn;
-
-  filnavn = JOptionPane.showInputDialog("Filnavn i mappen " + MAPPE_STR);
-
-  File file = new File(MAPPE_STR + filnavn);
-  Scanner reader = new Scanner(file);
-
-  int linenumber = 1;
-
-  // les innhold i filen linje for linje
-  String line;
-
-  while (reader.hasNextLine()) {
-    line = reader.nextLine();
-    System.out.println(linenumber + " " + line);
-    linenumber++;
-  }
-
-  reader.close();
-
-  // JOptionPane.showMessageDialog(null, "Filen " + filnavn + " finnes
-  // ikke. \n" + e.getMessage());
-  }
-}
-```
-
-##### a)
-
-Se på side 274 i Java boken og start med å kjøre programmet ovenfor ved eks. ved å angi `LeseFraFil.java` som filnavn.
-
-##### b)
-
-Unntaket `FileNotFoundException` kan kastes/signaleres om filen vi forsøker å åpne ikke finnes. Siden det er et sjekket-unntak (checked exception) må vi bruke en throws-klausul for å angi at koden potensielt kan signalere et slik unntak. Kjør programmet – hva skjer om filen ikke finnes? For å fremprovosere unntaket må du taste inn et filnavn som ikke finnes.
-
-##### c)
-
-Skriv koden ovenfor om slik der brukes en `try-catch` blokk til å forsøke å lese inn innholdet i filen og slik `FileNotFoundException` unntaket fanges opp med en `catch` og en feilmelding gis til brukeren. Kjør programmet – hva skjer nå om filen ikke finnes?
-
-##### d)
-
-Utvid programmet slik brukeren får et antall forsøk til å angi en fil som finnes. Når antall forsøk er oppbrukt skal programmet stoppe.
-
-##### e)
-
-Skriv om programmet slik det bruker klassen `BufferedReader`:
-
-https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/BufferedReader.html
-
-til å lese en innholdet av filen. Generelt sett er bruken av denne klassen mer effektiv ift. `Scanner` da den leser større mengder av data fra fil om gangen.
-
-### Oppgave B2 - MyWebBrowser og unntakshåndtering
-
-I pakken `no.hvl.dat100.oppgaveb2` finnes starten på en enkel nettleser. Du skal utvide
-programmet slik det kan hente web-sider for nettet. Programmet startes ved å kjøre main-metoden
-som finnes i klassen `StartBrowser.java`. Gjøres dette fås følgende skjermbilde:
-
-![](assets/markdown-img-paste-20191017185501935.png)
-
-Ideen er at brukeren kan taste inn en URL i linjen på toppen eks. http://www.example.com, trykke på Go-knappen og så skal programmet hente web-siden og visen HTML-koden som kommer tilbake, eks:
-
-![](assets/markdown-img-paste-20191017190802738.png)
-
-Programmet bruker Java-swing biblioteket til å implementere en brukergrensesnitt. Dette skal vi komme tilbake til mot slutten av faget.
-
-Når brukeren trykker på Go-knappen kjøres metoden `actionPerformed` i klassen `GoBtnListener.java`. Denne metoden skal hente en web-side på nettet ved å bruke klassen URL (se side 292 i boken) og skrive den ut i det store vinduet. Det meste av koden i metoden er kommentert ut fordi den mangler håndtering av de to sjekkede unntak (checked exceptions) som kan bli signalert:
-
-- `MalformedURLException` hvis brukeren ikke taster inn tekst som er en lovlig URL eks. strengen «kjhdfdjhfkjd»
-
-- `IOException` hvis nett-siden ikke finnes, eks. http://denne.finnes.ikke
-
-Gjør ferdig implementasjonen av metoden `actionPerformed` ved å legge inn unntakshåndtering slik koden kan kompilere. Bruk try-catch-finally. Det meste av det som trengs - bortsett fra unntakshåndtering - finnes som kommentarer i koden.
-
-Der skal skrives en feilmelding ut i det store feltet `webpagetextarea` om URL’en ikke er lovlig eller hvis nettsiden ikke finnes. Feltet der URL’en skrives inn `urltextfield` skal altid settes til en tom streng når brukeren har trykket på Go. I begge tilfeller finnes en metode `setText` på de to objekter `webpagetextarea` og `urltextfield` som representerer textfelter. Denne kan brukes til å sette teksten.
-
-### Oppgave B3 - Flerdimensjonale tabeller
+### Oppgave 2 - Flerdimensjonale tabeller
 
 Denne oppgaven er relatert til miniExcel-eksempler fra undervisning 10 om Flerdimensjonale tabeller. Det kan være lurt å se på skissene som finnes i slides fra denne forelesnigen.
 
-Koden nedenfor finnes i klassen `MiniExcel.java`, pakken `no.hvl.dat100.jplab10.oppgaveb3` i Eclipse-prosjektet JPLab10.
+Koden nedenfor finnes i klassen `MiniExcel.java`, pakken `no.hvl.dat100.jplab10.oppgave2` i Eclipse-prosjektet JPLab10.
 
 Programmet inneholder en to-dimensjonal tabell svarende til et Excel-ark med 4 rekker og 3 søyler med heltall.
 
@@ -291,8 +200,7 @@ Implementer metoden `beregnSum()` som summerer rekker og søyler og skriver summ
 
 De to metodene i a) og b) skal fungere generelt – dvs. ikke kun for en tabell med størrelse 4x3.
 
-
-### Oppgave B4 - Simulere terningkast: Random-klassen og tabeller
+### Oppgave 3 - Simulere terningkast: Random-klassen og tabeller
 
 I denne oppgaven skal vi simulere terningkast. Et alternativ til å bruke `Math.random()` er å bruke `Random`-klassen. Denne klassen inneholder en metode `nextInt(int grense)` som returnerer et tilfeldig heltall fra og med 0 til (men ikke med) grense. Dette er en objekt-metode, så det må lages et Random-objekt før metoden kan brukes. Samme objektet kan brukes for å generere flere tilfeldige tall.
 
@@ -389,37 +297,3 @@ Antall kast for å få den første [:::]-eren: 1
 
 Terningverdien det var flest av : [:.:]
 ```
-
-### Oppgave V1 - Arrays og kjøretid for Java-programmer (valgfri)
-
-Oppgaven fokuserer på bruk Java API dokumentasjon https://docs.oracle.com/en/java/javase/11/docs/api/index.html og måling av utføringstid for programmer.
-
-Når der i API dokumentasjonen for Java plattformen står at en metode (eller klasse) er «deprecated» betyr at den er foreldet og at den dermed ikke skal brukes når vi lager ny kode. Grunnen til at foreldede metoder er fortsatt en del av mange Java pakker er for å sikre at koden som bruker en eldre versjon av API’en fortsatt kan kjøre uten at vi trenger å endre i koden.
-
-De fleste programmene vi skriver i første semester vil utføres så raskt at det er vanskelig å måle utføringstiden av programmet.  På forelesningene har vi sagt at det finnes ferdige klasser i Java for å behandle tabeller. En slik klasse er `Arrays` (i pakken `java.util`): https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Arrays.html
-
-Her finnes det blant annet metoder for å sortere en tabell. Dersom vi sorterer en tabell med for eksempel 1000000 heltall, kan vi måle tiden ved hjelp av metoder i klassen `System` (i pakken java.lang):
-
-https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/System.html
-
-eller klassene `Instant` og `Duration` (i pakken `java.time`):
-
-https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/time/Instant.html
-
-https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/time/Duration.html
-
-##### a)
-
-Vi skal sette av plass til en tabell med 1000000 elementer. Deretter fyller vi den med slumptall (tilfeldige tall). Det finnes flere måter å generere tilfeldige tall i Java. Den enkleste er kanskje metoden `random()` i klassen `Math`:
-
-https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#random()
-
-Denne metoden returnerer et flyttall større eller lik 0 og mindre enn 1.
-
-Tabellen skal sorteres ved å bruke en passende metode fra klassen `Arrays`. Tiden for selve sorteringen skal måles og svaret skal skrives ut i millisekunder.
-
-Det å lese API dokumentasjon for klassene `System` (eller `Instant` og `Duration`), `Math` og `Arrays` for å finne de rette metoder er en del av oppgaven.
-
-##### b)
-
-Varier antall av elementer i tabellen og undersøk hvordan utføringstiden påvirkes.
