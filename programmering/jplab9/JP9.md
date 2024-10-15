@@ -2,13 +2,15 @@
 
 Java-koden som skal brukes i oppgavene nedenfor finnes på den vanlige github-oppbevaringsplassen for faget: https://github.com/dat100hib/dat100public
 
-Start med å importere JPLab10-prosjektet inn i Eclipse om du ikke allerede har gjort dette.
+Gjør en *Repository -> Pull* i GitHub desktop på `dat100public`-oppvebaringsplassen slik du er sikker på at du har den nyeste versjon av koden.
+
+Start med å importere JPLab9-prosjektet inn i Eclipse om du ikke allerede har gjort dette.
 
 ## Grunnleggende oppgaver
 
 ### Oppgave G1: Utvidet for-løkke og oppdatering av tabeller
 
-Koden nedenfor finnes i pakken `no.hvl.dat100.oppgaveg1` i JPLab10 Eclipse-prosjektet
+Koden for denne oppgaven finnes i pakken `no.hvl.dat100.oppgaveg1` i JPLab9 Eclipse-prosjektet
 
 Vi ønsker å skrive et program som oppdaterer en tabell `tab` av heltall ved å legge 1 til hvert element i tabellen.
 
@@ -119,14 +121,14 @@ Kjør programmet. Oppdateres objektene som ønskes i utvidet for-løkke? Hvorfor
 
 ### Oppgave B1 - Filer og unntak
 
-Koden nedenfor finnes i klassen `LeseFraFil.java`, pakken `no.hvl.dat100.oppgaveb1` i JPLab10 Eclipse-prosjektet
+Koden nedenfor finnes i klassen `LeseFraFil.java`, pakken `no.hvl.dat100.oppgaveb1` i JPLab9 Eclipse-prosjektet
 
 Main-metoden leser inn navn på fil og etterpå skrives hver linje i filen ut med et linjenummer foran.
 
 ```java
 public class LeseFraFil {
 
-  static String MAPPE_STR = System.getProperty("user.dir") + "/src/no/hvl/dat100/oppgave2/";
+  static String MAPPE_STR = System.getProperty("user.dir") + "/src/no/hvl/dat100/oppgaveb1/";
 
   static public void main(String[] args) throws FileNotFoundException {
 
