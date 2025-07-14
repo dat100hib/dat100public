@@ -2,34 +2,51 @@
 
 ## DAT100: Grunnleggende Programmering
 
-I faget skal vi bruke programmeringsspråket [Java](https://www.java.com/en/) samt det integrerte utviklingsverktøy [Eclipse](https://www.eclipse.org). 
+Denne oppbevaringsplassen på nettstedet [github](https://www.github.com) brukes til å distribuere Java eksempelkode, Java-kode for programmerings- og prosjektoppgaver og til praktisk informasjon om installasjon og bruk av utviklingsverktøy.
 
-Videre skal vi bruke revisjonskontrollsystemet [Git](https://git-scm.com) samt applikasjonen [GitHub Desktop](https://desktop.github.com/) til distribusjon og versjonskontroll av kode.
+I faget bruker vi programmeringsspråket *Java* 
 
-Undervisningen i DAT100 baserer seg på bruk av egen PC med Java programvareutviklingsmiljø installert. **Det er derfor viktig at alle får dette til.**
+- https://www.oracle.com/java/technologies/downloads/?er=221886
 
-Ta kontakt med lab-assistant eller underviser dersom du har problemer med installasjon. 
+som er et objekt-orientert programmeringsspråk.
 
-Denne oppbevaringsplassen på nettstedet [github](https://www.github.com) skal vi bruke til å distribuere Java eksempelkode, Java-kode til bruk ifm. programmerings- og prosjektoppgaver og til praktisk informasjon om installasjon og bruk av utviklingsverktøy.
+### Bok om Java programmering
 
-### Bok
+I faget brukes boken Roy M. Istad og Bjørn Kristoffersen: *Forstå Programmering - med Java* (Universitetsforlaget, 2. utgave).
 
-I faget skal vi bruke boken Roy M. Istad og Bjørn Kristoffersen: *Forstå Programmering - med Java* (Universitetsforlaget, 2. utgave).
+Hjemmesiden for boken finnes her
 
-Hjemmesiden for boken finnes her: https://www.nettressurser.no/programmering
+- https://www.universitetsforlaget.no/forsta-programmering-1 
 
-Boken og nettsidene for boken gjør **ikke** bruk av Eclipse eller andre integrete utviklingsverktøy. Følg derfor installasjonsveiledningen nedenfor for DAT100.
+sammen med nettressourser for boken
+
+- https://dbsys.info/programmering/
+
+Boken og nettsidene for boken gjør **ikke** bruk av noe spesifikt Java utviklingsverktøy. Følg derfor installasjonsveiledningene som legges ut etterhvert som vi går frem i faget.
 
 ### Java programmering og utviklingsmiljø
 
-Programvaren som skal installeres er Java Development Kit (JDK), Eclipse Integrated Development Environment (Eclipse IDE) og Git.
+De første ukene av undervisningen skal vi bruke det web-basert utviklingsverktøy *JDoodle*:
 
-Stegene for nedlastning og installasjon av programvareutviklingsmiljø er beskrevet nedenfor.
+- https://www.jdoodle.com
 
-- [Nedlasting og installasjon](https://github.com/dat100hib/dat100public/blob/master/installasjon/java.md) av Java Development Kit (JDK)
-- [Nedlasting og installasjon](https://github.com/dat100hib/dat100public/blob/master/installasjon/eclipse.md) av Eclipse IDE
-- [Nedlasting og installasjon](https://github.com/dat100hib/dat100public/blob/master/installasjon/git.md) av GitHub Desktop
+Efterhvert skal vi skifte til det integrete Java utviklingsmiljø *IntelliJ*: 
 
-Det er viktig at JDK installeres **før** Eclipse installeres. 
+- https://www.jetbrains.com/idea/
 
-**Husk** å velge rett operativsystem (Windows, MacOS, Linux) når filene lastes ned fra nett.
+som er et mer professionelt utviklingsmiljø.
+
+Videre skal vi jobbe med versjonskontrollsystemet *Git* for deling og samarbeid om koding:
+
+- https://git-scm.com 
+
+samt klient-applikasjonen *GitHub Desktop*:
+
+- https://desktop.github.com/ 
+
+for for å legge opp og laste ned Java-kode til/fra oppbevaringsplassen på *GitHub* sky-tjenesten:
+
+- https://github.com
+
+Undervisningen i DAT100 baserer seg på bruk av egen PC med Java programvareutviklingsmiljø installert. **Det er derfor viktig at alle får dette til.** Ta kontakt med lab-assistant eller underviser dersom du har problemer med installasjon. 
+
