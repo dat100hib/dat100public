@@ -2,13 +2,23 @@
 
 ## DAT100: Grunnleggende Programmering
 
-Denne oppbevaringsplassen på nettstedet [github](https://www.github.com) brukes til å distribuere Java eksempelkode, Java-kode for programmerings- og prosjektoppgaver og til praktisk informasjon om installasjon og bruk av utviklingsverktøy.
-
 I faget bruker vi programmeringsspråket *Java* 
 
 - https://www.oracle.com/java/technologies/downloads/?er=221886
 
 som er et objekt-orientert programmeringsspråk.
+
+Denne oppbevaringsplassen på nettstedet [github](https://www.github.com) brukes til å distribuere Java eksempelkode, Java-kode for programmerings- og prosjektoppgaver og til praktisk informasjon om installasjon og bruk av utviklingsverktøy.
+
+Eksempelkode fra undervisningen finnes her
+
+- https://github.com/dat100hib/dat100public/tree/master/undervisning
+
+Oppgaver for programmeringslab finner her
+
+- https://github.com/dat100hib/dat100public/tree/master/programmering
+
+Begge deler oppdateres løpende utover semestret etterhvert som vi går fremover.
 
 ### Bok om Java programmering
 
