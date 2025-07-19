@@ -1,6 +1,6 @@
 # DAT100: Java Programmering 0 - uke 33
 
-I de første ukene av emnet skal vi bruke det web-baserte utviklingsmiljø JDoodle: https://www.jdoodle.com/ for å komme igang med Java programmering. Senere skal vi skifte til et mer avansert utviklingmiljø for Java programmering.
+I de første ukene av emnet skal vi bruke det web-baserte utviklingsmiljø JDoodle: https://www.jdoodle.com/ for å komme igang med Java programmering. Senere skal vi skifte til *IntelliJ* som er mer avansert utviklingmiljø for Java programmering.
 
 Formålet med oppgavene på denne første programmeringslab'en er å sikre at du:
 
@@ -9,15 +9,15 @@ Formålet med oppgavene på denne første programmeringslab'en er å sikre at du
 3. vet hvor du kan finne eksempelkoden som brukes i undervisningen 
 4. bli litt kjent med JDoodle utviklingsmiljøet 
 
-Det er **veldig viktig** at alle får dette til - så om du har problemer med å få dette til så ta kontakt med undervisere eller lab-assistenter for raskt å få hjelp.
+Det er **veldig viktig** at alle får dette til - så om du har problemer med å få dette til ta kontakt med undervisere eller lab-assistenter for raskt å få hjelp.
 
-Oppgave 2 nedenfor utgjør første obligatoriske innlevering i faget der du må demonstrere at du har fått Java programmet til å fungere. Det gjør det ved å laste opp et skjerm-bilde i Canvas. For **Deadline/Frist** se Canvas.
+Oppgave 2 nedenfor utgjør første obligatoriske innlevering i faget der du må demonstrere at du har fått Java programmet til å fungere. Det gjør du ved å laste opp et skjerm-bilde på Canvas som innlevering. For **Deadline/Frist** se Canvas.
 
 ### Oppgave 1: Opprette en brukerkonto på JDoodle
 
 Gå inn på JDoodle: https://www.jdoodle.com og trykk på knappen `Login`.
 
-Velg `Sign Up` for å opprette en brukerkonto. Som epost adresse kan du velge en epost adresse du allerede har - eller din HVL student epost addresse. 
+Velg `Sign Up` for å opprette en brukerkonto. Som epost-adresse kan du velge en epost-adresse du har fra tidligere - eller din HVL student epost-addresse. 
 
 Du kan også velge å logge inn på JDoodle ved å bruke eks. en eksisterende Google eller Microsoft konto. 
 
@@ -25,9 +25,9 @@ Du kan også velge å logge inn på JDoodle ved å bruke eks. en eksisterende Go
 
 I denne oppgaven skal du opprette et første Java prosjekt i JDoodle, skrive og kjøre et enkelt Java program.
 
-1.	Log-in i JDoodle (om du ikke alledere er logget in)
+1. Log-in å¨ JDoodle (om du ikke alledere er logget in)
 2. Velg `Start Coding` under `JDoodle.com` 
-3. Under `Pick a language/framework` velg `Java` (ved å skrive *Java* i dialog-boksen)
+3. Under `Pick a language/framework` velg `Java` (ved å skrive *Java* i dialog-boksen - JDoodle kan brukes til andre programmeringsspråk enn Java)
 4. Under `Project name` skriv inn `HelloWorld`, velg `Empty Project` og `Start Coding`
 5. Kopier og lim inn (Copy + Paste) koden nedenfor i koderedigerings-vinduet 
 
@@ -43,7 +43,7 @@ public class HelloWorld {
 }
 ```
 
-6. Trykk på `Execute`-knappen for å kjøre programmet. Etterfølgende skal vinduet i nettleseren se ut som nedenfor der programmet har skrevet ut noe tekst i `Output`-vinduet.
+6. Trykk på `Execute`-knappen for å kjøre programmet. Etterfølgende skal vinduet i nettleseren se ut som nedenfor, der programmet har skrevet ut noe tekst i `Output`-vinduet.
 
  ![Problem med bilde](jdoodlehelloworld.png)
 
@@ -54,13 +54,14 @@ public class HelloWorld {
 
 Syntaksen for et programmeringsspråk er de regler som definerer hvilke ord og skilletegn som er lov å bruke og hvordan de kan settes sammen til setninger og større enheter i et program. 
 
-Nedenfor er en liste a)-f) med kode-eksempler som alle inneholder ulike syntaks-feil dvs. programmene er ikke lovlige Java-programmer. 
+Nedenfor er en liste a)-f) med kode-eksempler som alle inneholder syntaks-feil dvs. programmene er ikke lovlige Java-programmer. 
 
 For hvert program i a)-f) nedenfor gjør følgende:
 
 1. Legg koden inn i JDoodle (enklest å gjøre dette ved å bruke Copy+Paste)
 2. Prøv å kjør programmet ved å bruke `Execute` og se hvilken feil-melding som kommer.
-3. Forsøk å forstå feil-meldingen og hva som er problemet og rett programmet slik det blir et lovlig Java-programmet dvs. programmet kan utføres uten feilmelinger. Bruk evt. `Debug with JDroid` for å få hjelp.
+3. Forsøk å forstå feil-meldingen og hva som er problemet. Bruk evt. `Debug with JDroid` for å få hjelp.
+4. Rett programmet slik det blir et lovlig Java-program dvs. programmet kan utføres uten feilmelinger. 
 
 #### a)
 ```java
@@ -153,7 +154,7 @@ public Debug {
 #### f)
 
 ```java
-public Debug {
+public class Debug {
     
   public static void main(String args[]) {
       
@@ -170,45 +171,43 @@ public Debug {
 
 ### Oppgave 4: GitHub og kodeeksempler fra forelesninger
 
-I faget bruker vi sky-tjenesten GitHub for å legge ut kode-eksempler fra forelesninger, og for oppgaver og kode for de ukentlige Java programmeringslab, og for obligatoriske prosjekt og innleveringer.
+I faget bruker vi sky-tjenesten GitHub for å legge ut kode-eksempler fra forelesninger, oppgaver og kode for de ukentlige Java programmeringslab, og obligatoriske prosjekt og innleveringer.
 
 Hovedsiden for DAT100 GitHub oppbevaringsplassen finnes her
 
 - https://github.com/dat100hib/dat100public/
 
-Eksempelkode fra undervisningen finnes her
+Eksemppler fra undervisningen finnes her
 
 - https://github.com/dat100hib/dat100public/tree/master/undervisning
 
 med en mappe for hver forelesning.
 
-Oppgaver for programmeringslab finner her
+Oppgaver for programmeringslab finnes her
 
 - https://github.com/dat100hib/dat100public/tree/master/programmering
 
 med en mappe for hvert programmeringslab.
 
-Eksempelkode og oppgaver oppdateres etterhvert i emnet.
+Eksemppler og oppgaver oppdateres etterhvert i emnet.
 
-1. Gå inn på eksempelkoden fra første forelesning: https://github.com/dat100hib/dat100public/tree/master/undervisning/U01Introduksjon 
-
-Koden er beskrevet på side 2-5 i Java-boken og illustrerer hvordan brukeren kan gi input til et Java-program og hvordan et Java-program kan lese fra en fil.
+1. Gå inn på eksempelkoden fra første forelesning: https://github.com/dat100hib/dat100public/tree/master/undervisning/U01Introduksjon Koden er beskrevet på side 2-5 i Java-boken og illustrerer hvordan brukeren kan gi input til et Java-program og hvordan et Java-program kan lese fra en fil.
 
 2. Opprett et tomt `Multi-file` proskjekt i JDoodle
 
 3. Legg inn filene `FinnOrdIFil.java` og `handeliste.txt` i JDoodle prosjektet
 
-4. Kjør programmet slik det finner et søkeord i handlelisten.
+4. Kjør programmet og gi input slik det finner et søkeord i handlelisten.
 
 ### Oppgave 5: Eksperimenter for å bli litt mer kjent med JDoodle 
 
 Log-in i JDoodle og eksperimenter for å finne svar på følgende:
 
-1. Hvordan får de frem listen av prosjektene dine - og hvordan skifter du fra et prosjekt til et annet.
+1. Hvordan får du frem listen av prosjektene dine - og hvordan skifter du fra å jobbe med et prosjekt til et annet.
 
 2. Hvordan oppretter du et nytt prosjekt?
 
-3. Når du er inne på et prosjekt - finn ut hva de ulike verktøy på venstre siden kan brukes til.
+3. Når du er inne på et prosjekt - finn ut hva de ulike verktøy på venstre side kan brukes til.
 
 4. Hvordan kan du endre navn på et prosjekt?
 
