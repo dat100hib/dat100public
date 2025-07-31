@@ -1,6 +1,6 @@
-# DAT100: Java Programmering 1 - uke 35
+# DAT100: Java Programmering 1 - uke 34
 
-Formålet med denne programmeringslab er å bli bedre kjent med Java utviklingsmiljøet, dvs. skrive, lagre, kompilere, kjøre og rette feil i enkle Java-programmer. Egen PC brukes til utvikling av Java programmene.
+Formålet med denne programmeringslab er å bli bedre kjent med Java utviklingsmiljøet, dvs. skrive, lagre, kompilere, kjøre og rette feil i enkle Java-programmer. JDoodle skal brukes til å skrive Java kode.
 
 Programmeringslab'ene inneholder flere oppgaver end de fleste vil klare å løse på de 2 timer som står i timeplanen. Det er derfor viktig at du forsøker å løse en god del av oppgavene før programmeringslab. Da kan du få hjelp på programmeringslab til de deler som du finner vanskelig. 
 
@@ -22,11 +22,13 @@ Husk å ta kontakt med undervisere eller lab-assistenter om du sitter fast med p
 
 ## Grunnleggende oppgaver
 
-Vi skal i første omgang lage enkle Java-programmer som bare inneholder en enkelt `main()`– metode som utfører det vi vil ha gjort. Vi skriver programmene ved bruk av Eclipse. Koden i oppgave G1-G4 nedenfor skrives inn i `main`-metoden for klassen for programmet 
+Vi skal i første omgang lage enkle Java-programmer som bare inneholder en enkelt `main()`– metode som utfører det vi vil ha gjort. Vi skriver programmene ved bruk av JDoodle. Koden i oppgave G1-G4 nedenfor skrives inn i `main`-metoden for klassen for programmet 
 
-### Oppgave G0 - Opprett Eclipse-prosjekt
+TODO: Fikse dette med multi-file. Et prosjekt for hele lab'en?
 
- Opprett et nytt Eclipse prosjekt med navn `DAT100Lab1` for denne programmeringslab og legg de java-filer som utvikles som en del av dette prosjektet. Lag en klasse for hver oppgave med et navn som svarer til oppgaven, eks. `OppgaveG1` og skriv koden inn i main-metoden. 
+### Oppgave G0 - Opprett et multi-file? JDoodle prosjekt
+
+ Opprett et nytt multi-file JDoodle prosjekt med navn `DAT100Lab1` for denne programmeringslab og legg de java-filer som utvikles som en del av dette prosjektet. Lag en file for hver oppgave med et navn som svarer til oppgaven, eks. `OppgaveG1` og skriv koden inn i main-metoden. 
  
  Eksempel for Oppgave G1 er gitt nedenfor. Koden skrives inn ved `TODO`-kommentaren.
 
@@ -53,11 +55,11 @@ Legg til to tilordningssetninger etter deklarasjonen i a) som gir variablen `a` 
 
 #### c)
 
-Skriv ut verdien av variablene `a` og `b` på slutten av programmet ved å bruke `System.out.println`-metoden. Kjør programmet og se at verdiene `5` og `7` blir skrevet ut i *Console* nederst i Eclipse-vinduet.
+Skriv ut verdien av variablene `a` og `b` på slutten av programmet ved å bruke `System.out.println`-metoden. Kjør programmet og se at verdiene `5` og `7` blir skrevet ut i TODO: *Console* nederst i Eclipse-vinduet.
 
 #### d)
 
-Prøv å endre typen på variablen `a` fra `int` til `boolean`. Dette skal gi en feilmelding i Eclipse. Hvorfor?
+Prøv å endre typen på variablen `a` fra `int` til `boolean`. Dette skal gi en feilmelding. Hvorfor?
 
 ### Oppgave G2 - Variable og uttrykk
 
@@ -67,13 +69,13 @@ Modifiser programmet fra oppgave G1 ved å legge til en deklarasjon av en variab
 
 #### b)
 
-Legg til en tilordningssetning som setter verdien for variablen `c` lik summen av verdiene tildelt til `a` og `b`. Skriv verdien av variablen `c` ut i slutten av programmet. Kjør programmet og se at der `12` blir skrevet ut i *Console* nederst i Eclipse-vinduet.
+Legg til en tilordningssetning som setter verdien for variablen `c` lik summen av verdiene tildelt til `a` og `b`. Skriv verdien av variablen `c` ut i slutten av programmet. Kjør programmet og se at der `12` blir skrevet ut.
 
 #### c)
 
 Modifiser verdien av `a` fra `5` til `8` og sjekk at `c` nå har verdien `15` når den skrives ut.
 
-### Oppgave G3 - Valgsetninger
+### Oppgave G3 - Valgsetninger - FIX: Flytt til neste lab
 
 #### a)
 
@@ -85,6 +87,8 @@ Test programmet med ulike verdier for (`a`,`b`) = `(10,2)`, `(9,2)` og `(8,0)`
 
 ## Basis oppgaver
 
+TODO: legge inn en oppgave med input/output
+
 ### Oppgave B1 - Uttrykk og kulevolum
 
 Skriv et program som beregner volum av en kule ved bruk av `Math`-biblioteket:
@@ -95,7 +99,7 @@ Konstanten `PI` i Math-biblioteket gir tilnærmet verdi for 𝜋
 
 ![](assets/markdown-img-paste-20190817113526451.png)
 
-### Oppgave B2 - Valgsetninger
+### Oppgave B2 - Valgsetninger - FIX: på neste lab.
 
 Se på koden for inntasting av brukernavn og passord via dialogvinduer:
 
@@ -119,54 +123,13 @@ Før dere skriver programmet i Java, lag en algoritme for hvordan beregningene u
 
 Svaret skal skrives på formatet: 1 timer, 1 minutter, 30 sekunder (alt skrives på samme linje).
 
-For innlesing og utskrift brukes dialogvindu.
+For innlesing og utskrift brukes dialogvindu. FIX.
 
 Modifiser programmet slik det bruker entall i utskriften (time, minutt, sekund) i det tilfelle der vi har bare en time, eller 1 minutt, eller 1 sekund. 
 
 **Hint:** tenk på bruk av valgsetning.
 
-### Oppgave B4
-
-Nedenfor finnes kode som bruker EasyGraphics til å tegne det franske flagget
-
-```java
-public class FranskFlagg extends EasyGraphics {
-
-  public static void main(String[] args) {
-    launch(args);
-  }
-
-  public void run() {
-    makeWindow("Det franske flagget");
-
-    setColor(0, 0, 255);
-    fillRectangle(50, 50, 100, 200);
-    setColor(255, 0, 0);
-    fillRectangle(250, 50, 100, 200);
-    setColor(0, 0, 0);
-    drawRectangle(50, 50, 300, 200);
-  }
-
-}
-```
-
-#### a)
-
-Legg inn koden ovenfor og se at det franske flagget blir tegnet.
-
-I oppgave 5 på tidligere programmeringlab 
-
-https://github.com/dat100hib/dat100public/blob/master/programmering/jplab0/JP0.md#oppgave-5-bruk-av-easygraphics
-
-ble det vist hvordan vi refererer til EasyGraphics biblioteket når vi skal bruke det i et Eclipse-prosjekt. Referanse til EasyGraphics kan også settes opp når en oppretter Eclipse-prosjektet.
-
-#### b)
-
-Modifiser programmet ovenfor slik det tegner det tyske flagget.
-
-![](assets/markdown-img-paste-20190808132425839.png)
-
-## Valgfrie oppgaver
+## Valgfrie oppgaver - FIX: neste lab
 
 ### Oppgave V1 - Valgsetning: if versus switch
 
@@ -190,11 +153,7 @@ https://github.com/dat100hib/dat100public/blob/master/undervisning/U03Valgsetnin
 
 slik det bruker en `switch`-valgsetning istedet for. Utvid programmet slik den skrive ut en gul-sirkel hvis co2-nivå er mellem 500 og 700. Kan switch-setning brukes da?
 
-### Oppgave V2 - EasyGraphics
-
-Utvid programmet fra basis oppgavene som tegnet det franske flagget slik det først leser inn en prosentverdi og deretter tegner ut flagget skalert prosentvis i forhold til den opprinnelige flaggstørrelsen. Dvs. 100 % er den opprinnelige flaggstørrelsen.
-
-### Oppgave V3 - Ulike valgsetninger
+### Oppgave V3 - Ulike valgsetninger - FIX: neste lab
 
 Du skal lage et program som leser inn tre heltall fra brukeren, og skriver de ut igjen tallene sortert i stigende rekkefølge.
 
@@ -204,7 +163,7 @@ Løs oppgaven ved bare å bruke if-setninger.
 
 #### b)
 
-Løs oppgaven ved å bruke if-else-setninger.
+Løs oppgaven ved å bruke if-then-else-setninger.
 
 
 
