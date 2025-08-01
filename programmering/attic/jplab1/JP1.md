@@ -63,6 +63,8 @@ Prøv å endre typen på variablen `a` fra `int` til `boolean`. Dette skal gi en
 
 ### Oppgave G2 - Variable og uttrykk
 
+Husk: Make this Start file
+
 #### a)
 
 Modifiser programmet fra oppgave G1 ved å legge til en deklarasjon av en variabel `c`.
@@ -87,7 +89,7 @@ Test programmet med ulike verdier for (`a`,`b`) = `(10,2)`, `(9,2)` og `(8,0)`
 
 ## Basis oppgaver
 
-TODO: legge inn en oppgave med input/output
+TODO: legge inn en oppgave med input/output via Scanner og input/output via args og main metoden
 
 ### Oppgave B1 - Uttrykk og kulevolum
 
