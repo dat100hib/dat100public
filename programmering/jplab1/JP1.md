@@ -1,8 +1,8 @@
 # DAT100: Java Programmering 1 - uke 34
 
-Hovedformålet med de ukentlige programmeringslab er:
+Hovedformålet med de ukentlige programmeringslab'er/øvinger er:
 
-1. å løse oppgaver som skal hjelpe til du bedre forstår den teorien som vi går igjennom på forelesninger 
+1. å løse oppgaver som skal hjelpe til at du bedre forstår den teorien som vi går igjennom på forelesninger 
 2. at du trener og blir god på praktisk Java programmering og bruken av utviklingsmiljø 
 
 Programmeringslab'ene er derfor et veldig viktig element i faget.
@@ -17,9 +17,9 @@ Det er kun noen av oppgavene på programmeringslab'ene som er obligatoriske og s
 
 Oppgavene nedenfor er oppdelt i tre kategorier
 
-- **Grunnleggende oppgaver (G oppgaver):** disse oppgavene har til formål å sjekke at dere har forstått de fundamentale elementer og begrep innen Java programmering som gjennomgått så langt på forelesning og beskrevet i Java-boken.
+- **Grunnleggende oppgaver (G oppgaver):** som har til formål å sjekke at dere har forstått de fundamentale elementer og begrep innen Java programmering som gjennomgått så langt på forelesning og beskrevet i Java-boken.
 
-- **Basis oppgaver (B oppgaver):** dette er oppgaver med middels vanskelighetsgrad. Klarer du å løse disse oppgaven da indikerer det at du er godt med i faget.
+- **Basis oppgaver (B oppgaver):** som har middels vanskelighetsgrad. Klarer du å løse disse oppgavene da indikerer det at du er godt med i faget.
 
 - **Valgfrie oppgaver (V oppgaver):** dette er mer krevende oppgaver for de som ønsker flere utfordringer. Har du løst basisoppgavene da bør du gjøre et forsøk på å løse de valgfrie oppgavene.
 
@@ -31,13 +31,13 @@ Husk å ta kontakt med undervisere eller lab-assistenter om du sitter fast med p
 
 ## Grunnleggende oppgaver
 
-Vi skal i første omgang lage enkle Java-programmer som bare inneholder en enkelt `main()`– metode som utfører det vi vil ha gjort. Vi skriver programmene ved bruk av JDoodle. Koden i oppgave G1-G4 nedenfor skrives inn i `main`-metoden for klassen for programmet 
+Vi skal i første omgang lage enkle Java-programmer som bare inneholder en enkelt `main()`– metode som utfører det vi vil ha gjort. Vi skriver programmene ved bruk av JDoodle. Koden i oppgave G1-G4 nedenfor skrives inn i `main`-metoden for klassen for programmet. 
 
 ### Oppgave G0 - Opprett et multi-fil JDoodle prosjekt
 
  Opprett et nytt *multi-file* JDoodle prosjekt med navn, eksempelvis `DAT100Lab1` for denne programmeringslab. 
  
- Fordelen ved et multi-fil prosjekt er at du da kan legge til en ny fil i prosjektet etterhvert for hver oppgave som du løser, eks. `OppgaveG1.java` for oppgave G1. Da slipper du å opprettet et nytt prosjekt for hver opppgave.
+ Fordelen ved et multi-fil prosjekt er at du da kan legge til en ny fil i prosjektet etterhvert for hver oppgave som du løser, eks. `OppgaveG1.java` for oppgave G1, `OppgaveG2.java` for oppgave 2 og så videre. Da slipper du å opprette et nytt prosjekt for hver opppgave.
  
  Mal-koden for Oppgave G1 er gitt nedenfor. Koden for å løse oppgaven skrives inn ved `TODO`-kommentaren.
 
@@ -68,7 +68,7 @@ Legg til to tilordningssetninger etter deklarasjonen i a) som gir variablen `a` 
 
 #### c)
 
-Skriv ut verdien av variablene `a` og `b` på slutten av programmet ved å bruke `System.out.println`-metoden. Kjør programmet og se at verdiene `5` og `7` blir skrevet ut i TODO: *Console* nederst i Eclipse-vinduet.
+Skriv ut verdien av variablene `a` og `b` på slutten av programmet ved å bruke `System.out.println`-metoden. Kjør programmet og se at verdiene `5` og `7` blir skrevet ut output-vinduet.
 
 #### d)
 
@@ -94,8 +94,6 @@ Modifiser verdien av `a` fra `5` til `8` og sjekk at `c` nå har verdien `15` n�
 
 ## Basis oppgaver
 
-TODO: legge inn en oppgave med input/output via Scanner og input/output via args og main metoden
-
 ### Oppgave B1 - Uttrykk og kulevolum
 
 Skriv et program som beregner volum av en sylinder ved bruk av `Math`-biblioteket:
@@ -110,7 +108,7 @@ Skriv resultat ut.
 
 ### Oppgave B2 - Input via Scanner
 
-Der er ulike måter en Java program kan ta input fra en bruker. En av de er via tastatur der `Scanner`-klassen kan brukes til å lese inn input-linje fra brukeren:
+Der er ulike måter et Java program kan ta input fra en bruker. En av de er via tastatur der `Scanner`-klassen kan brukes til å lese inn en input-linje fra brukeren:
 
 https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Scanner.html
 
@@ -146,7 +144,7 @@ Start med å kjøre programmet ovenfor å se at det virker
 
 #### b)
 
-Modifiser programmet slik det leser inn en *høyde* og en * radius* og beregner volum av den tilsvarende sylinder. 
+Modifiser programmet slik det leser inn en *høyde* og en *radius* og beregner volum av den tilsvarende sylinder. 
 
 #### c)
 
@@ -154,7 +152,7 @@ Når du kjører programmet fra b) i JDoodle må du taste inn høyde og radius et
 
 Prøv å slå fra den interaktive modus. Da må du liste opp de input du ønsker å gi til programmet *før* du starter programmet. 
 
-Kjør programmet med samme input som du gjørde i den interakive modus å se at det virker. Hva er fordelen ved å slå av interaktiv modus?
+Kjør programmet med samme input som du gjorde i den interakive modus å se at det virker. Hva er fordelen ved å slå av interaktiv modus?
 
 ### Oppgave B3 - Uttrykk
 
@@ -170,7 +168,7 @@ Svaret skal skrives på formatet: 1 timer, 1 minutter, 30 sekunder (alt skrives 
 
 Legg merke til at i første del av denne oppgaven tillater vi å bruke flertall selv om vi om vi strengt tatt skulle brukt entall når det gjelder antall timer, minutter og sekunder. 
 
-For innlesing og utskrift brukes `Scanner`-klassen.
+For innlesing brukes `Scanner`-klassen.
 
 ## Valgfrie oppgaver
 
@@ -202,13 +200,13 @@ public class InputArgs {
 
 #### a)
 
-Kjør programmet ovenfor ved å eks. `dat` og `100` som to kommando-linje argumenter. Kommando-linje argumenter skrives inn i boksen `Input arguments` i JDoodle.
+Kjør programmet ovenfor ved å gi eks. `dat` og `100` som to kommando-linje argumenter. Kommando-linje argumenter skrives inn i boksen `Input arguments` i JDoodle.
 
 #### b)
 
 Modifiser programmet fra a) slik det tar inn radius og høyde for en sylinder via kommando-linje argumenter, beregner og skriver ut det tilsvarende volum. 
 
-Siden typen av `args[0]`, `args[1]` etc. er tekst-strenger dvs. inneholder kommando-linje argumenter som en tekst (datatypen `String`) skal det konverteres til heltall (datatypen `int`) for å kunne brukes i beregninger. Dette kan gjøres via metoden `Integer.parseInt`. 
+Siden typen av `args[0]`, `args[1]` etc. er tekst-strenger dvs. inneholder kommando-linje argumenter som en tekst (datatypen `String`) skal det konverteres til heltall (datatypen `int`) for å kunne brukes i beregninger. Dette kan gjøres via metoden `Integer.parseInt(...)`. 
 
 
 
