@@ -1,29 +1,25 @@
-package no.hvl.dat100;
-
-import static javax.swing.JOptionPane.*;
-import static java.lang.Double.*;
+import java.util.Scanner;
 
 public class Vekslepenger {
 
 	public static void main(String[] args) {
-		
-		// input fra pris og beløp
-		String prisTxt = showInputDialog("Pris: ");
-		String belopTxt = showInputDialog("Beløp: ");
 
-		// konvertere tekststrenger til tall
-		double pris = parseDouble(prisTxt);
-		double belop = parseDouble(belopTxt);
-		
-		// beregne antall 10 og enkroner
-		double diff = belop - pris;
-		
-		int tiere = (int)(diff / 10);
-		
-		int enere = (int)(diff % 10);
-		
-		// skrive ut antall
+		Scanner in = new Scanner(System.in);
+
+		System.out.print("Pris:  ");
+		int pris = in.nextInt();
+
+		System.out.print("Betalt: ");
+		int belop = in.nextInt();
+
+		int diff = belop - pris;
+
+		int tiere = diff / 10;
+		int enere = diff % 10;
+
 		System.out.println(tiere + " 10 kroner");
-		System.out.println(enere + "  1 kroner");
+		System.out.println(enere + "  1 kroner");
+
+		in.close();
 	}
 }
