@@ -1,5 +1,3 @@
-package no.hvl.dat100;
-
 import java.util.Scanner;
 
 public class SwitchEksempel {

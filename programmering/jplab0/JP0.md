@@ -47,7 +47,14 @@ public class HelloWorld {
 
  ![Problem med bilde](jdoodlehelloworld.png)
 
-7. Modifiser programmet slik det skriver ut en linje med 10 stjerner (`*`) før og etter teksten `Hello World Java`.
+7. Modifiser programmet slik det skriver ut en linje med 10 stjerner (`*`) før og etter teksten `Hello World Java`. Utskriften skal se ut som slik:
+
+```
+**********
+Hello World Java
+**********
+```
+
 8. Kjør programmet fra punkt 7. Når programmet fungerer, lag et skjerm-bilde tilsvarende bildet ovenfor. Skjerm-bildet skal leveres inn i Canvas som svar på oppgaven.
 
 ### Oppgave 3: Syntaks for Java programmer
