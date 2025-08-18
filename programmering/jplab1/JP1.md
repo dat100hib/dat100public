@@ -106,6 +106,19 @@ Konstanten `PI` i Math-biblioteket gir tilnærmet verdi for 𝜋
 
 Skriv resultat ut.
 
+**Husk** å importere Math-bibliotekt i starten av Java-programmet slik du får tilgang til metodene i biblioteket.
+
+Om du importerer det via *statisk import* (som boken ofte gjør):
+
+```java
+import static java.lang.Math.*;
+```
+
+da kan du skrive `PI` i koden for å få verdien for  𝜋.
+
+Om du importerer det som:
+
+
 ### Oppgave B2 - Input via Scanner
 
 Der er ulike måter et Java program kan ta input fra en bruker. En av de er via tastatur der `Scanner`-klassen kan brukes til å lese inn en input-linje fra brukeren:
