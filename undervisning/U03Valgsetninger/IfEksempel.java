@@ -1,27 +1,24 @@
-package no.hvl.dat100;
+import java.util.Scanner;
 
-import static java.lang.Integer.parseInt;
-import easygraphics.*;
+public class IfEksempel {
 
-public class IfEksempel extends EasyGraphics {
+	public static void main (String[] args) {
 
-	public static void main(String[] args) {
-	    launch(args);
-	  }
+		Scanner input = new Scanner(System.in);
 
-	  public void run() {
-		  
-	    makeWindow("CO-2 nivå indikator");
+		System.out.print("PPM: ");
 
-	    int co2 = parseInt( getText("PPM: ") );
+	    int co2 = input.nextInt();
 	  
 	    if (co2 < 500) {
-	    	setColor(0, 255, 0); // green
+	    	System.out.println("GRØN");
 	    } else {
-	    	setColor(255,0,0); // red
+	    	System.out.println("RØD");
 	    }
-	    
-	    fillCircle(100, 160, 60);
-	    
+
+		input.close();
+		
 	  }
+
+
 }
