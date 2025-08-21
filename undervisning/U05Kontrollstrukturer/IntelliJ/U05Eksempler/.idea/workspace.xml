@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0fc94d30-0904-4849-a8d3-24d01e627c1d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../src/no/hvl/dat100/BiljardKugle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat100/BiljardKugle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/no/hvl/dat100/DebuggingEksempel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/no/hvl/dat100/EksemplerA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat100/EksemplerA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/no/hvl/dat100/EksemplerB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat100/EksemplerB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/no/hvl/dat100/Sjakkbrett.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat100/Sjakkbrett.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/no/hvl/dat100/TestingEksempel.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lmkr"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dat100hib/dat100public.git",
+    "accountId": "3f36a3e6-49a5-4afd-8d0e-300fd68457e1"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="31bxBAVY0X6pKrAOSnAI1vHPHwX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BiljardKugle.executor": "Run",
+    "Application.EksemplerA.executor": "Run",
+    "Application.EksemplerB.executor": "Run",
+    "Application.Sjakkbrett.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.BiljardKugle">
+    <configuration name="BiljardKugle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="no.hvl.dat100.BiljardKugle" />
+      <module name="U05Eksempler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.hvl.dat100.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EksemplerA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="no.hvl.dat100.EksemplerA" />
+      <module name="U05Eksempler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.hvl.dat100.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EksemplerB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="no.hvl.dat100.EksemplerB" />
+      <module name="U05Eksempler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.hvl.dat100.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sjakkbrett" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="no.hvl.dat100.Sjakkbrett" />
+      <module name="U05Eksempler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.hvl.dat100.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BiljardKugle" />
+        <item itemvalue="Application.Sjakkbrett" />
+        <item itemvalue="Application.EksemplerB" />
+        <item itemvalue="Application.EksemplerA" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fc94d30-0904-4849-a8d3-24d01e627c1d" name="Changes" comment="" />
+      <created>1755806436255</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755806436255</updated>
+      <workItem from="1755806437243" duration="1382000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
