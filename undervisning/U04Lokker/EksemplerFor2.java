@@ -1,6 +1,4 @@
-package no.hvl.dat100;
-
-public class EksemplerForA {
+public class EksemplerFor2 {
 
 	public static void main(String[] args) {
 

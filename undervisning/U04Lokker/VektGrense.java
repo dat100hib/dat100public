@@ -1,7 +1,3 @@
-package no.hvl.dat100;
-
-import static java.lang.Integer.parseInt;
-
 import java.util.Scanner;
 
 public class VektGrense {
@@ -11,17 +7,17 @@ public class VektGrense {
 		Scanner input = new Scanner(System.in);
 
 		System.out.print("Startvekt:");
-		int startVekt = parseInt(input.nextLine());
+		int startVekt = input.nextInt();
 
 		System.out.print("Grense:");
-		int grense = parseInt(input.nextLine());
+		int grense = input.nextInt();
 		
 		int totalVekt = startVekt;
 		
 		while (totalVekt < grense) {
 			
 			System.out.print("Registerer vekt:");
-			int nesteVekt = parseInt(input.nextLine());
+			int nesteVekt = input.nextInt();
 			
 			totalVekt = totalVekt + nesteVekt;
 			
@@ -32,5 +28,4 @@ public class VektGrense {
 		
 		input.close();
 	}
-
 }

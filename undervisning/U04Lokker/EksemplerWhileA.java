@@ -1,5 +1,3 @@
-package no.hvl.dat100;
-
 public class EksemplerWhileA {
 
 	public static void main(String[] args) {
