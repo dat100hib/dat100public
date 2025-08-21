@@ -1,13 +1,10 @@
-package no.hvl.dat100;
-
 import java.util.Scanner;
 
 public class LoginEksempel {
 
 	public static void main(String[] args) {
 
-		String brukernavn = "lars";
-		String passord = "hemli";
+		String r_passord = "hemli";
 
 		Scanner input = new Scanner(System.in);
 
@@ -49,9 +46,9 @@ public class LoginEksempel {
 				
 				forsok++;
 				System.out.print("Passord:");
-				String inpassord = input.nextLine();
+				String passord = input.nextLine();
 				
-				if (inpassord.equals(passord)) {
+				if (passord.equals(r_passord)) {
 					loggedinn = true;
 				}
 			
@@ -67,10 +64,7 @@ public class LoginEksempel {
 		default:
 			System.out.println("Ingen funksjon valgt");
 		}
-
-		System.out.println(brukernavn);
-		System.out.println(passord);
-
+		
 		input.close();
 	}
 }
