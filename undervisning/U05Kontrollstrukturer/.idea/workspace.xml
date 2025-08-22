@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fc94d30-0904-4849-a8d3-24d01e627c1d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../src/no/hvl/dat100/BiljardKugle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat100/BiljardKugle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/no/hvl/dat100/DebuggingEksempel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/no/hvl/dat100/EksemplerA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat100/EksemplerA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/no/hvl/dat100/EksemplerB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat100/EksemplerB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/no/hvl/dat100/Sjakkbrett.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat100/Sjakkbrett.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/no/hvl/dat100/TestingEksempel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,52 +13,57 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "lmkr"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lmkr&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/dat100hib/dat100public.git",
-    "accountId": "3f36a3e6-49a5-4afd-8d0e-300fd68457e1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dat100hib/dat100public.git&quot;,
+    &quot;accountId&quot;: &quot;648c0bc8-5812-4cec-bd9a-9524783dc96d&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="31bxBAVY0X6pKrAOSnAI1vHPHwX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BiljardKugle.executor": "Run",
-    "Application.EksemplerA.executor": "Run",
-    "Application.EksemplerB.executor": "Run",
-    "Application.Sjakkbrett.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BiljardKugle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EksemplerA.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EksemplerB.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sjakkbrett.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/larsmkristensen/dat100/dat100public/undervisning/U05Kontrollstrukturer/IntelliJ/U05Eksempler&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.BiljardKugle">
+}</component>
+  <component name="RunManager" selected="Application.Sjakkbrett">
     <configuration name="BiljardKugle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.hvl.dat100.BiljardKugle" />
       <module name="U05Eksempler" />
@@ -118,18 +118,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BiljardKugle" />
         <item itemvalue="Application.Sjakkbrett" />
         <item itemvalue="Application.EksemplerB" />
         <item itemvalue="Application.EksemplerA" />
+        <item itemvalue="Application.BiljardKugle" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.109" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.109" />
       </set>
     </attachedChunks>
   </component>
@@ -141,6 +141,8 @@
       <option name="presentableId" value="Default" />
       <updated>1755806436255</updated>
       <workItem from="1755806437243" duration="1382000" />
+      <workItem from="1755846109272" duration="42000" />
+      <workItem from="1755846154690" duration="725000" />
     </task>
     <servers />
   </component>
