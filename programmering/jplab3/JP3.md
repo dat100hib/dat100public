@@ -75,7 +75,7 @@ public class OppgaveG4 {
 
 Lag et nytt JDoodle prosjekt med en klasse der du limer inn koden ovenfor. Sjekk om du får forventet resultat.
 
-## Basic oppgaver
+## Basis oppgaver
 
 ### Oppgave B1
 
@@ -251,7 +251,7 @@ For å laste opp kode må du gjøre følgende:
 1. Last ned filene fra JDoodle til PC'en din.
 2. Login på GitHub og gå til `dat100-innleverig-1` oppbevaringsplassen din. Du skal kunne finne den under `Your repositories`
 3. Velg `Add file` etterfulgt av `Upload files` og du kan nå legge inn de tre Java-filer for oppgave O1, O2 og O3.
-4. Velg "Commit changes" for å laste filene op.
+4. Velg "Commit changes" for å laste filene op. Husk å sjekke at filenen er lastet opp.
 
 **Husk** også å levere inn lenke til GitHub oppbevaringsplassen på Canvas.
 
