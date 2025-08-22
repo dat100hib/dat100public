@@ -94,7 +94,7 @@ Modifiser verdien av `a` fra `5` til `8` og sjekk at `c` nå har verdien `15` n�
 
 ## Basis oppgaver
 
-### Oppgave B1 - Uttrykk og kulevolum
+### Oppgave B1 - Uttrykk og sylindervolum
 
 Skriv et program som beregner volum av en sylinder ved bruk av `Math`-biblioteket:
 
@@ -118,6 +118,11 @@ da kan du skrive `PI` i koden for å få verdien for  𝜋.
 
 Om du importerer det som:
 
+```java
+import java.lang.Math.*;
+```
+
+da må du skrive `Math.PI` i koden for å få verdien for  𝜋.
 
 ### Oppgave B2 - Input via Scanner
 

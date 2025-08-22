@@ -86,7 +86,7 @@ public class Eksperiment
 
 ### Oppgave B3 - Valgsetninger
 
-Se på koden for inntasting av brukernavn og passord via dialogvinduer:
+Se på koden for inntasting av brukernavn og passord:
 
 https://github.com/dat100hib/dat100public/blob/master/undervisning/U02SetningerUttrykk/Login.java
 
