@@ -226,7 +226,7 @@ Lag et program som leser inn bruttoinntekt, beregner og skriver ut trinnskatten 
 
 Lag et program som leser inn en poengsum (heltall) som en student har oppnådd på en prøve, og finn og skriv ut den karakteren A-F dette tilsvarer. Grenser for de ulike karakterene skal være:
 
-![](assets/markdown-img-paste-20190821101128267.png)
+![](karakterpoeng.png)
 
 Skriv ut feilmelding ved ugyldig poengsum (negativ verdi eller over 100).
 
@@ -244,16 +244,16 @@ Lag et program som leser inn et heltall `n > 0`, beregner verdien `n!` (n fakult
 
 ### Oppgave O4 - Levere inn koden på GitHub
 
-Når du er ferdig med koden i oppgave O1-O3 og har testet at det virker skal koden legges på oppbevaringsplassen `dat100-innleverig-1` på GitHub som du opprettet i punkt b) på den obligatoriske oppgaven på tidligere programmeringslab. 
+Når du er ferdig med koden i oppgave O1-O3 og har testet at det virker, skal koden legges på oppbevaringsplassen `dat100-innlevering-1` på GitHub som du opprettet i punkt b) på den obligatoriske oppgaven på tidligere programmeringslab. 
 
 For å laste opp kode må du gjøre følgende:
 
 1. Last ned filene fra JDoodle til PC'en din.
-2. Login på GitHub og gå til `dat100-innleverig-1` oppbevaringsplassen din. Du skal kunne finne den under `Your repositories`
-3. Velg `Add file` etterfulgt av `Upload files` og du kan nå legge inn de tre Java-filer for oppgave O1, O2 og O3.
+2. Login på GitHub og gå til `dat100-innlevering-1` oppbevaringsplassen din. Du skal kunne finne den under `Your Repositories`
+3. Velg `Add file` etterfulgt av `Upload files` og du kan nå legge inn de tre Java-filene for oppgave O1, O2 og O3 ovenfor.
 4. Velg "Commit changes" for å laste filene op. Husk å sjekke at filenen er lastet opp.
 
-**Husk** også å levere inn lenke til GitHub oppbevaringsplassen på Canvas.
+**Husk** å levere inn lenke til GitHub oppbevaringsplassen på Canvas.
 
 ### Oppgave V1 - Bruk av statisk import
 
@@ -290,7 +290,7 @@ Skriv programmet for beregning av sylindervolum ved å bruke statisk import.
 Modifiser programmet slik det *ikke* bruker statisk import dvs. importerer Math-biblioteket via:
 
 ```java
-import static java.lang.Math.*;
+import java.lang.Math.*;
 ```
 
 og gjør de endringer som trengs for å løse de kompileringsfeil som oppstod da du endret til vanlig (ikke statisk) import.
