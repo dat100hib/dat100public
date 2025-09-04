@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fc94d30-0904-4849-a8d3-24d01e627c1d" name="Changes" comment="" />
+    <list default="true" id="0fc94d30-0904-4849-a8d3-24d01e627c1d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +42,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BiljardKugle.executor": "Run",
-    "Application.EksemplerA.executor": "Run",
+    "Application.EksemplerA.executor": "Debug",
     "Application.EksemplerB.executor": "Run",
     "Application.Sjakkbrett.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -55,13 +57,13 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Sjakkbrett">
+  <component name="RunManager" selected="Application.BiljardKugle">
     <configuration name="BiljardKugle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.hvl.dat100.BiljardKugle" />
       <module name="U05Eksempler" />
@@ -116,10 +118,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BiljardKugle" />
+        <item itemvalue="Application.EksemplerA" />
         <item itemvalue="Application.Sjakkbrett" />
         <item itemvalue="Application.EksemplerB" />
-        <item itemvalue="Application.EksemplerA" />
-        <item itemvalue="Application.BiljardKugle" />
       </list>
     </recent_temporary>
   </component>
@@ -142,10 +144,37 @@
       <workItem from="1755846109272" duration="42000" />
       <workItem from="1755846154690" duration="725000" />
       <workItem from="1755847537665" duration="1882000" />
+      <workItem from="1756281249874" duration="22852000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/no/hvl/dat100/EksemplerA.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
