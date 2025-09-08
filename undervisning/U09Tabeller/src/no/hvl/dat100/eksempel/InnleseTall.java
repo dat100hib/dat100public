@@ -2,7 +2,6 @@ package no.hvl.dat100.eksempel;
 
 import static java.lang.Integer.parseInt;
 import static java.lang.Double.parseDouble;
-import static javax.swing.JOptionPane.showInputDialog;
 
 import java.util.Scanner;
 
@@ -46,10 +45,8 @@ public class InnleseTall {
 	private static double lesDouble(String message) {
 		
 		System.out.print(message);
-		
-		String tallTxt = input.nextLine();
-	    
-	    double tall = parseDouble(tallTxt);
+
+	    double tall = input.nextDouble();
 	    
 	    return tall;
 	    
@@ -59,10 +56,8 @@ public class InnleseTall {
 		
 		System.out.print(message);
 		
-		String tallTxt = input.nextLine();
-		    
-	    int tall = parseInt(tallTxt);
-	    
+		int tall = input.nextInt();
+
 	    return tall;
 	}
 }
