@@ -1,5 +1,7 @@
 # DAT100: Java Programmering 6 - uke 39
 
+I tillegg til oppgavene nedenfor skal dere også jobbe med obligatorisk innlevering 2: https://hvl.instructure.com/courses/31932/assignments/90950
+
 ## Grunnleggende oppgaver
 
 ### Oppgave G1: Flerdimensjonale tabeller
