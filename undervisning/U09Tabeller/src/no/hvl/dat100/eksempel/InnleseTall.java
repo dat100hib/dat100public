@@ -1,8 +1,5 @@
 package no.hvl.dat100.eksempel;
 
-import static java.lang.Integer.parseInt;
-import static java.lang.Double.parseDouble;
-
 import java.util.Scanner;
 
 public class InnleseTall {
@@ -12,36 +9,34 @@ public class InnleseTall {
 	public static void main(String[] args) {
 			 
 		input = new Scanner(System.in);
-		
-		// TODO - START
-		
-		int antall = lesInteger("Antall tall som skal leses inn: ");
-	    
-	    double[] tall = new double[antall];
-	    
-	    for (int i = 0;i<tall.length; i++) {
-	    	
-	    	double verdi = lesDouble("Tall " + i + ": ");
-	    	
-	    	tall[i] = verdi;
-	    	
-	    }
-	   
-	    System.out.print("[ ");
-		
-		for (int i = 0;i<tall.length;i++) {
+
+		int antall = lesInteger("Antall tall som skal leses inn:");
+
+		double[] tall; // deklarere tabell variabel
+
+		tall = new double[antall]; // oppretter tabell
+
+		for (int i = 0; i<tall.length; i++) {
+
+			double t = lesDouble("Tall " + i);
+
+			tall[i] = t;
+		}
+
+		System.out.print("[");
+
+		for (int i = 0; i<tall.length; i++) {
+
 			System.out.print(tall[i] + " ");
 		}
-		
-		System.out.println("]");
-	    
-	    // TODO - END
-	    
+
+		System.out.println(" ]");
+
+
 	    input.close();
 	    
 	}
 
-	
 	private static double lesDouble(String message) {
 		
 		System.out.print(message);

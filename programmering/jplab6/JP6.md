@@ -1,4 +1,10 @@
-### Oppgave G2: Flerdimensjonale tabeller
+# DAT100: Java Programmering 6 - uke 39
+
+I tillegg til oppgavene nedenfor skal dere også jobbe med obligatorisk innlevering 2: https://hvl.instructure.com/courses/31932/assignments/90950
+
+## Grunnleggende oppgaver
+
+### Oppgave G1: Flerdimensjonale tabeller
 
 Koden i oppgavene nedenfor skrives inn i klasse `G` med en `main`-metode som vist nedenfor.
 
@@ -53,7 +59,9 @@ Skriv koden som bytter om på raden på index 0 og raden på index 2 i tabellen.
 
 **Hint:** husk at en 2-dimensjonell tabell er pekere til en tabell (i dette tilfelle en tabell av flyttall). Ombytting kan gjøres med to tildelingssetninger. Bruk `skrivUt`-metoden til å sjekke at ombyttingen er gjort korrekt.
 
-### Oppgave B2 - Auditorie
+## Basis oppgaver
+
+### Oppgave B1 - Auditorie
 
 Se på eksemplet som blev gjennomgått på forelesningen om flerdimensjonale tabeller der en to-dimensjonal tabell blev brukt til å representere ledige plasser i et auditorie:
 
@@ -79,7 +87,7 @@ Skriv en metode som bruker en dobbel for-løkke med `return` til å finne ut om 
 
 Skriv kode som sjekker om der er minimum to ledige plasser mellom personer i auditoriet (smittevern)
 
-### Oppgave B3 - Oversvømmelse
+### Oppgave B2 - Oversvømmelse
 
 Høyde i et terreng kan representeres som en 2-dimensjonal tabell (eks. 3x10 felter)
 
@@ -98,6 +106,69 @@ I pakken finnes en klasse [Flooding.java](https://github.com/dat100hib/dat100pub
 Implementer ferdig metoden `visualiser()` slik at felter i området/tabellen `terreng` som kommer under havets overflate tegnes med en blå sirkel, felter som er mindre en 1 meter over havet tegnes med en oransje sirkel og de felter som er mer en 1 meter over havets overflate tegnes med en lysebrun sirkel. Sirkler tegnes ved å bruke easygraphics.
 
 Det er kun hav-høyde som skal leses inn fra brukeren, terreng er bestemt av den to-dimensjonaletabellen som allerede finnes i programmet.
+
+### Oppgave B3 - Om tall i Java
+
+Fra matematikken vet vi at tall ikke har en øvre grense og at når vi regner med desimaltall så får vi nøyaktige svar. Det trenger ikke være riktig når vi programmerer. Det er to ting som er *spesielt viktig* å være klar over:
+
+-	Heltall har en øvre og nedre grense.
+-	Det har for så vidt også flyttallene (desimaltallene), men det er sjelden et problem.  For disse kan beregninger bli litt unøyaktige.  
+
+I denne oppgaven skal vi se på eksempler på dette.
+
+#### a) 
+
+Koden nedenfor beregner toerpotenser der eksponenten er 0, 1, …, 5.
+
+```java
+int n = 5;
+int tall = 1;
+
+for (int i = 0; i <= n; i++) {
+    System.out.println(tall);
+    tall = tall * 2;
+}
+```
+
+Kjør koden og sjekk at det stemmer. Deretter endrer du `n` til 32 og utfører koden på nytt. Hva skjer på slutten? (Forklaring til slutt i oppgaven)
+
+#### b) 
+
+Fra matematikken vet vi at når vi summerer en rekke med tall, så har det ikke betydning i hvilken rekkefølge vi utfører addisjonene. Det kan det ha når vi programmerer. 
+
+**Eksempel:**
+
+Vi ønsker å finne summen nedenfor.
+
+![](sum.png)
+
+For `n = 5` blir dette
+
+![](rekkevenstre.png)
+
+Dette kan gjøres slik i Java:
+
+```java
+int n = 5;
+double fraVenstre = 0;
+    
+for (int i = 1; i <= n; i++) {
+    fraVenstre = fraVenstre + (1.0 / i);
+}
+```
+
+Fra matematikken vet vi at det ikke har betydning i hvilken rekkefølge addisjonene blir utført i. Dvs. vi vil få samme resultatet og vi summerer fra høgre mot venstre som vist nedenfor
+
+![](assets/rekkehogre.png)
+
+Lag en ny løkke som beregner denne summen. Når du sammenligner svarene vil du se at de er litt ulike.
+
+**Det som er viktig for oss:** Når vi regner med flyttall, så kan vi få unøyaktige svar. Det betyr at vi skal være forsiktige å sjekke om to flyttall er like (`==`), men heller sjekke om avstanden er svært liten.
+I DAT100 blir ikke dette et problem, men det er viktig å være klar over dette for senere emner.
+
+**Forklaring på hva som skjer i a):** Typen `int` har en øvre grense. På et tidspunkt blir tall større enn grensen. Vi får det som kalles overflyt (overflow). I den aktuelle oppgaven med `n=32`, kan vi unngå problemet ved å bruke typen `long` i stedet for int.  Denne kan inneholde større heltall, men etter hvert som vi dobler tall vil vi få samme problem (igjen). 
+
+## Valgfrie oppgaver
 
 ### Oppgave V3 - Bondesjakk
 
