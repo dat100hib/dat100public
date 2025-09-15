@@ -51,20 +51,7 @@ public class Main {
 
     public static boolean bruktMer(int[] tabell, int tidsgrense) {
 
-        boolean overtiden = false;
-
-        int i = 0;
-
-        while (!overtiden && i<tabell.length) {
-
-            if (tabell[i] > tidsgrense) {
-                overtiden = true;
-            }
-
-            i++;
-        }
-
-        return overtiden;
+        return false;
     }
 }
 
