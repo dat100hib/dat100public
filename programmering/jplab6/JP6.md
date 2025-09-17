@@ -61,11 +61,13 @@ Skriv koden som bytter om på raden på index 0 og raden på index 2 i tabellen.
 
 ## Basis oppgaver
 
+For oppgave B1 og B2 skal dere ta utgangspunkt i koden fra forelesningen om flredimensjonale tabeller. Det er derfor enkelte å begynne med å åpne dette prosjektet i IntelliJ: [undervisning/U11FlerDimTabeller](https://github.com/dat100hib/dat100public/tree/master/undervisning/U11FlerDimTabeller)
+
 ### Oppgave B1 - Auditorie
 
-Se på eksemplet som blev gjennomgått på forelesningen om flerdimensjonale tabeller der en to-dimensjonal tabell blev brukt til å representere ledige plasser i et auditorie:
+Se på eksemplet  om flerdimensjonale tabeller der en to-dimensjonal tabell blir brukt til å representere ledige plasser i et auditorie:
 
-https://github.com/dat100hib/dat100public/blob/master/undervisning/U10FlerDimTabeller/src/no/hvl/dat100/eksempler/Auditorium.java
+https://github.com/dat100hib/dat100public/blob/master/undervisning/U11FlerDimTabeller/src/no/hvl/dat100/eksempler/Auditorium.java
 
 ##### a)
 
@@ -97,11 +99,11 @@ int[][] terreng = { { 0, 0, 0, 3, 3, 3, 6, 7, 8, 10 },
                     { 0, 0, 0, 3, 3, 3, 6, 7, 8, 10 } };
 ```
 
-Prosjektet U10FlerDimTabeller https://github.com/dat100hib/dat100public/tree/master/undervisning/U10FlerDimTabeller i oppbevaringsplassen med eksempler fra undervisning inneholder en pakke `eksempler`.
 
-I pakken finnes en klasse [Flooding.java](https://github.com/dat100hib/dat100public/blob/master/undervisning/U10FlerDimTabeller/src/no/hvl/dat100/flooding/Flooding.java som inneholder starten på et program som kan visualisere konsekvens av en øking av hav-høyden. Hav-høyde leses inn via dialog-boks. Dette blev introdusert på forelesning.
 
-![](assets/markdown-img-paste-20180926181141274.png)
+Klassen [Flooding.java](undervisning/U11FlerDimTabeller/src/no/hvl/dat100/flooding/Flooding.java) inneholder starten på et program som kan visualisere konsekvens av en øking av hav-høyden. Hav-høyde leses inn via dialog-boks. Dette blev introdusert på forelesning.
+
+![](flooding.png)
 
 Implementer ferdig metoden `visualiser()` slik at felter i området/tabellen `terreng` som kommer under havets overflate tegnes med en blå sirkel, felter som er mindre en 1 meter over havet tegnes med en oransje sirkel og de felter som er mer en 1 meter over havets overflate tegnes med en lysebrun sirkel. Sirkler tegnes ved å bruke easygraphics.
 
@@ -170,13 +172,13 @@ I DAT100 blir ikke dette et problem, men det er viktig å være klar over dette 
 
 ## Valgfrie oppgaver
 
-### Oppgave V3 - Bondesjakk
+### Oppgave V1 - Bondesjakk
 
-Prosjektet F13FlerDimTabeller https://github.com/dat100hib/dat100public/tree/master/undervisning/U10FlerDimTabeller i oppbevaringsplassen med eksempler fra forelesninger inneholder en pakke `no.hvl.dat100.tictactoe` som implementerer det meste av koden for et bondesjakk spill. Dette ble demonstrert på forelesning.
+I prosjektet fra [undervisning/U11FlerDimTabeller](https://github.com/dat100hib/dat100public/tree/master/undervisning/U11FlerDimTabeller) inneholder en pakke `no.hvl.dat100.tictactoe` som implementerer det meste av koden for et bondesjakk spill. Dette ble demonstrert på forelesning.
 
-![](assets/markdown-img-paste-20180926174926430.png)
+![](tictactoe.png)
 
-For å avgjøre om en spiller har vunnet spillet trenger programmet følgende følgende tre metoder i klassen [GameController.java](https://github.com/dat100hib/dat100public/blob/master/undervisning/U10FlerDimTabeller/src/no/hvl/dat100/tictactoe/GameController.java)
+For å avgjøre om en spiller har vunnet spillet trenger programmet følgende følgende tre metoder i klassen `GameController.java` 
 
 ```java
 private boolean checkHorizontal(int y, char player)
@@ -200,8 +202,8 @@ der `TicTacToe.SIZE` angir størrelsen på brettet (i figuren ovenfor er den 3).
 
 ##### a)
 
-Implementer de tre metoder ovenfor og test spillet. Det går fint an å implementer metodene en om gangen og teste de ved å starte spillet etter hvert. Main-metoden for programmet finnes i klassen [TicTacToe.java](https://github.com/dat100hib/dat100public/blob/master/undervisning/U10FlerDimTabeller/src/no/hvl/dat100/tictactoe/TicTacToe.java).
+Implementer de tre metoder ovenfor og test spillet. Det går fint an å implementer metodene en om gangen og teste de ved å starte spillet etter hvert. Main-metoden for programmet finnes i klassen `TicTacToe.java` 
 
 ##### b)
 
-Prøv å endre på verdien av `SIZE` i klassen [TicTacToe.java](https://github.com/dat100hib/dat100public/blob/master/undervisning/U10FlerDimTabeller/src/no/hvl/dat100/tictactoe/TicTacToe.java). Virker spillet fortsatt korrekt?
+Prøv å endre på verdien av `SIZE` i klassen `TicTacToe.java` Virker spillet fortsatt korrekt?
