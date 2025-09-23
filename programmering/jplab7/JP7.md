@@ -36,7 +36,7 @@ public Vare(int varenr, String navn, double pris)
 
 som kan gi verdi til alle objektvariable.
 
-Test implementasjonen din ved å kjøre legg å opprette en ny klasse `Main.java` med en `main`-metode som oppretter et objekt av klassen `Vare`.
+Test implementasjonen din ved å opprette en ny klasse `Main.java` med en `main`-metode som oppretter et objekt av klassen `Vare`.
 
 ##### b) get/set-metoder
 
@@ -47,10 +47,10 @@ Implementer get/set metoder for alle objekt-variable og skriv kode i `main`-meto
 Implementer følgende metoder i klassen `Vare` som alle er `public` dvs. synlige utenfor klassen:
 
 - `public double beregnMoms()` – som beregner og returnerer moms svarende til 20% av prisen som er gitt ved objektvariabelen `pris`. **Eksempel:** Dersom pris er 100.0 kr, skal moms være 20.0 kr.
-- `boolean erBilligereEnn(Vare v)` – skal sammenligne prisen på en vare med en annen vare `v` gitt som parameter og returnere `true` om prisen på varen `v` er billigere.
+- `boolean erBilligereEnn(Vare v)` – som sammenligner prisen på en vare med en annen vare `v` gitt som parameter og returnerer `true` om prisen på varen `v` er billigere.
 - `String toString()` –  som returnerer en strengrepresentasjon av objektvariablene på formen: `Vare [varenr=1, navn=ostepops, pris=200.0]`
 
-Test implementasjonen ved å skrive koden i `Main.java`.
+Test implementasjonen ved å skrive kode i `Main.java` som bruker metodene ovenfor og sjekk at de gir forventet resultat.
 
 ## Valgfrie oppgaver
 
@@ -69,7 +69,7 @@ som kan skrive ut en to-dimensjonell tabell av heltall men som kun bruker en lø
 ### Oppgave V2 - Tabeller («arrays») og strenger
 
 Før du løser oppgavene nedenfor anbefales det å se igjennom dokumentasjon for String-klassen tilgjengelig via:
-https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html
+https://docs.oracle.com/en/java/javase/24/docs/api/java.base/java/lang/String.html
 
 Gitt en streng `s` kan en metode fra String-klassen kalles ved å bruke `s.<metodenavn>`. Eksempelvis kan metoden `length()` kalles ved å bruke `s.length()`
 
