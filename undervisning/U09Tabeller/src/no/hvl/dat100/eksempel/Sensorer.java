@@ -49,6 +49,17 @@ public class Sensorer {
 	
 	public static boolean bruktMer(int[] tabell, int tidsgrense) {
 
+		boolean overtiden = false;
+
+		int i = 0;
+		while (i < tabell.length && !overtiden) {
+
+			if (tabell[i] > tidsgrense) {
+				overtiden = true;
+			}
+			i++;
+		}
+
 		return false;
 	}
 }
