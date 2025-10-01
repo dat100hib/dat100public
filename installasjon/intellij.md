@@ -43,4 +43,4 @@ public class HelloWorld {
 
 IntelliJ er et avansert verktøy som kan gi mye hjelp når en skriver Java kode. I en del tilfeller kan dette jobbe mot at en blir stødig i de grunnleggende konstruksjoner i programmeringsspråket - hvilket er viktig for eksamen.
 
-Det kan derfor være lurt å slå fra eks. inline completion som automatisk vil komme med forslag til hvordan koden skal fortsette. Dette kan slås fra ved å gå til menuen `IntelliJ IDEA` og velge `Settings -> Editor -> General -> Inline Completions` for så å fjerne valget *Enable local Full Line completion suggestions*.
+Det kan derfor være lurt å slå fra eks. inline completion som automatisk vil komme med forslag til hvordan koden skal fortsette. Dette kan slås fra ved å gå til menuen `IntelliJ IDEA` og velge `Settings -> Editor -> General -> Inline Completions` for så å fjerne valget *Enable local Full Line completion suggestions*. Om co-pilot er blitt aktivtert da må også *Enable cloud completion suggestions* fravelges.
