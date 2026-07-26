@@ -1,6 +1,8 @@
 # DAT100: Java Programmering 0 - uke 33
 
-I de første ukene av emnet skal vi bruke det web-baserte utviklingsmiljø JDoodle: https://www.jdoodle.com/ for å komme igang med Java programmering. Senere skal vi skifte til *IntelliJ* som er mer avansert utviklingmiljø for Java programmering.
+I de første ukene av emnet skal vi bruke det nett-baserte utviklingsmiljø JDoodle: https://www.jdoodle.com/ for å komme igang med Java programmering. 
+
+Senere skal vi skifte til [IntelliJ IDEA](https://www.jetbrains.com/idea/) som er mer avansert utviklingmiljø for Java programmering.
 
 Formålet med oppgavene på denne første programmeringslab'en er å sikre at du:
 
@@ -26,7 +28,7 @@ Du kan også velge å logge inn på JDoodle ved å bruke eks. en eksisterende Go
 I denne oppgaven skal du opprette et første Java prosjekt i JDoodle, skrive og kjøre et enkelt Java program.
 
 1. Log-in på JDoodle (om du ikke alledere er logget in)
-2. Velg `Start Coding` under `JDoodle.com` 
+2. Velg `Let's Code`  
 3. Under `Pick a language/framework` velg `Java` (ved å skrive *Java* i dialog-boksen - JDoodle kan brukes til andre programmeringsspråk enn Java)
 4. Under `Project name` skriv inn `HelloWorld`, velg `Empty Project` og `Start Coding`
 5. Kopier og lim inn (Copy + Paste) koden nedenfor i koderedigerings-vinduet 
@@ -34,12 +36,11 @@ I denne oppgaven skal du opprette et første Java prosjekt i JDoodle, skrive og 
 ```java
 public class HelloWorld {
     
-  public static void main(String args[]) {
+  public static void main(String[] args) {
     
     System.out.println("Hello World Java");
     
   }
-  
 }
 ```
 
@@ -59,9 +60,9 @@ Hello World Java
 
 ### Oppgave 3: Syntaks for Java programmer
 
-Syntaksen for et programmeringsspråk er de regler som bestemmer hvilke ord og skilletegn som er lov å bruke og hvordan de kan settes sammen til setninger og større enheter i et program. 
+Syntaksen for et programmeringsspråk er de regler som bestemmer hvilke ord og skilletegn som er lov å bruke - og hvordan de kan settes sammen til setninger og større kodestrukturer i et program. 
 
-Nedenfor er en liste a)-f) med eksempel kode som alle inneholder syntaks-feil dvs. programmene er ikke lovlige Java-programmer. 
+Nedenfor er en liste a)-f) med eksempelkode som alle inneholder syntaks-feil dvs. programmene er ikke lovlige Java-programmer. 
 
 For hvert program i a)-f) nedenfor gjør følgende:
 
@@ -74,7 +75,7 @@ For hvert program i a)-f) nedenfor gjør følgende:
 ```java
 public class Debug {
     
-  public static void main(String args[]) {
+  public static void main(String[] args) {
       
     int x = 10;
     int y = 25;
@@ -92,7 +93,7 @@ public class Debug {
 ```java
 public class Debug {
     
-  public static void main(String args[]) {
+  public static void main(String[] args) {
       
     int x = 10;
     int y = 25;
@@ -110,7 +111,7 @@ public class Debug {
 ```java
 public class Debug {
     
-  public static void main(String args[]) {
+  public static void main(String[] args) {
       
     int x = 10;
     y = 25;
@@ -128,7 +129,7 @@ public class Debug {
 ```java
 public class Debug {
     
-  public static void main(String args[]) {
+  public static void main(String[] args) {
       
     int x = 10;
     int y = 25;
@@ -145,7 +146,7 @@ public class Debug {
 ```java
 public Debug {
     
-  public static void main(String args[]) {
+  public static void main(String[] args) {
       
     int x = 10;
     int y = 25;
@@ -163,7 +164,7 @@ public Debug {
 ```java
 public class Debug {
     
-  public static void main(String args[]) {
+  public static void main(String[] args) {
       
     int x = 10;
     int y = 25;
@@ -178,9 +179,9 @@ public class Debug {
 
 ### Oppgave 4: GitHub og kodeeksempler fra forelesninger
 
-I faget bruker vi sky-tjenesten GitHub for å legge ut eksempler fra forelesninger, oppgaver og kode for de ukentlige Java programmeringslab, samt obligatoriske prosjekt og innleveringer.
+I faget bruker vi sky-tjenesten [GitHub]()https://github.com/ for å legge ut eksempler fra forelesninger, oppgaver og kode for de ukentlige Java programmeringslab, samt obligatoriske prosjekt og innleveringer.
 
-Hovedsiden for DAT100 GitHub oppbevaringsplassen finnes her
+Hovedsiden for oppbevaringsplassen for DAT100 på GitHub finnes her
 
 - https://github.com/dat100hib/dat100public/
 
@@ -196,9 +197,11 @@ Oppgaver for programmeringslab finnes her
 
 med en mappe for hvert programmeringslab.
 
-Eksempler og oppgaver oppdateres etterhvert i emnet.
+Eksempler og oppgaver oppdateres etterhvert .
 
-1. Gå inn på eksempelkoden fra første forelesning: https://github.com/dat100hib/dat100public/tree/master/undervisning/U01Introduksjon Koden er beskrevet på side 2-5 i Java-boken og illustrerer hvordan brukeren kan gi input til et Java-program og hvordan et Java-program kan lese fra en fil.
+1. Gå inn på eksempelkoden fra første forelesning: https://github.com/dat100hib/dat100public/tree/master/undervisning/U01Introduksjon 
+
+Koden er beskrevet på side 2-5 i Java-boken og illustrerer hvordan brukeren kan gi input til et Java-program og hvordan et Java-program kan lese innhold fra en fil.
 
 2. Opprett et tomt `Multi-file` prosjekt i JDoodle
 
@@ -214,7 +217,7 @@ Log-in i JDoodle og eksperimenter for å finne svar på følgende:
 
 2. Hvordan oppretter du et nytt prosjekt?
 
-3. Når du er inne på et prosjekt - finn ut hva de ulike verktøy på venstre siden kan brukes til.
+3. Når du er inne på et prosjekt - finn ut hva de ulike verktøy på venstre-siden kan brukes til.
 
 4. Hvordan kan du endre navn på et prosjekt?
 
