@@ -179,7 +179,7 @@ public class Debug {
 
 ### Oppgave 4: GitHub og kodeeksempler fra forelesninger
 
-I faget bruker vi sky-tjenesten [GitHub]()https://github.com/ for å legge ut eksempler fra forelesninger, oppgaver og kode for de ukentlige Java programmeringslab, samt obligatoriske prosjekt og innleveringer.
+I faget bruker vi sky-tjenesten [GitHub](https://github.com/) for å legge ut eksempler fra forelesninger, oppgaver og kode for de ukentlige Java programmeringslab, samt obligatoriske prosjekt og innleveringer.
 
 Hovedsiden for oppbevaringsplassen for DAT100 på GitHub finnes her
 
