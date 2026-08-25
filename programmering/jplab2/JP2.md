@@ -42,13 +42,13 @@ Test programmet for ulike tildelinger av verdier til variablen `nd`.
 
 **Oppgave 6 Kap. 2 i Java-boken:** Metoden `min` i klassen `Math` finner det minste av to tall, eks. `Math.min(1,10) = 1`. Bruk denne metoden til å beregne og skrive ut det minste av 4 tall som brukeren skriver inn. Du kan finnes et eksempel på innlesing av tall fra brukeren via `Scanner` på forrige programmeringslab: https://github.com/dat100hib/dat100public/blob/master/programmering/jplab1/JP1.md#oppgave-b2---input-via-scanner
 
-Husk å importere Math-biblioteket ved å legge inn:
+Du kan importere Math-biblioteket ved å legge inn:
 
 ```
 import java.lang.Math.*;
 ```
 
-slik du kan skrive eks. `Math.min` i koden der du skal bruke min-metoden.
+slik du kan skrive bare `min` i koden der du skal bruke min-metoden.
 
 ## Basis oppgaver
 
