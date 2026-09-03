@@ -216,7 +216,7 @@ Oppgavene nedenfor er individuelle obligatoriske oppgaver som skal leveres inn. 
 
 En trinnskatt er en progressiv skatt på bruttolønn som beregnes når inntekten er høyere enn 217 400 kr.
 
-Se https://www.skatteetaten.no/satser/trinnskatt/?year=2025#rateShowYear for aktuelle satser.
+Se https://www.skatteetaten.no/satser/trinnskatt/?year=2026#rateShowYear for aktuelle satser.
 
 Lag et program som leser inn bruttoinntekt, beregner og skriver ut trinnskatten dvs. det beløpet som personen skal betale i trinnskatt.
 
