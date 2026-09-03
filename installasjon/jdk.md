@@ -20,7 +20,7 @@ https://www.oracle.com/java/technologies/downloads/
 
 ##### PATH miljøvariablen (valgfritt)
 
-For å få enkel tilgang til Java kompilatoren kan miljøvariablen `PATH` endres slik den inneholder stien til `bin` mappen der JDK verktøyene er installert. Dette kan gjøres via *Control Panel → System → Advanced System Settings → Environment Variables…*
+For å få enkel tilgang til Java kompilatoren via terminal kan miljøvariablen `PATH` endres slik den inneholder stien til `bin` mappen der JDK verktøyene er installert. Dette kan gjøres via *Control Panel → System → Advanced System Settings → Environment Variables…*
 
 Stien til mappen er avhengige av hvor du valgte å installere JDK. Som standard vil den være: `C:\Program Files\Java\jdk-26.0.1\bin`.
 
@@ -39,9 +39,9 @@ Dette bør gi følgende (eller tilsvarende) output:
 
 Om man endrer i PATH da må man starte en ny kommando prompt for å få effekt av endringen. Den aktuelle verdi av Path kan man se ved å skrive Path i kommando prompten.
 
-## Installasjon MacOS
+## Installasjon Mac OS
 
-For nyere Mac med M1/M2/M3 Apple Chip last ned *ARM64 DMG Installer*. Eldre Mac har en x86 Chip og da skal du laste ned *x64 DMG Installer*.
+For nyere Mac med M1/M2/M3/M4 Apple Chip last ned *ARM64 DMG Installer*. Eventuelle eldre Mac har en x86 Chip og da skal du laste ned *x64 DMG Installer*.
 
 1.	Dobbeltklikk på filen `jdk-26_macos-{aarch64,x64}_bin.dmg` og deretter på filen `JDK 26.0.1.pkg`
 2.	Følg instruksjonene. Foreslåtte valg vil vanligvis fungere fint.
@@ -66,4 +66,4 @@ Installasjon ved bruk av tar.gz filen
 
 Installasjon via .rpm filen (krever RPM-basert Linux system) kan gjøres ved bruk av kommandoen
 
-   ```rpm –ivh jdk-24.0.1_linux-x64_bin.rpm```
+   ```rpm –ivh jdk-26.0.1_linux-x64_bin.rpm```
