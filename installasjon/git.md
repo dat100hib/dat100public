@@ -10,16 +10,16 @@ For å bruke en Git-tjenester som eks. Github fra egen PC er det nødvendig å i
 
 Integrerte utviklingsmiljø som eks. IntelliJ har også som oftest en innbygget git-klient som kan brukes til å laste ned og laste opp kode direkte. Dette skal vi komme tilbake til.
 
-### GitHub Desktop - Git-klient med grafisk grensesnitt
+## GitHub Desktop - Git-klient med grafisk grensesnitt
 
 For Windows og Mac OS kan GitHub Desktop applikasjonen lastes ned via: https://desktop.github.com
 
-#### Windows
+#### Installasjon Windows
 
 1. Dobbelklikk på den *.exe*-filen som er lastet ned for å installere.
 2. Start GitHub Desktop programmet og velg *Sign in to GitHub.com*. 
 
-#### MacOS
+#### Installasjon MacOS
 
 Applikasjonen ligger i en zip-fil i Download-mappen
 
@@ -28,11 +28,18 @@ Applikasjonen ligger i en zip-fil i Download-mappen
 3. Start GitHub Desktop programmet og velg *Sign in to GitHub.com*. 
 4. Etter du har logget inn vil du få valg om å flytte applikasjonen inn i *Applications* mappen hvilket er fornuftig å gjøre.
 
-#### Test installasjonen
+### Test installasjonen
 
-### Git kommandolinje klient med tekst-grensesnitt
+For å teste git-klienten du har installert ovenfor kan du prøve å *klone* oppbevaringsplassen som vi bruker i DAT100.
 
-#### Windows
+1. Velg File -> Clone Repository
+2. Gå til URL fanen og lim inn: https://github.com/dat100hib/dat100public
+3. Velg via `Local Path` hvor på PC'en din du ønsker å lagre din lokale kopi av oppbeveringsplasen. Ikke velg en OneDrive mappe eller lignende som blir synkronisert med en sky-tjeneste.
+4. Nu skal alle filer fra DAT100 oppbevaringsplassen finnes i mappen som du valgte i steg 3 ovenfor
+
+## Git kommandolinje klient med tekst-grensesnitt
+
+#### Installasjon Windows
 
 1. Last ned git-klienten fra https://git-scm.com/downloads
 
@@ -44,7 +51,7 @@ Applikasjonen ligger i en zip-fil i Download-mappen
 
   som vil gi output `git version 2.39` eller tilsvarende.
 
-#### MacOS og Linux
+#### Installasjon MacOS og Linux
 
 Git vil i de fleste tilfelle allerede være installert på MacOS eller Linux. Dette kan sjekkes ved å åpne en terminal og skrive kommandoen
 
@@ -54,24 +61,15 @@ som vil gi output `git version 2.51` eller tilsvarende.
 
 Om git ikke allerede er installert vil du få valg om å installere.
 
-#### Test installasjonen
-
-For å teste git-klienten du har installert ovenfor kan du prøve å *klone* oppbevaringsplassen som vi bruker i DAT100.
-
-#### GitHub Desktop
-
-1. Velg File -> Clone Repository
-2. Gå til URL fanen og lim inn: https://github.com/dat100hib/dat100public
-3. Velg via `Local Path` hvor på PC'en din du ønsker å lagre din lokale kopi av oppbeveringsplasen. Ikke velg en OneDrive mappe eller lignende som blir synkronisert med en sky-tjeneste.
-4. Nu skal alle filer fra DAT100 oppbevaringsplassen finnes i mappen som du valgte i steg 3 ovenfor
-
 #### Git kommando-linje klient
 
 1. Bruk terminal (Mac OS) eller Git Bash for å gå til den mappen der du ønsker å lagre oppbevaringsplassen
 2. Utfør kommandoen `git clone https://github.com/dat100hib/dat100public`
 3. Nu skal alle filer fra DAT100 oppbevaringsplassen finnes i mappen som du valgte i steg 3 ovenfor
 
-### Mer informasjon
+### Test installasjonen
+
+## Mer informasjon
 
 Der finnes mange ressurser på nett om virkemåte og bruk av Git. I DAT100 skal vi fokusere på de mest grunnleggende element av Git. 
 
