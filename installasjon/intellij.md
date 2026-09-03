@@ -4,12 +4,9 @@ IntelliJ er et integrert utviklingsmiljø (Integrated Development Environment) s
 
 ## Nedlasting
 
-IntelliJ UDEA kan lastes ned via: https://www.jetbrains.com/idea/download/ og finnes i to ulike versjoner:
+IntelliJ UDEA kan lastes ned via: https://www.jetbrains.com/idea/download/ 
 
-- Ultimate (betaling, men mulig å få en studentlisens: https://www.jetbrains.com/academy/student-pack/) 
-- Community (gratis)
-
-Begge versjoner kan fungere i DAT100 da vi ikke bruker noen av de spesifikke funksjoner som er i Ultimate versjonen.
+Det er mulig å få en versjon med funksjonalitet som en normalt skal betale for ved å søke om en *Student Pack* men det er ikke et krav for DAT100.
 
 ## Installasjon
 
