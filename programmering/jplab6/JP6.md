@@ -35,7 +35,7 @@ Legg til en metode `public static void skrivUt(double[][] tabell)` som gitt en 2
 
 #### b)
 
-Legg til kode i main-metoden som skriver ut `obs.length` - forklar hvor det som skrives ut har verdien `3`.
+Legg til kode i main-metoden som skriver ut `obs.length` - forklar hvorfor verdien `3` skrives ut.
 
 #### c)  
 
