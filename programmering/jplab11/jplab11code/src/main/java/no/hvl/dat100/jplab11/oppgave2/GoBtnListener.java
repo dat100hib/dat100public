@@ -50,6 +50,8 @@ public class GoBtnListener implements ActionListener {
 				String linje = in.nextLine();
 
 				text = text + linje + "\n";
+
+				i++;
 			}
 
 			// legg teksten som er lest fra URL'en inn i hovedvinduet
